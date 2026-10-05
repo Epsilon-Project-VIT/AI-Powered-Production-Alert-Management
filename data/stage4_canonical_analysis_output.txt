@@ -1,0 +1,108 @@
+================================================================================
+STAGE 4 RCA ANALYSIS - 151 CANONICAL INCIDENT GROUPS
+================================================================================
+
+📂 Loading Stage 3 incident groups from: /home/akash-t-s-m/alert_management/data/stage3_canonical_results/incident_groups.json
+✅ Loaded 151 incident groups
+📂 Loading Stage 2 canonical predictions from: /home/akash-t-s-m/alert_management/data/stage2_models_canonical
+   ✅ Loaded 889 Alert Type predictions
+   ✅ Loaded 889 Severity predictions
+   ✅ Loaded 889 Business Impact predictions
+✅ Total alerts with predictions: 889
+📂 Loading raw alerts from: /home/akash-t-s-m/alert_management/data/raw/Data_Alert_Ticket_Segregation.xlsx
+✅ Loaded 889 raw alerts
+🔧 Creating enriched alerts with Stage 2 predictions...
+✅ Created 889 enriched alerts
+
+🔧 Initializing Stage 4 Pipeline...
+✅ Pipeline initialized (using MOCK telemetry and reasoning)
+
+================================================================================
+RUNNING STAGE 4 ANALYSIS ON 151 INCIDENT GROUPS
+================================================================================
+
+Progress: 10/151 incidents analyzed...
+Progress: 20/151 incidents analyzed...
+Progress: 30/151 incidents analyzed...
+Progress: 40/151 incidents analyzed...
+Progress: 50/151 incidents analyzed...
+Progress: 60/151 incidents analyzed...
+Progress: 70/151 incidents analyzed...
+Progress: 80/151 incidents analyzed...
+Progress: 90/151 incidents analyzed...
+Progress: 100/151 incidents analyzed...
+Progress: 110/151 incidents analyzed...
+Progress: 120/151 incidents analyzed...
+Progress: 130/151 incidents analyzed...
+Progress: 140/151 incidents analyzed...
+Progress: 150/151 incidents analyzed...
+
+✅ Analyzed 151 incident groups successfully
+
+📊 Computing statistics...
+
+💾 Saving results to: /home/akash-t-s-m/alert_management/data/stage4_canonical_results
+   ✅ Saved JSON: /home/akash-t-s-m/alert_management/data/stage4_canonical_results/rca_results.json
+   ✅ Saved CSV: /home/akash-t-s-m/alert_management/data/stage4_canonical_results/rca_summary.csv
+   ✅ Saved statistics: /home/akash-t-s-m/alert_management/data/stage4_canonical_results/rca_statistics.json
+
+================================================================================
+STAGE 4 RCA ANALYSIS - FINAL REPORT
+================================================================================
+
+📊 OVERALL STATISTICS
+   Total Incidents Analyzed: 151
+
+🎯 DIAGNOSIS STATUS
+   Sufficient Evidence: 0 (0.0%)
+   Insufficient Evidence: 2 (1.3%)
+   Ambiguous: 149 (98.7%)
+
+🔍 EVIDENCE STATISTICS
+   Total Evidence Items: 579844
+   Avg Evidence per Incident: 3840.03
+   Mock Evidence: 579844 (100.0%)
+   Real Evidence: 0 (0.0%)
+   Model Predictions: 0
+
+🎯 ROOT CAUSE STATISTICS
+   Incidents with Root Cause: 151 (100.0%)
+   Incidents without Root Cause: 0
+   Avg Confidence (when available): 92.97%
+
+   Top Components:
+      - database: 73
+      - application: 72
+      - mulesoft: 4
+      - extract / report delivery delay: 1
+      - elb: 1
+
+   Top Failure Types:
+      - performance_degradation: 139
+      - connection_exhaustion: 8
+      - timeout: 3
+      - service_error: 1
+
+💡 RECOMMENDED ACTIONS
+   Total Actions: 302
+   Avg Actions per Incident: 2.00
+   Require Human Approval: 149
+   By Type:
+      - Diagnostic: 151
+      - Remediation: 149
+      - Escalation: 2
+
+🔄 ALTERNATIVE HYPOTHESES
+   Incidents with Alternatives: 151 (100.0%)
+   Avg Alternatives per Incident: 2.97
+
+================================================================================
+✅ STAGE 4 ANALYSIS COMPLETE
+================================================================================
+
+
+📂 Results saved to: /home/akash-t-s-m/alert_management/data/stage4_canonical_results
+   - rca_results.json (full RCA results)
+   - rca_summary.csv (summary table)
+   - rca_statistics.json (statistics)
+

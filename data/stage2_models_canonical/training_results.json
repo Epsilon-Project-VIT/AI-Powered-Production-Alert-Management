@@ -1,0 +1,2959 @@
+{
+  "alert_type": {
+    "task_name": "alert_type",
+    "target_field": "alert_type",
+    "results": [
+      {
+        "model_name": "tfidf_lr_alert_type",
+        "val_accuracy": 0.9323308270676691,
+        "val_f1_weighted": 0.955402153025243,
+        "test_accuracy": 0.6194029850746269,
+        "precision_macro": 0.737642408742153,
+        "recall_macro": 0.72241653418124,
+        "f1_macro": 0.6707282913165266,
+        "precision_weighted": 0.8419739248421921,
+        "recall_weighted": 0.6194029850746269,
+        "f1_weighted": 0.6035714285714286,
+        "avg_confidence": 0.5478779866119312,
+        "per_class_metrics": {
+          "API Error Rate": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 9
+          },
+          "API Latency / Slow Response": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "Batch Job Failure": {
+            "precision": 1.0,
+            "recall": 0.08108108108108109,
+            "f1": 0.15,
+            "support": 37
+          },
+          "Data Hub Batch Workflow Failure": {
+            "precision": 0.5217391304347826,
+            "recall": 1.0,
+            "f1": 0.6857142857142857,
+            "support": 12
+          },
+          "Disk Space": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "Extract / Report Delivery Delay": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333,
+            "support": 5
+          },
+          "File Transfer / SFTP Workflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 11
+          },
+          "Load Balancer (ELB) Errors": {
+            "precision": 0.2,
+            "recall": 1.0,
+            "f1": 0.3333333333333333,
+            "support": 1
+          },
+          "Memory Utilization": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 6
+          },
+          "Moment (Personalization) Failures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 5
+          },
+          "Monitoring Agent Offline": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "Server Reboot": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "Server Unreachable / Uptime": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 6
+          },
+          "Service / Process Not Running": {
+            "precision": 0.8181818181818182,
+            "recall": 1.0,
+            "f1": 0.9,
+            "support": 9
+          },
+          "Synthetic Monitoring (ThousandEyes)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          },
+          "Transaction Not Received (No-Hit)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          }
+        },
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "classification_report": {
+          "API Error Rate": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 9.0
+          },
+          "API Latency / Slow Response": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "Batch Job Failure": {
+            "precision": 1.0,
+            "recall": 0.08108108108108109,
+            "f1-score": 0.15,
+            "support": 37.0
+          },
+          "Data Hub Batch Workflow Failure": {
+            "precision": 0.5217391304347826,
+            "recall": 1.0,
+            "f1-score": 0.6857142857142857,
+            "support": 12.0
+          },
+          "Disk Space": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 10.0
+          },
+          "Extract / Report Delivery Delay": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1-score": 0.3333333333333333,
+            "support": 5.0
+          },
+          "File Transfer / SFTP Workflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 11.0
+          },
+          "Load Balancer (ELB) Errors": {
+            "precision": 0.2,
+            "recall": 1.0,
+            "f1-score": 0.3333333333333333,
+            "support": 1.0
+          },
+          "Memory Utilization": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6.0
+          },
+          "Moment (Personalization) Failures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+          },
+          "Monitoring Agent Offline": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 10.0
+          },
+          "Server Reboot": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "Server Unreachable / Uptime": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6.0
+          },
+          "Service / Process Not Running": {
+            "precision": 0.8181818181818182,
+            "recall": 1.0,
+            "f1-score": 0.9,
+            "support": 9.0
+          },
+          "Synthetic Monitoring (ThousandEyes)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 7.0
+          },
+          "Test / Integration Alert": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "Transaction Not Received (No-Hit)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "accuracy": 0.6194029850746269,
+          "macro avg": {
+            "precision": 0.737642408742153,
+            "recall": 0.72241653418124,
+            "f1-score": 0.6707282913165266,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.8419739248421921,
+            "recall": 0.6194029850746269,
+            "f1-score": 0.6035714285714286,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "API Error Rate",
+          "API Latency / Slow Response",
+          "Batch Job Failure",
+          "Data Hub Batch Workflow Failure",
+          "Disk Space",
+          "Extract / Report Delivery Delay",
+          "File Transfer / SFTP Workflow",
+          "Load Balancer (ELB) Errors",
+          "Memory Utilization",
+          "Moment (Personalization) Failures",
+          "Monitoring Agent Offline",
+          "Server Reboot",
+          "Server Unreachable / Uptime",
+          "Service / Process Not Running",
+          "Synthetic Monitoring (ThousandEyes)",
+          "Transaction Not Received (No-Hit)"
+        ]
+      },
+      {
+        "model_name": "tfidf_svm_alert_type",
+        "val_accuracy": 0.9323308270676691,
+        "val_f1_weighted": 0.9380829930563553,
+        "test_accuracy": 0.6194029850746269,
+        "precision_macro": 0.7726632722721585,
+        "recall_macro": 0.7675675675675675,
+        "f1_macro": 0.701656314699793,
+        "precision_weighted": 0.807497669237157,
+        "recall_weighted": 0.6194029850746269,
+        "f1_weighted": 0.5697011835233768,
+        "avg_confidence": 0.5186486802462414,
+        "per_class_metrics": {
+          "API Error Rate": {
+            "precision": 0.19148936170212766,
+            "recall": 1.0,
+            "f1": 0.32142857142857145,
+            "support": 9
+          },
+          "API Latency / Slow Response": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "Batch Job Failure": {
+            "precision": 1.0,
+            "recall": 0.08108108108108109,
+            "f1": 0.15,
+            "support": 37
+          },
+          "Data Hub Batch Workflow Failure": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 12
+          },
+          "Disk Space": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "Extract / Report Delivery Delay": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333,
+            "support": 5
+          },
+          "File Transfer / SFTP Workflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 11
+          },
+          "Load Balancer (ELB) Errors": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "Memory Utilization": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 6
+          },
+          "Moment (Personalization) Failures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 5
+          },
+          "Monitoring Agent Offline": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "Server Reboot": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "Server Unreachable / Uptime": {
+            "precision": 0.35294117647058826,
+            "recall": 1.0,
+            "f1": 0.5217391304347826,
+            "support": 6
+          },
+          "Service / Process Not Running": {
+            "precision": 0.8181818181818182,
+            "recall": 1.0,
+            "f1": 0.9,
+            "support": 9
+          },
+          "Synthetic Monitoring (ThousandEyes)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          },
+          "Transaction Not Received (No-Hit)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          }
+        },
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            34,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "classification_report": {
+          "API Error Rate": {
+            "precision": 0.19148936170212766,
+            "recall": 1.0,
+            "f1-score": 0.32142857142857145,
+            "support": 9.0
+          },
+          "API Latency / Slow Response": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "Batch Job Failure": {
+            "precision": 1.0,
+            "recall": 0.08108108108108109,
+            "f1-score": 0.15,
+            "support": 37.0
+          },
+          "Data Hub Batch Workflow Failure": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 12.0
+          },
+          "Disk Space": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 10.0
+          },
+          "Extract / Report Delivery Delay": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1-score": 0.3333333333333333,
+            "support": 5.0
+          },
+          "File Transfer / SFTP Workflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 11.0
+          },
+          "Load Balancer (ELB) Errors": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "Memory Utilization": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6.0
+          },
+          "Moment (Personalization) Failures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+          },
+          "Monitoring Agent Offline": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 10.0
+          },
+          "Server Reboot": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "Server Unreachable / Uptime": {
+            "precision": 0.35294117647058826,
+            "recall": 1.0,
+            "f1-score": 0.5217391304347826,
+            "support": 6.0
+          },
+          "Service / Process Not Running": {
+            "precision": 0.8181818181818182,
+            "recall": 1.0,
+            "f1-score": 0.9,
+            "support": 9.0
+          },
+          "Synthetic Monitoring (ThousandEyes)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 7.0
+          },
+          "Transaction Not Received (No-Hit)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "accuracy": 0.6194029850746269,
+          "macro avg": {
+            "precision": 0.7726632722721585,
+            "recall": 0.7675675675675675,
+            "f1-score": 0.701656314699793,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.807497669237157,
+            "recall": 0.6194029850746269,
+            "f1-score": 0.5697011835233768,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "API Error Rate",
+          "API Latency / Slow Response",
+          "Batch Job Failure",
+          "Data Hub Batch Workflow Failure",
+          "Disk Space",
+          "Extract / Report Delivery Delay",
+          "File Transfer / SFTP Workflow",
+          "Load Balancer (ELB) Errors",
+          "Memory Utilization",
+          "Moment (Personalization) Failures",
+          "Monitoring Agent Offline",
+          "Server Reboot",
+          "Server Unreachable / Uptime",
+          "Service / Process Not Running",
+          "Synthetic Monitoring (ThousandEyes)",
+          "Transaction Not Received (No-Hit)"
+        ]
+      },
+      {
+        "model_name": "embedding_lr_alert_type",
+        "val_accuracy": 0.9097744360902256,
+        "val_f1_weighted": 0.9309123854015494,
+        "test_accuracy": 0.6194029850746269,
+        "precision_macro": 0.7558639277389277,
+        "recall_macro": 0.7675675675675675,
+        "f1_macro": 0.6856359649122807,
+        "precision_weighted": 0.8318851546463487,
+        "recall_weighted": 0.6194029850746269,
+        "f1_weighted": 0.5979444880858864,
+        "avg_confidence": 0.5082328915596008,
+        "per_class_metrics": {
+          "API Error Rate": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 9
+          },
+          "API Latency / Slow Response": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "Batch Job Failure": {
+            "precision": 1.0,
+            "recall": 0.08108108108108109,
+            "f1": 0.15,
+            "support": 37
+          },
+          "Data Hub Batch Workflow Failure": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 12
+          },
+          "Disk Space": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "Extract / Report Delivery Delay": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333,
+            "support": 5
+          },
+          "File Transfer / SFTP Workflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 11
+          },
+          "Load Balancer (ELB) Errors": {
+            "precision": 0.02564102564102564,
+            "recall": 1.0,
+            "f1": 0.05,
+            "support": 1
+          },
+          "Memory Utilization": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 6
+          },
+          "Moment (Personalization) Failures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 5
+          },
+          "Monitoring Agent Offline": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "Server Reboot": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "Server Unreachable / Uptime": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 6
+          },
+          "Service / Process Not Running": {
+            "precision": 0.8181818181818182,
+            "recall": 1.0,
+            "f1": 0.9,
+            "support": 9
+          },
+          "Synthetic Monitoring (ThousandEyes)": {
+            "precision": 0.5833333333333334,
+            "recall": 1.0,
+            "f1": 0.7368421052631579,
+            "support": 7
+          },
+          "Transaction Not Received (No-Hit)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          }
+        },
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            34,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "classification_report": {
+          "API Error Rate": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 9.0
+          },
+          "API Latency / Slow Response": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "Batch Job Failure": {
+            "precision": 1.0,
+            "recall": 0.08108108108108109,
+            "f1-score": 0.15,
+            "support": 37.0
+          },
+          "Data Hub Batch Workflow Failure": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1-score": 0.8,
+            "support": 12.0
+          },
+          "Disk Space": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 10.0
+          },
+          "Extract / Report Delivery Delay": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1-score": 0.3333333333333333,
+            "support": 5.0
+          },
+          "File Transfer / SFTP Workflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 11.0
+          },
+          "Load Balancer (ELB) Errors": {
+            "precision": 0.02564102564102564,
+            "recall": 1.0,
+            "f1-score": 0.05,
+            "support": 1.0
+          },
+          "Memory Utilization": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6.0
+          },
+          "Moment (Personalization) Failures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+          },
+          "Monitoring Agent Offline": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 10.0
+          },
+          "Server Reboot": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "Server Unreachable / Uptime": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6.0
+          },
+          "Service / Process Not Running": {
+            "precision": 0.8181818181818182,
+            "recall": 1.0,
+            "f1-score": 0.9,
+            "support": 9.0
+          },
+          "Synthetic Monitoring (ThousandEyes)": {
+            "precision": 0.5833333333333334,
+            "recall": 1.0,
+            "f1-score": 0.7368421052631579,
+            "support": 7.0
+          },
+          "Transaction Not Received (No-Hit)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "accuracy": 0.6194029850746269,
+          "macro avg": {
+            "precision": 0.7558639277389277,
+            "recall": 0.7675675675675675,
+            "f1-score": 0.6856359649122807,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.8318851546463487,
+            "recall": 0.6194029850746269,
+            "f1-score": 0.5979444880858864,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "API Error Rate",
+          "API Latency / Slow Response",
+          "Batch Job Failure",
+          "Data Hub Batch Workflow Failure",
+          "Disk Space",
+          "Extract / Report Delivery Delay",
+          "File Transfer / SFTP Workflow",
+          "Load Balancer (ELB) Errors",
+          "Memory Utilization",
+          "Moment (Personalization) Failures",
+          "Monitoring Agent Offline",
+          "Server Reboot",
+          "Server Unreachable / Uptime",
+          "Service / Process Not Running",
+          "Synthetic Monitoring (ThousandEyes)",
+          "Transaction Not Received (No-Hit)"
+        ]
+      },
+      {
+        "model_name": "embedding_svm_alert_type",
+        "val_accuracy": 0.9172932330827067,
+        "val_f1_weighted": 0.9222974301219686,
+        "test_accuracy": 0.6194029850746269,
+        "precision_macro": 0.765874335106383,
+        "recall_macro": 0.7675675675675675,
+        "f1_macro": 0.6994642857142856,
+        "precision_weighted": 0.7969097332486504,
+        "recall_weighted": 0.6194029850746269,
+        "f1_weighted": 0.5641009239516702,
+        "avg_confidence": 0.5386988223106233,
+        "per_class_metrics": {
+          "API Error Rate": {
+            "precision": 0.19148936170212766,
+            "recall": 1.0,
+            "f1": 0.32142857142857145,
+            "support": 9
+          },
+          "API Latency / Slow Response": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "Batch Job Failure": {
+            "precision": 1.0,
+            "recall": 0.08108108108108109,
+            "f1": 0.15,
+            "support": 37
+          },
+          "Data Hub Batch Workflow Failure": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 12
+          },
+          "Disk Space": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "Extract / Report Delivery Delay": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333,
+            "support": 5
+          },
+          "File Transfer / SFTP Workflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 11
+          },
+          "Load Balancer (ELB) Errors": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "Memory Utilization": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 6
+          },
+          "Moment (Personalization) Failures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 5
+          },
+          "Monitoring Agent Offline": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "Server Reboot": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "Server Unreachable / Uptime": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 6
+          },
+          "Service / Process Not Running": {
+            "precision": 0.5625,
+            "recall": 1.0,
+            "f1": 0.72,
+            "support": 9
+          },
+          "Synthetic Monitoring (ThousandEyes)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          },
+          "Transaction Not Received (No-Hit)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          }
+        },
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            34,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "classification_report": {
+          "API Error Rate": {
+            "precision": 0.19148936170212766,
+            "recall": 1.0,
+            "f1-score": 0.32142857142857145,
+            "support": 9.0
+          },
+          "API Latency / Slow Response": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "Batch Job Failure": {
+            "precision": 1.0,
+            "recall": 0.08108108108108109,
+            "f1-score": 0.15,
+            "support": 37.0
+          },
+          "Data Hub Batch Workflow Failure": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 12.0
+          },
+          "Disk Space": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 10.0
+          },
+          "Extract / Report Delivery Delay": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1-score": 0.3333333333333333,
+            "support": 5.0
+          },
+          "File Transfer / SFTP Workflow": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 11.0
+          },
+          "Load Balancer (ELB) Errors": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+          },
+          "Memory Utilization": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6.0
+          },
+          "Moment (Personalization) Failures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+          },
+          "Monitoring Agent Offline": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 10.0
+          },
+          "Server Reboot": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "Server Unreachable / Uptime": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1-score": 0.6666666666666666,
+            "support": 6.0
+          },
+          "Service / Process Not Running": {
+            "precision": 0.5625,
+            "recall": 1.0,
+            "f1-score": 0.72,
+            "support": 9.0
+          },
+          "Synthetic Monitoring (ThousandEyes)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 7.0
+          },
+          "Transaction Not Received (No-Hit)": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 3.0
+          },
+          "accuracy": 0.6194029850746269,
+          "macro avg": {
+            "precision": 0.765874335106383,
+            "recall": 0.7675675675675675,
+            "f1-score": 0.6994642857142856,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.7969097332486504,
+            "recall": 0.6194029850746269,
+            "f1-score": 0.5641009239516702,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "API Error Rate",
+          "API Latency / Slow Response",
+          "Batch Job Failure",
+          "Data Hub Batch Workflow Failure",
+          "Disk Space",
+          "Extract / Report Delivery Delay",
+          "File Transfer / SFTP Workflow",
+          "Load Balancer (ELB) Errors",
+          "Memory Utilization",
+          "Moment (Personalization) Failures",
+          "Monitoring Agent Offline",
+          "Server Reboot",
+          "Server Unreachable / Uptime",
+          "Service / Process Not Running",
+          "Synthetic Monitoring (ThousandEyes)",
+          "Transaction Not Received (No-Hit)"
+        ]
+      }
+    ],
+    "best_model": "tfidf_lr_alert_type",
+    "best_val_f1_weighted": 0.955402153025243,
+    "best_test_f1_weighted": 0.6035714285714286,
+    "num_classes": 16,
+    "train_samples": 622,
+    "val_samples": 133,
+    "test_samples": 134
+  },
+  "severity": {
+    "task_name": "severity",
+    "target_field": "severity",
+    "results": [
+      {
+        "model_name": "tfidf_lr_severity",
+        "val_accuracy": 0.7744360902255639,
+        "val_f1_weighted": 0.7820334426138087,
+        "test_accuracy": 0.8582089552238806,
+        "precision_macro": 0.8673222912353347,
+        "recall_macro": 0.8609391124871001,
+        "f1_macro": 0.8608757654559182,
+        "precision_weighted": 0.8670313031117702,
+        "recall_weighted": 0.8582089552238806,
+        "f1_weighted": 0.8591709266769083,
+        "avg_confidence": 0.6985723627130891,
+        "per_class_metrics": {
+          "Sev1 - Critical": {
+            "precision": 0.9523809523809523,
+            "recall": 0.8823529411764706,
+            "f1": 0.916030534351145,
+            "support": 68
+          },
+          "Sev2 - High": {
+            "precision": 0.7391304347826086,
+            "recall": 0.8947368421052632,
+            "f1": 0.8095238095238095,
+            "support": 38
+          },
+          "Sev3 - Medium": {
+            "precision": 0.7777777777777778,
+            "recall": 0.6666666666666666,
+            "f1": 0.717948717948718,
+            "support": 21
+          },
+          "Sev4 - Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          }
+        },
+        "confusion_matrix": [
+          [
+            60,
+            5,
+            3,
+            0
+          ],
+          [
+            3,
+            34,
+            1,
+            0
+          ],
+          [
+            0,
+            7,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            7
+          ]
+        ],
+        "classification_report": {
+          "Sev1 - Critical": {
+            "precision": 0.9523809523809523,
+            "recall": 0.8823529411764706,
+            "f1-score": 0.916030534351145,
+            "support": 68.0
+          },
+          "Sev2 - High": {
+            "precision": 0.7391304347826086,
+            "recall": 0.8947368421052632,
+            "f1-score": 0.8095238095238095,
+            "support": 38.0
+          },
+          "Sev3 - Medium": {
+            "precision": 0.7777777777777778,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.717948717948718,
+            "support": 21.0
+          },
+          "Sev4 - Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 7.0
+          },
+          "accuracy": 0.8582089552238806,
+          "macro avg": {
+            "precision": 0.8673222912353347,
+            "recall": 0.8609391124871001,
+            "f1-score": 0.8608757654559182,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.8670313031117702,
+            "recall": 0.8582089552238806,
+            "f1-score": 0.8591709266769083,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "Sev1 - Critical",
+          "Sev2 - High",
+          "Sev3 - Medium",
+          "Sev4 - Low"
+        ]
+      },
+      {
+        "model_name": "tfidf_svm_severity",
+        "val_accuracy": 0.8345864661654135,
+        "val_f1_weighted": 0.8349516693547502,
+        "test_accuracy": 0.8731343283582089,
+        "precision_macro": 0.9199695121951219,
+        "recall_macro": 0.8653895768833849,
+        "f1_macro": 0.8838607594936709,
+        "precision_weighted": 0.8812340735347652,
+        "recall_weighted": 0.8731343283582089,
+        "f1_weighted": 0.8712450406196863,
+        "avg_confidence": 0.7649897280538637,
+        "per_class_metrics": {
+          "Sev1 - Critical": {
+            "precision": 0.875,
+            "recall": 0.9264705882352942,
+            "f1": 0.9,
+            "support": 68
+          },
+          "Sev2 - High": {
+            "precision": 0.8048780487804879,
+            "recall": 0.868421052631579,
+            "f1": 0.8354430379746836,
+            "support": 38
+          },
+          "Sev3 - Medium": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "support": 21
+          },
+          "Sev4 - Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          }
+        },
+        "confusion_matrix": [
+          [
+            63,
+            5,
+            0,
+            0
+          ],
+          [
+            5,
+            33,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            7
+          ]
+        ],
+        "classification_report": {
+          "Sev1 - Critical": {
+            "precision": 0.875,
+            "recall": 0.9264705882352942,
+            "f1-score": 0.9,
+            "support": 68.0
+          },
+          "Sev2 - High": {
+            "precision": 0.8048780487804879,
+            "recall": 0.868421052631579,
+            "f1-score": 0.8354430379746836,
+            "support": 38.0
+          },
+          "Sev3 - Medium": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 21.0
+          },
+          "Sev4 - Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 7.0
+          },
+          "accuracy": 0.8731343283582089,
+          "macro avg": {
+            "precision": 0.9199695121951219,
+            "recall": 0.8653895768833849,
+            "f1-score": 0.8838607594936709,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.8812340735347652,
+            "recall": 0.8731343283582089,
+            "f1-score": 0.8712450406196863,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "Sev1 - Critical",
+          "Sev2 - High",
+          "Sev3 - Medium",
+          "Sev4 - Low"
+        ]
+      },
+      {
+        "model_name": "embedding_lr_severity",
+        "val_accuracy": 0.8270676691729323,
+        "val_f1_weighted": 0.8257710122988005,
+        "test_accuracy": 0.8656716417910447,
+        "precision_macro": 0.8881479933110368,
+        "recall_macro": 0.8646155830753354,
+        "f1_macro": 0.8708934498408183,
+        "precision_weighted": 0.8752040383367443,
+        "recall_weighted": 0.8656716417910447,
+        "f1_weighted": 0.865893555995677,
+        "avg_confidence": 0.7398254871368408,
+        "per_class_metrics": {
+          "Sev1 - Critical": {
+            "precision": 0.9384615384615385,
+            "recall": 0.8970588235294118,
+            "f1": 0.9172932330827067,
+            "support": 68
+          },
+          "Sev2 - High": {
+            "precision": 0.7391304347826086,
+            "recall": 0.8947368421052632,
+            "f1": 0.8095238095238095,
+            "support": 38
+          },
+          "Sev3 - Medium": {
+            "precision": 0.875,
+            "recall": 0.6666666666666666,
+            "f1": 0.7567567567567568,
+            "support": 21
+          },
+          "Sev4 - Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          }
+        },
+        "confusion_matrix": [
+          [
+            61,
+            5,
+            2,
+            0
+          ],
+          [
+            4,
+            34,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            7
+          ]
+        ],
+        "classification_report": {
+          "Sev1 - Critical": {
+            "precision": 0.9384615384615385,
+            "recall": 0.8970588235294118,
+            "f1-score": 0.9172932330827067,
+            "support": 68.0
+          },
+          "Sev2 - High": {
+            "precision": 0.7391304347826086,
+            "recall": 0.8947368421052632,
+            "f1-score": 0.8095238095238095,
+            "support": 38.0
+          },
+          "Sev3 - Medium": {
+            "precision": 0.875,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.7567567567567568,
+            "support": 21.0
+          },
+          "Sev4 - Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 7.0
+          },
+          "accuracy": 0.8656716417910447,
+          "macro avg": {
+            "precision": 0.8881479933110368,
+            "recall": 0.8646155830753354,
+            "f1-score": 0.8708934498408183,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.8752040383367443,
+            "recall": 0.8656716417910447,
+            "f1-score": 0.865893555995677,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "Sev1 - Critical",
+          "Sev2 - High",
+          "Sev3 - Medium",
+          "Sev4 - Low"
+        ]
+      },
+      {
+        "model_name": "embedding_svm_severity",
+        "val_accuracy": 0.8571428571428571,
+        "val_f1_weighted": 0.858257296564157,
+        "test_accuracy": 0.8805970149253731,
+        "precision_macro": 0.9198572355613238,
+        "recall_macro": 0.8719685242518059,
+        "f1_macro": 0.8857142857142857,
+        "precision_weighted": 0.8957257838000137,
+        "recall_weighted": 0.8805970149253731,
+        "f1_weighted": 0.8808102345415778,
+        "avg_confidence": 0.781197765401042,
+        "per_class_metrics": {
+          "Sev1 - Critical": {
+            "precision": 0.9402985074626866,
+            "recall": 0.9264705882352942,
+            "f1": 0.9333333333333333,
+            "support": 68
+          },
+          "Sev2 - High": {
+            "precision": 0.7391304347826086,
+            "recall": 0.8947368421052632,
+            "f1": 0.8095238095238095,
+            "support": 38
+          },
+          "Sev3 - Medium": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "support": 21
+          },
+          "Sev4 - Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          }
+        },
+        "confusion_matrix": [
+          [
+            63,
+            5,
+            0,
+            0
+          ],
+          [
+            4,
+            34,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            7
+          ]
+        ],
+        "classification_report": {
+          "Sev1 - Critical": {
+            "precision": 0.9402985074626866,
+            "recall": 0.9264705882352942,
+            "f1-score": 0.9333333333333333,
+            "support": 68.0
+          },
+          "Sev2 - High": {
+            "precision": 0.7391304347826086,
+            "recall": 0.8947368421052632,
+            "f1-score": 0.8095238095238095,
+            "support": 38.0
+          },
+          "Sev3 - Medium": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 21.0
+          },
+          "Sev4 - Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 7.0
+          },
+          "accuracy": 0.8805970149253731,
+          "macro avg": {
+            "precision": 0.9198572355613238,
+            "recall": 0.8719685242518059,
+            "f1-score": 0.8857142857142857,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.8957257838000137,
+            "recall": 0.8805970149253731,
+            "f1-score": 0.8808102345415778,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "Sev1 - Critical",
+          "Sev2 - High",
+          "Sev3 - Medium",
+          "Sev4 - Low"
+        ]
+      }
+    ],
+    "best_model": "embedding_svm_severity",
+    "best_val_f1_weighted": 0.858257296564157,
+    "best_test_f1_weighted": 0.8808102345415778,
+    "num_classes": 4,
+    "train_samples": 622,
+    "val_samples": 133,
+    "test_samples": 134
+  },
+  "business_impact": {
+    "task_name": "business_impact",
+    "target_field": "business_impact",
+    "results": [
+      {
+        "model_name": "tfidf_lr_business_impact",
+        "val_accuracy": 0.9624060150375939,
+        "val_f1_weighted": 0.9619457714985552,
+        "test_accuracy": 0.8955223880597015,
+        "precision_macro": 0.9142524142524143,
+        "recall_macro": 0.8361111111111111,
+        "f1_macro": 0.8665916929074823,
+        "precision_weighted": 0.8973041883489645,
+        "recall_weighted": 0.8955223880597015,
+        "f1_weighted": 0.8893796872587132,
+        "avg_confidence": 0.7726759117624205,
+        "per_class_metrics": {
+          "High": {
+            "precision": 0.8791208791208791,
+            "recall": 1.0,
+            "f1": 0.935672514619883,
+            "support": 80
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1": 0.9333333333333333,
+            "support": 24
+          },
+          "Medium": {
+            "precision": 0.8636363636363636,
+            "recall": 0.6333333333333333,
+            "f1": 0.7307692307692307,
+            "support": 30
+          }
+        },
+        "confusion_matrix": [
+          [
+            80,
+            0,
+            0
+          ],
+          [
+            0,
+            21,
+            3
+          ],
+          [
+            11,
+            0,
+            19
+          ]
+        ],
+        "classification_report": {
+          "High": {
+            "precision": 0.8791208791208791,
+            "recall": 1.0,
+            "f1-score": 0.935672514619883,
+            "support": 80.0
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1-score": 0.9333333333333333,
+            "support": 24.0
+          },
+          "Medium": {
+            "precision": 0.8636363636363636,
+            "recall": 0.6333333333333333,
+            "f1-score": 0.7307692307692307,
+            "support": 30.0
+          },
+          "accuracy": 0.8955223880597015,
+          "macro avg": {
+            "precision": 0.9142524142524143,
+            "recall": 0.8361111111111111,
+            "f1-score": 0.8665916929074823,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.8973041883489645,
+            "recall": 0.8955223880597015,
+            "f1-score": 0.8893796872587132,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      {
+        "model_name": "tfidf_svm_business_impact",
+        "val_accuracy": 0.9624060150375939,
+        "val_f1_weighted": 0.9619457714985552,
+        "test_accuracy": 0.8955223880597015,
+        "precision_macro": 0.9142524142524143,
+        "recall_macro": 0.8361111111111111,
+        "f1_macro": 0.8665916929074823,
+        "precision_weighted": 0.8973041883489645,
+        "recall_weighted": 0.8955223880597015,
+        "f1_weighted": 0.8893796872587132,
+        "avg_confidence": 0.8571688860325022,
+        "per_class_metrics": {
+          "High": {
+            "precision": 0.8791208791208791,
+            "recall": 1.0,
+            "f1": 0.935672514619883,
+            "support": 80
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1": 0.9333333333333333,
+            "support": 24
+          },
+          "Medium": {
+            "precision": 0.8636363636363636,
+            "recall": 0.6333333333333333,
+            "f1": 0.7307692307692307,
+            "support": 30
+          }
+        },
+        "confusion_matrix": [
+          [
+            80,
+            0,
+            0
+          ],
+          [
+            0,
+            21,
+            3
+          ],
+          [
+            11,
+            0,
+            19
+          ]
+        ],
+        "classification_report": {
+          "High": {
+            "precision": 0.8791208791208791,
+            "recall": 1.0,
+            "f1-score": 0.935672514619883,
+            "support": 80.0
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1-score": 0.9333333333333333,
+            "support": 24.0
+          },
+          "Medium": {
+            "precision": 0.8636363636363636,
+            "recall": 0.6333333333333333,
+            "f1-score": 0.7307692307692307,
+            "support": 30.0
+          },
+          "accuracy": 0.8955223880597015,
+          "macro avg": {
+            "precision": 0.9142524142524143,
+            "recall": 0.8361111111111111,
+            "f1-score": 0.8665916929074823,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.8973041883489645,
+            "recall": 0.8955223880597015,
+            "f1-score": 0.8893796872587132,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      {
+        "model_name": "embedding_lr_business_impact",
+        "val_accuracy": 0.9548872180451128,
+        "val_f1_weighted": 0.9540635336994199,
+        "test_accuracy": 0.9402985074626866,
+        "precision_macro": 0.9446778711484595,
+        "recall_macro": 0.9027777777777778,
+        "f1_macro": 0.9216997561825148,
+        "precision_weighted": 0.9408942681550233,
+        "recall_weighted": 0.9402985074626866,
+        "f1_weighted": 0.9390882577707075,
+        "avg_confidence": 0.7969474792480469,
+        "per_class_metrics": {
+          "High": {
+            "precision": 0.9411764705882353,
+            "recall": 1.0,
+            "f1": 0.9696969696969697,
+            "support": 80
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1": 0.9333333333333333,
+            "support": 24
+          },
+          "Medium": {
+            "precision": 0.8928571428571429,
+            "recall": 0.8333333333333334,
+            "f1": 0.8620689655172413,
+            "support": 30
+          }
+        },
+        "confusion_matrix": [
+          [
+            80,
+            0,
+            0
+          ],
+          [
+            0,
+            21,
+            3
+          ],
+          [
+            5,
+            0,
+            25
+          ]
+        ],
+        "classification_report": {
+          "High": {
+            "precision": 0.9411764705882353,
+            "recall": 1.0,
+            "f1-score": 0.9696969696969697,
+            "support": 80.0
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1-score": 0.9333333333333333,
+            "support": 24.0
+          },
+          "Medium": {
+            "precision": 0.8928571428571429,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.8620689655172413,
+            "support": 30.0
+          },
+          "accuracy": 0.9402985074626866,
+          "macro avg": {
+            "precision": 0.9446778711484595,
+            "recall": 0.9027777777777778,
+            "f1-score": 0.9216997561825148,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.9408942681550233,
+            "recall": 0.9402985074626866,
+            "f1-score": 0.9390882577707075,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "High",
+          "Low",
+          "Medium"
+        ]
+      },
+      {
+        "model_name": "embedding_svm_business_impact",
+        "val_accuracy": 0.9774436090225563,
+        "val_f1_weighted": 0.9771227499759355,
+        "test_accuracy": 0.9402985074626866,
+        "precision_macro": 0.9446778711484595,
+        "recall_macro": 0.9027777777777778,
+        "f1_macro": 0.9216997561825148,
+        "precision_weighted": 0.9408942681550233,
+        "recall_weighted": 0.9402985074626866,
+        "f1_weighted": 0.9390882577707075,
+        "avg_confidence": 0.8388808394262762,
+        "per_class_metrics": {
+          "High": {
+            "precision": 0.9411764705882353,
+            "recall": 1.0,
+            "f1": 0.9696969696969697,
+            "support": 80
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1": 0.9333333333333333,
+            "support": 24
+          },
+          "Medium": {
+            "precision": 0.8928571428571429,
+            "recall": 0.8333333333333334,
+            "f1": 0.8620689655172413,
+            "support": 30
+          }
+        },
+        "confusion_matrix": [
+          [
+            80,
+            0,
+            0
+          ],
+          [
+            0,
+            21,
+            3
+          ],
+          [
+            5,
+            0,
+            25
+          ]
+        ],
+        "classification_report": {
+          "High": {
+            "precision": 0.9411764705882353,
+            "recall": 1.0,
+            "f1-score": 0.9696969696969697,
+            "support": 80.0
+          },
+          "Low": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1-score": 0.9333333333333333,
+            "support": 24.0
+          },
+          "Medium": {
+            "precision": 0.8928571428571429,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.8620689655172413,
+            "support": 30.0
+          },
+          "accuracy": 0.9402985074626866,
+          "macro avg": {
+            "precision": 0.9446778711484595,
+            "recall": 0.9027777777777778,
+            "f1-score": 0.9216997561825148,
+            "support": 134.0
+          },
+          "weighted avg": {
+            "precision": 0.9408942681550233,
+            "recall": 0.9402985074626866,
+            "f1-score": 0.9390882577707075,
+            "support": 134.0
+          }
+        },
+        "unique_classes": [
+          "High",
+          "Low",
+          "Medium"
+        ]
+      }
+    ],
+    "best_model": "embedding_svm_business_impact",
+    "best_val_f1_weighted": 0.9771227499759355,
+    "best_test_f1_weighted": 0.9390882577707075,
+    "num_classes": 3,
+    "train_samples": 622,
+    "val_samples": 133,
+    "test_samples": 134
+  }
+}

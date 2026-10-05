@@ -1,0 +1,245 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+================================================================================
+STAGE 3 CANONICAL CORRELATION ANALYSIS
+================================================================================
+
+Date: 2026-10-04 19:21:10
+Dataset: 889 alerts
+Stage 2: Alert Type, Severity, Business Impact (canonical models)
+
+Configuration (Experimental):
+  Temporal Window: 24.0 hours
+  Min Correlation Score: 0.7
+
+  Correlation Weights:
+    semantic: 0.30
+    temporal: 0.20
+    client: 0.15
+    family: 0.10
+    service: 0.15
+    stage2: 0.10
+
+  Stage 2 Compatibility Weights:
+    alert_type: 0.30
+    severity: 0.25
+    business_impact: 0.20
+    priority: 0.15
+    routing: 0.10
+
+================================================================================
+[STAGE 1] INGESTION & NORMALIZATION
+================================================================================
+================================================================================
+STAGE 1: ALERT INGESTION & NORMALIZATION
+================================================================================
+[Stage 1] Ingesting alerts from: Excel:Data_Alert_Ticket_Segregation.xlsx
+[Stage 1] Ingested 889 raw alerts
+[Stage 1] Cleaning 889 alerts...
+[Stage 1] Cleaned 889 alerts
+[Stage 1] Validating 889 alerts...
+[Stage 1] Validated 889 alerts
+[Stage 1] Normalizing 889 alerts...
+[Stage 1] Normalized 889 alerts
+================================================================================
+[Stage 1] Pipeline complete: 889 standardized alerts
+================================================================================
+✓ Standardized 889 alerts
+
+================================================================================
+[STAGE 2] LOADING CANONICAL PREDICTIONS
+================================================================================
+Loading canonical predictions...
+  Alert Type: 889 predictions
+  Severity: 889 predictions
+  Business Impact: 889 predictions
+✓ Loaded all canonical predictions
+
+Enriching 889 alerts with canonical predictions...
+✓ Enriched 889 alerts with Stage 2 predictions
+
+================================================================================
+[STAGE 3] CORRELATION WITH CANONICAL FIELDS
+================================================================================
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1893.95it/s]
+
+[Stage 3] Correlating 889 alerts...
+----------------------------------------------------------------------
+[Phase 1] Exact signature matching...
+  Found 57 unique signatures with repeats
+  Validated 1204 alert pairs from exact matches
+
+[Phase 2] Semantic clustering for 488 remaining alerts...
+  Found 83 semantic clusters
+  Validated 211 alert pairs from semantic clustering
+
+[Phase 3] Building alert graph...
+  Graph: 889 nodes, 1415 edges
+  Singleton nodes: 380
+
+[Phase 4] Finding connected components...
+  Found 151 connected components
+  Singleton alerts: 380
+
+[Stage 3] Correlation complete:
+  Total incidents: 151
+  Correlated alerts: 509
+  Uncorrelated alerts: 380
+  Graph density: 3.18 avg edges per node
+----------------------------------------------------------------------
+
+================================================================================
+[RESULTS] INCIDENT GROUPS
+================================================================================
+
+Overall Statistics:
+  Total Alerts: 889
+  Candidate Incident Groups: 151
+  Grouped Alerts: 509
+  Uncorrelated Alerts: 380
+  Grouping Rate: 57.3%
+
+Group Size Statistics:
+  Average: 3.37 alerts
+  Median: 2.0 alerts
+  Max: 31 alerts
+  Min: 2 alerts
+
+Duration Statistics (hours):
+  Average: 13.38 hours
+  Median: 2.86 hours
+  Max: 142.84 hours
+  Min: 0.00 hours
+
+Incidents by Correlation Method:
+  exact_signature_match: 116 (76.8%)
+  graph_connected_component: 35 (23.2%)
+
+Incidents by Client:
+  Pizza Hut: 73 (48.3%)
+  Bridgestone: 44 (29.1%)
+  EA Sports: 34 (22.5%)
+
+================================================================================
+PIZZA HUT RECURRING ALERT ANALYSIS
+================================================================================
+
+Exact 97-Alert Recurring Family:
+  Signature: critical autot icket pzht pizza hut pzht_watcher_alert alert p<priority>pzht_elb...
+  Total Alerts: 0
+
+Incident Groups Containing Exact Family Alerts:
+  Number of Groups: 0
+
+
+Broader 109-Alert Taxonomy Match (PZHT + ELB):
+  Total Alerts: 0
+
+Incident Groups Containing Broader Match:
+  Number of Groups: 0
+
+================================================================================
+TOP 10 INCIDENT GROUPS (by alert count)
+================================================================================
+
+[1] INCIDENT-0019
+  Client: EA Sports
+  Alerts: 31
+  Duration: 47.97 hours
+  Method: exact_signature_match
+  Avg Score: 1.0000
+  Alert IDs: INC3528952, INC3528950, INC3528949, INC3528948, INC3528947
+             ... and 26 more
+
+[2] INCIDENT-0018
+  Client: Bridgestone
+  Alerts: 17
+  Duration: 98.00 hours
+  Method: exact_signature_match
+  Avg Score: 1.0000
+  Alert IDs: INC3529531, INC3529529, INC3529525, INC3529522, INC3529518
+             ... and 12 more
+
+[3] INCIDENT-0002
+  Client: Pizza Hut
+  Alerts: 13
+  Duration: 142.84 hours
+  Method: exact_signature_match
+  Avg Score: 1.0000
+  Alert IDs: INC3529407, INC3529405, INC3529389, INC3529388, INC3529386
+             ... and 8 more
+
+[4] INCIDENT-0043
+  Client: Pizza Hut
+  Alerts: 13
+  Duration: 1.70 hours
+  Method: exact_signature_match
+  Avg Score: 1.0000
+  Alert IDs: INC3529549, INC3529548, INC3529547, INC3529546, INC3529545
+             ... and 8 more
+
+[5] INCIDENT-0015
+  Client: Pizza Hut
+  Alerts: 12
+  Duration: 1.50 hours
+  Method: graph_connected_component
+  Avg Score: 0.9949
+  Alert IDs: INC3529294, INC3529289, INC3529287, INC3529285, INC3529282
+             ... and 7 more
+
+[6] INCIDENT-0069
+  Client: EA Sports
+  Alerts: 10
+  Duration: 0.83 hours
+  Method: exact_signature_match
+  Avg Score: 1.0000
+  Alert IDs: INC3529476, INC3529475, INC3529474, INC3529473, INC3529472
+             ... and 5 more
+
+[7] INCIDENT-0008
+  Client: Pizza Hut
+  Alerts: 9
+  Duration: 2.08 hours
+  Method: graph_connected_component
+  Avg Score: 0.9977
+  Alert IDs: INC3529738, INC3529737, INC3529734, INC3529733, INC3529731
+             ... and 4 more
+
+[8] INCIDENT-0029
+  Client: Bridgestone
+  Alerts: 9
+  Duration: 2.77 hours
+  Method: exact_signature_match
+  Avg Score: 1.0000
+  Alert IDs: INC3529160, INC3529159, INC3529158, INC3529157, INC3529156
+             ... and 4 more
+
+[9] INCIDENT-0065
+  Client: Pizza Hut
+  Alerts: 9
+  Duration: 1.67 hours
+  Method: graph_connected_component
+  Avg Score: 0.9985
+  Alert IDs: INC3529191, INC3529188, INC3529185, INC3529177, INC3529176
+             ... and 4 more
+
+[10] INCIDENT-0034
+  Client: Pizza Hut
+  Alerts: 8
+  Duration: 48.39 hours
+  Method: exact_signature_match
+  Avg Score: 1.0000
+  Alert IDs: INC3529437, INC3529436, INC3529435, INC3529433, INC3529429
+             ... and 3 more
+
+================================================================================
+SAVING RESULTS
+================================================================================
+✓ Saved incident_groups.json
+✓ Saved results_summary.json
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
+
+Results saved to: /home/akash-t-s-m/alert_management/data/stage3_canonical_results

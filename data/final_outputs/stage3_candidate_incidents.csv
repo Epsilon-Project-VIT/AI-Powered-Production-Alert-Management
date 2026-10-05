@@ -1,0 +1,152 @@
+incident_id,client,alert_count,method
+INCIDENT-0001,Pizza Hut,5,graph_connected_component
+INCIDENT-0002,Pizza Hut,2,graph_connected_component
+INCIDENT-0003,Pizza Hut,4,exact_signature_match
+INCIDENT-0004,Bridgestone,4,exact_signature_match
+INCIDENT-0005,EA Sports,2,exact_signature_match
+INCIDENT-0006,Pizza Hut,5,exact_signature_match
+INCIDENT-0007,Pizza Hut,2,exact_signature_match
+INCIDENT-0008,Pizza Hut,4,exact_signature_match
+INCIDENT-0009,Pizza Hut,9,graph_connected_component
+INCIDENT-0010,Pizza Hut,12,graph_connected_component
+INCIDENT-0011,EA Sports,4,exact_signature_match
+INCIDENT-0012,Pizza Hut,5,graph_connected_component
+INCIDENT-0013,Pizza Hut,2,exact_signature_match
+INCIDENT-0014,EA Sports,2,exact_signature_match
+INCIDENT-0015,Pizza Hut,2,graph_connected_component
+INCIDENT-0016,EA Sports,3,exact_signature_match
+INCIDENT-0017,Pizza Hut,6,graph_connected_component
+INCIDENT-0018,Pizza Hut,13,exact_signature_match
+INCIDENT-0019,Bridgestone,2,exact_signature_match
+INCIDENT-0020,Pizza Hut,3,graph_connected_component
+INCIDENT-0021,EA Sports,31,exact_signature_match
+INCIDENT-0022,EA Sports,2,graph_connected_component
+INCIDENT-0023,Pizza Hut,9,graph_connected_component
+INCIDENT-0024,Pizza Hut,4,exact_signature_match
+INCIDENT-0025,EA Sports,2,graph_connected_component
+INCIDENT-0026,Pizza Hut,2,exact_signature_match
+INCIDENT-0027,Pizza Hut,5,exact_signature_match
+INCIDENT-0028,Bridgestone,3,exact_signature_match
+INCIDENT-0029,Pizza Hut,3,exact_signature_match
+INCIDENT-0030,Pizza Hut,3,exact_signature_match
+INCIDENT-0031,EA Sports,2,exact_signature_match
+INCIDENT-0032,Bridgestone,17,exact_signature_match
+INCIDENT-0033,EA Sports,2,exact_signature_match
+INCIDENT-0034,EA Sports,10,exact_signature_match
+INCIDENT-0035,Bridgestone,4,exact_signature_match
+INCIDENT-0036,Bridgestone,7,exact_signature_match
+INCIDENT-0037,Pizza Hut,2,exact_signature_match
+INCIDENT-0038,Bridgestone,9,exact_signature_match
+INCIDENT-0039,Pizza Hut,2,exact_signature_match
+INCIDENT-0040,Pizza Hut,2,graph_connected_component
+INCIDENT-0041,EA Sports,5,exact_signature_match
+INCIDENT-0042,Bridgestone,2,exact_signature_match
+INCIDENT-0043,Pizza Hut,2,exact_signature_match
+INCIDENT-0044,Pizza Hut,2,exact_signature_match
+INCIDENT-0045,Pizza Hut,2,graph_connected_component
+INCIDENT-0046,Bridgestone,3,exact_signature_match
+INCIDENT-0047,Pizza Hut,3,exact_signature_match
+INCIDENT-0048,Pizza Hut,2,exact_signature_match
+INCIDENT-0049,Bridgestone,4,exact_signature_match
+INCIDENT-0050,Pizza Hut,2,exact_signature_match
+INCIDENT-0051,Pizza Hut,2,exact_signature_match
+INCIDENT-0052,Pizza Hut,6,exact_signature_match
+INCIDENT-0053,Pizza Hut,3,exact_signature_match
+INCIDENT-0054,Pizza Hut,13,exact_signature_match
+INCIDENT-0055,Pizza Hut,2,exact_signature_match
+INCIDENT-0056,Pizza Hut,2,graph_connected_component
+INCIDENT-0057,Pizza Hut,3,exact_signature_match
+INCIDENT-0058,Pizza Hut,2,exact_signature_match
+INCIDENT-0059,Bridgestone,2,exact_signature_match
+INCIDENT-0060,EA Sports,2,exact_signature_match
+INCIDENT-0061,Bridgestone,2,exact_signature_match
+INCIDENT-0062,Bridgestone,2,exact_signature_match
+INCIDENT-0063,Pizza Hut,2,exact_signature_match
+INCIDENT-0064,Pizza Hut,7,exact_signature_match
+INCIDENT-0065,Bridgestone,4,exact_signature_match
+INCIDENT-0066,Pizza Hut,2,exact_signature_match
+INCIDENT-0067,Pizza Hut,2,exact_signature_match
+INCIDENT-0068,Bridgestone,3,exact_signature_match
+INCIDENT-0069,Bridgestone,2,exact_signature_match
+INCIDENT-0070,Pizza Hut,2,graph_connected_component
+INCIDENT-0071,Pizza Hut,2,exact_signature_match
+INCIDENT-0072,EA Sports,2,graph_connected_component
+INCIDENT-0073,Pizza Hut,3,exact_signature_match
+INCIDENT-0074,Pizza Hut,4,exact_signature_match
+INCIDENT-0075,EA Sports,2,graph_connected_component
+INCIDENT-0076,EA Sports,2,exact_signature_match
+INCIDENT-0077,Pizza Hut,4,graph_connected_component
+INCIDENT-0078,Bridgestone,2,exact_signature_match
+INCIDENT-0079,Pizza Hut,8,exact_signature_match
+INCIDENT-0080,Pizza Hut,2,graph_connected_component
+INCIDENT-0081,Pizza Hut,2,exact_signature_match
+INCIDENT-0082,Bridgestone,6,exact_signature_match
+INCIDENT-0083,Bridgestone,2,exact_signature_match
+INCIDENT-0084,Pizza Hut,2,graph_connected_component
+INCIDENT-0085,Bridgestone,5,exact_signature_match
+INCIDENT-0086,Bridgestone,5,exact_signature_match
+INCIDENT-0087,Pizza Hut,3,exact_signature_match
+INCIDENT-0088,EA Sports,4,exact_signature_match
+INCIDENT-0089,Pizza Hut,2,graph_connected_component
+INCIDENT-0090,Bridgestone,2,exact_signature_match
+INCIDENT-0091,Pizza Hut,2,exact_signature_match
+INCIDENT-0092,Bridgestone,3,exact_signature_match
+INCIDENT-0093,EA Sports,2,graph_connected_component
+INCIDENT-0094,Bridgestone,2,exact_signature_match
+INCIDENT-0095,Pizza Hut,3,exact_signature_match
+INCIDENT-0096,EA Sports,2,graph_connected_component
+INCIDENT-0097,EA Sports,2,exact_signature_match
+INCIDENT-0098,Bridgestone,2,exact_signature_match
+INCIDENT-0099,Bridgestone,6,exact_signature_match
+INCIDENT-0100,Pizza Hut,3,exact_signature_match
+INCIDENT-0101,Bridgestone,2,graph_connected_component
+INCIDENT-0102,Bridgestone,3,exact_signature_match
+INCIDENT-0103,Bridgestone,2,exact_signature_match
+INCIDENT-0104,Bridgestone,2,exact_signature_match
+INCIDENT-0105,Bridgestone,2,exact_signature_match
+INCIDENT-0106,Pizza Hut,2,exact_signature_match
+INCIDENT-0107,EA Sports,2,exact_signature_match
+INCIDENT-0108,Pizza Hut,2,exact_signature_match
+INCIDENT-0109,EA Sports,2,exact_signature_match
+INCIDENT-0110,Bridgestone,2,exact_signature_match
+INCIDENT-0111,EA Sports,2,exact_signature_match
+INCIDENT-0112,Pizza Hut,3,exact_signature_match
+INCIDENT-0113,Bridgestone,2,exact_signature_match
+INCIDENT-0114,EA Sports,2,graph_connected_component
+INCIDENT-0115,EA Sports,3,graph_connected_component
+INCIDENT-0116,EA Sports,2,exact_signature_match
+INCIDENT-0117,Bridgestone,3,exact_signature_match
+INCIDENT-0118,Bridgestone,4,exact_signature_match
+INCIDENT-0119,Pizza Hut,2,exact_signature_match
+INCIDENT-0120,Pizza Hut,2,exact_signature_match
+INCIDENT-0121,Bridgestone,2,exact_signature_match
+INCIDENT-0122,Bridgestone,2,exact_signature_match
+INCIDENT-0123,Pizza Hut,2,exact_signature_match
+INCIDENT-0124,Bridgestone,2,exact_signature_match
+INCIDENT-0125,EA Sports,2,exact_signature_match
+INCIDENT-0126,EA Sports,2,exact_signature_match
+INCIDENT-0127,EA Sports,3,exact_signature_match
+INCIDENT-0128,Bridgestone,2,graph_connected_component
+INCIDENT-0129,Pizza Hut,2,graph_connected_component
+INCIDENT-0130,Pizza Hut,2,graph_connected_component
+INCIDENT-0131,Pizza Hut,3,exact_signature_match
+INCIDENT-0132,Pizza Hut,2,graph_connected_component
+INCIDENT-0133,Pizza Hut,2,exact_signature_match
+INCIDENT-0134,EA Sports,2,graph_connected_component
+INCIDENT-0135,Bridgestone,2,exact_signature_match
+INCIDENT-0136,EA Sports,2,exact_signature_match
+INCIDENT-0137,EA Sports,2,graph_connected_component
+INCIDENT-0138,EA Sports,4,exact_signature_match
+INCIDENT-0139,EA Sports,2,graph_connected_component
+INCIDENT-0140,Bridgestone,3,exact_signature_match
+INCIDENT-0141,Bridgestone,2,exact_signature_match
+INCIDENT-0142,Pizza Hut,2,exact_signature_match
+INCIDENT-0143,Bridgestone,2,exact_signature_match
+INCIDENT-0144,Pizza Hut,2,exact_signature_match
+INCIDENT-0145,Pizza Hut,2,exact_signature_match
+INCIDENT-0146,Pizza Hut,2,graph_connected_component
+INCIDENT-0147,Pizza Hut,2,graph_connected_component
+INCIDENT-0148,Pizza Hut,2,exact_signature_match
+INCIDENT-0149,EA Sports,3,exact_signature_match
+INCIDENT-0150,Pizza Hut,2,exact_signature_match
+INCIDENT-0151,Bridgestone,2,exact_signature_match

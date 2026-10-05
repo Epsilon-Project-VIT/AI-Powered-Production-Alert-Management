@@ -1,0 +1,890 @@
+alert_id,created_at,client,alert_type,business_impact,severity,priority,routing
+INC3528890,2026-08-07T03:10:38,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3528891,2026-08-06T07:06:03,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528892,2026-08-06T02:30:02,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528893,2026-08-05T03:57:12,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528894,2026-08-05T02:12:06,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528895,2026-08-02T10:46:50,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528896,2026-08-02T03:20:34,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528897,2026-08-02T02:27:40,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3528898,2026-08-02T01:37:40,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3528899,2026-08-01T21:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528900,2026-08-01T21:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528901,2026-08-01T10:52:23,EA Sports,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528902,2026-08-01T01:57:29,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3528903,2026-08-01T01:52:39,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3528904,2026-08-01T01:18:24,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3528905,2026-07-31T20:34:05,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3528906,2026-07-31T20:18:04,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3528907,2026-07-31T05:43:13,EA Sports,File Transfer / SFTP Workflow,Medium,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528908,2026-07-30T23:22:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528909,2026-07-30T10:26:06,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528910,2026-07-30T10:22:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528911,2026-07-30T09:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528912,2026-07-29T04:13:16,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3528913,2026-07-28T08:36:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528914,2026-07-28T08:34:41,EA Sports,File Transfer / SFTP Workflow,Medium,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528915,2026-07-28T07:34:30,EA Sports,File Transfer / SFTP Workflow,Medium,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528916,2026-07-28T07:31:51,EA Sports,File Transfer / SFTP Workflow,Medium,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528917,2026-07-27T05:49:29,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3528918,2026-07-25T09:16:07,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528919,2026-07-24T08:48:50,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528920,2026-07-24T07:49:40,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528921,2026-07-24T06:50:30,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528922,2026-07-24T05:54:40,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528923,2026-07-24T05:44:05,Bridgestone,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528924,2026-07-24T04:57:10,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528925,2026-07-24T03:52:10,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528926,2026-07-24T02:48:50,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528927,2026-07-24T01:53:52,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528928,2026-07-24T00:53:00,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528929,2026-07-23T23:53:02,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528930,2026-07-23T22:50:30,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528931,2026-07-23T21:53:02,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528932,2026-07-23T20:50:32,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528933,2026-07-23T19:53:51,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528934,2026-07-23T18:49:42,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528935,2026-07-23T17:55:32,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528936,2026-07-23T16:51:22,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528937,2026-07-23T15:53:52,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528938,2026-07-23T14:54:41,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528939,2026-07-23T13:53:01,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528940,2026-07-23T12:53:53,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528941,2026-07-23T11:49:41,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528942,2026-07-23T10:55:32,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528943,2026-07-23T09:56:23,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528944,2026-07-23T08:49:41,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528945,2026-07-23T08:08:08,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528946,2026-07-23T07:56:22,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528947,2026-07-22T10:51:24,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528948,2026-07-22T10:28:03,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528949,2026-07-22T10:27:13,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528950,2026-07-22T10:14:43,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528951,2026-07-22T08:59:54,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528952,2026-07-22T08:50:34,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528953,2026-07-22T07:47:32,Bridgestone,Data Hub Batch Workflow Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528954,2026-07-22T03:37:51,Bridgestone,Data Hub Batch Workflow Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528955,2026-07-21T05:37:44,Bridgestone,Data Hub Batch Workflow Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528956,2026-07-21T05:20:25,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528957,2026-07-21T05:17:51,Bridgestone,Data Hub Batch Workflow Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528958,2026-07-21T05:05:11,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528959,2026-07-20T06:33:32,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528960,2026-07-20T04:01:28,EA Sports,Disk Space,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528961,2026-07-18T01:37:31,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3528962,2026-07-17T08:48:03,Bridgestone,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3528963,2026-07-17T06:58:04,Bridgestone,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528964,2026-07-16T13:53:29,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528965,2026-07-16T13:13:16,EA Sports,Disk Space,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528966,2026-07-15T09:23:37,Pizza Hut,File Transfer / SFTP Workflow,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528967,2026-07-15T09:23:34,Pizza Hut,File Transfer / SFTP Workflow,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528968,2026-07-15T07:27:20,Pizza Hut,File Transfer / SFTP Workflow,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528969,2026-07-15T07:27:17,Pizza Hut,File Transfer / SFTP Workflow,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528970,2026-07-15T07:24:58,Pizza Hut,File Transfer / SFTP Workflow,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528971,2026-07-15T07:14:06,Bridgestone,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528972,2026-07-15T02:00:55,Pizza Hut,File Transfer / SFTP Workflow,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528973,2026-07-15T01:50:46,EA Sports,File Transfer / SFTP Workflow,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528974,2026-07-14T10:14:05,Bridgestone,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528975,2026-07-14T03:10:09,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528976,2026-07-13T07:06:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528977,2026-07-13T02:44:04,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528978,2026-07-11T02:09:36,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3528979,2026-07-11T01:34:36,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3528980,2026-07-10T21:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528981,2026-07-10T20:38:04,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3528982,2026-07-10T19:18:05,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528983,2026-07-10T01:24:51,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3528984,2026-07-09T12:44:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528985,2026-07-09T06:02:02,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528986,2026-07-08T06:30:09,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528987,2026-07-08T06:30:09,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528988,2026-07-08T06:30:09,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528989,2026-07-08T06:30:08,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528990,2026-07-08T04:22:19,EA Sports,Disk Space,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3528991,2026-07-07T17:20:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3528992,2026-07-06T20:37:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528993,2026-07-06T19:11:31,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528994,2026-07-05T10:04:54,EA Sports,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3528995,2026-07-03T20:52:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528996,2026-07-03T20:52:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528997,2026-07-03T20:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528998,2026-07-03T20:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3528999,2026-07-02T15:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529000,2026-07-02T09:04:32,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529001,2026-07-02T08:20:58,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529002,2026-07-02T07:30:06,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529003,2026-07-02T06:35:09,EA Sports,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529004,2026-07-02T00:40:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529005,2026-07-02T00:40:09,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529006,2026-07-02T00:35:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529007,2026-07-02T00:30:12,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529008,2026-07-02T00:30:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529009,2026-07-01T13:13:08,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529010,2026-07-01T13:13:07,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529011,2026-07-01T13:13:06,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529012,2026-07-01T13:13:05,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529013,2026-06-30T05:29:23,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529014,2026-06-26T20:25:13,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529015,2026-06-26T20:19:06,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529016,2026-06-24T03:25:17,EA Sports,Server Reboot,Low,Sev3,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529017,2026-06-23T08:10:37,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529018,2026-06-23T08:02:26,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529019,2026-06-22T06:33:45,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529020,2026-06-21T12:55:18,EA Sports,Server Reboot,Low,Sev3,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529021,2026-06-19T20:35:06,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529022,2026-06-19T19:25:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529023,2026-06-18T22:13:39,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529024,2026-06-18T12:03:37,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529025,2026-06-17T09:20:08,EA Sports,Transaction Not Received (No-Hit),High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529026,2026-06-17T09:05:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529027,2026-06-16T01:36:43,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529028,2026-06-15T06:39:39,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529029,2026-06-13T16:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529030,2026-06-13T15:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529031,2026-06-13T14:20:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529032,2026-06-13T14:15:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529033,2026-06-13T14:10:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529034,2026-06-13T14:05:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529035,2026-06-13T06:33:01,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529036,2026-06-12T20:37:07,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529037,2026-06-12T06:38:53,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529038,2026-06-12T03:20:48,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529039,2026-06-12T01:10:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529040,2026-06-12T01:05:18,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529041,2026-06-12T01:00:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529042,2026-06-12T00:58:17,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529043,2026-06-11T16:07:10,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529044,2026-06-11T04:13:10,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529045,2026-06-10T22:45:15,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529046,2026-06-10T22:39:02,Pizza Hut,Service / Process Not Running,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529047,2026-06-10T22:35:13,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529048,2026-06-10T06:34:46,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529049,2026-06-09T07:57:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529050,2026-06-09T07:55:08,Pizza Hut,Server Unreachable / Uptime,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529051,2026-06-09T06:33:07,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529052,2026-06-08T19:52:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529053,2026-06-07T06:32:20,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529054,2026-06-06T06:31:32,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529055,2026-06-05T14:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529056,2026-06-05T08:37:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529057,2026-06-05T08:10:17,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529058,2026-06-05T07:52:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529059,2026-06-05T05:05:56,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529060,2026-06-05T05:02:35,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529061,2026-06-05T04:15:55,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529062,2026-06-04T06:31:34,EA Sports,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529063,2026-06-04T04:03:53,EA Sports,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529064,2026-06-03T17:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529065,2026-06-03T15:13:08,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529066,2026-06-03T13:43:14,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529067,2026-06-03T13:43:12,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529068,2026-06-03T13:43:10,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529069,2026-06-03T09:51:55,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529070,2026-06-03T09:51:54,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529071,2026-06-03T09:51:50,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529072,2026-06-03T09:51:49,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529073,2026-06-03T09:16:22,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529074,2026-06-03T05:09:42,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529075,2026-06-03T04:51:49,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529076,2026-06-03T04:42:48,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529077,2026-06-03T04:32:39,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529078,2026-06-03T04:22:42,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529079,2026-06-03T03:10:27,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529080,2026-06-03T02:25:12,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529081,2026-06-03T02:19:08,Pizza Hut,Service / Process Not Running,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529082,2026-06-02T11:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529083,2026-06-02T03:10:15,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529084,2026-06-02T02:14:09,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529085,2026-06-01T21:59:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529086,2026-06-01T18:25:08,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529087,2026-06-01T14:51:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529088,2026-06-01T11:19:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529089,2026-06-01T07:45:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529090,2026-06-01T03:33:05,Pizza Hut,Disk Space,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529091,2026-06-01T03:10:23,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529092,2026-06-01T03:03:36,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529093,2026-06-01T01:37:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529094,2026-05-31T20:05:06,EA Sports,Transaction Not Received (No-Hit),High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529095,2026-05-31T10:11:06,Pizza Hut,Disk Space,Low,Sev4,3 - Medium,Product Support - Agility Loyalty
+INC3529096,2026-05-30T08:21:05,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529097,2026-05-30T03:10:24,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529098,2026-05-29T23:51:52,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529099,2026-05-29T23:42:42,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529100,2026-05-29T20:41:06,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529101,2026-05-29T19:19:08,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529102,2026-05-29T03:10:26,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529103,2026-05-28T03:10:31,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529104,2026-05-27T06:56:04,EA Sports,Load Balancer (ELB) Errors,High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529105,2026-05-27T03:10:27,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529106,2026-05-27T02:09:26,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529107,2026-05-26T10:48:51,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529108,2026-05-26T10:02:51,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529109,2026-05-25T09:27:09,EA Sports,Batch Job Failure,Low,Sev3,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529110,2026-05-25T03:10:30,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529111,2026-05-24T03:10:29,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529112,2026-05-23T03:10:26,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529113,2026-05-22T20:37:05,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529114,2026-05-22T08:53:35,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529115,2026-05-22T03:10:40,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529116,2026-05-22T02:20:18,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529117,2026-05-21T03:35:21,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529118,2026-05-21T03:10:38,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529119,2026-05-20T03:10:40,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529120,2026-05-19T03:10:39,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529121,2026-05-19T01:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529122,2026-05-19T00:07:05,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529123,2026-05-18T20:25:38,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529124,2026-05-18T19:49:38,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529125,2026-05-18T19:43:38,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529126,2026-05-18T06:01:40,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529127,2026-05-18T03:10:38,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529128,2026-05-17T07:49:40,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529129,2026-05-17T03:10:41,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529130,2026-05-16T07:17:08,Pizza Hut,Disk Space,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529131,2026-05-16T03:10:41,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529132,2026-05-16T01:25:39,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529133,2026-05-15T20:39:04,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529134,2026-05-15T18:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529135,2026-05-15T16:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529136,2026-05-15T03:10:45,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529137,2026-05-15T01:52:55,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529138,2026-05-15T01:12:55,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529139,2026-05-15T01:02:06,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529140,2026-05-14T23:31:44,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529141,2026-05-14T08:22:08,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529142,2026-05-14T03:11:15,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529143,2026-05-13T02:24:29,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529144,2026-05-13T02:24:27,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529145,2026-05-13T02:24:25,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529146,2026-05-13T02:24:23,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529147,2026-05-12T14:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529148,2026-05-12T13:07:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529149,2026-05-12T12:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529150,2026-05-12T12:22:08,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529151,2026-05-12T03:11:10,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529152,2026-05-11T23:18:25,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529153,2026-05-11T23:10:59,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529154,2026-05-11T23:02:27,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529155,2026-05-11T22:46:25,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529156,2026-05-11T22:33:35,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529157,2026-05-11T21:17:19,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529158,2026-05-11T21:04:07,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529159,2026-05-11T20:46:17,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529160,2026-05-11T20:32:15,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529161,2026-05-11T13:43:08,Pizza Hut,Disk Space,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529162,2026-05-11T07:46:03,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529163,2026-05-11T03:11:15,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529164,2026-05-10T13:20:03,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529165,2026-05-10T09:39:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529166,2026-05-10T03:11:10,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529167,2026-05-09T03:11:09,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529168,2026-05-09T02:00:30,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529169,2026-05-08T20:36:04,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529170,2026-05-08T20:16:04,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529171,2026-05-07T09:38:11,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529172,2026-05-07T01:10:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529173,2026-05-07T01:05:14,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529174,2026-05-07T00:55:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529175,2026-05-07T00:45:15,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529176,2026-05-07T00:40:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529177,2026-05-07T00:30:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529178,2026-05-07T00:22:09,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529179,2026-05-07T00:20:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529180,2026-05-07T00:15:12,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529181,2026-05-07T00:10:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529182,2026-05-07T00:05:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529183,2026-05-07T00:00:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529184,2026-05-06T23:55:12,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529185,2026-05-06T23:45:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529186,2026-05-06T23:45:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529187,2026-05-06T23:40:09,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529188,2026-05-06T23:35:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529189,2026-05-06T23:35:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529190,2026-05-06T23:35:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529191,2026-05-06T23:30:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529192,2026-05-06T23:30:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529193,2026-05-06T14:21:24,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529194,2026-05-06T14:21:22,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529195,2026-05-06T14:21:20,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529196,2026-05-06T14:21:18,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529197,2026-05-06T06:31:23,EA Sports,Batch Job Failure,Low,Sev3,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529198,2026-05-06T04:22:51,EA Sports,Test / Integration Alert,Low,Sev3,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529199,2026-05-06T03:11:02,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529200,2026-05-05T08:05:09,EA Sports,Transaction Not Received (No-Hit),High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529201,2026-05-04T12:40:36,EA Sports,Test / Integration Alert,Low,Sev3,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529202,2026-05-04T03:10:59,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529203,2026-05-03T03:11:01,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529204,2026-05-02T03:11:53,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529205,2026-05-02T01:59:44,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529206,2026-05-01T20:32:04,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529207,2026-05-01T19:18:08,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529208,2026-05-01T03:11:01,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529209,2026-04-30T11:00:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529210,2026-04-30T10:20:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529211,2026-04-30T10:15:04,EA Sports,Transaction Not Received (No-Hit),High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529212,2026-04-30T03:10:58,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529213,2026-04-29T08:09:09,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529214,2026-04-29T08:00:47,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529215,2026-04-29T03:11:03,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529216,2026-04-28T03:10:54,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529217,2026-04-28T02:17:39,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529218,2026-04-28T01:59:42,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529219,2026-04-27T03:10:59,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529220,2026-04-26T03:10:49,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529221,2026-04-25T03:10:49,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529222,2026-04-25T02:08:03,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529223,2026-04-25T01:28:13,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529224,2026-04-24T20:40:06,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529225,2026-04-24T19:18:05,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529226,2026-04-24T03:10:59,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529227,2026-04-23T20:35:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529228,2026-04-23T20:30:10,Pizza Hut,Moment (Personalization) Failures,High,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529229,2026-04-23T03:10:58,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529230,2026-04-22T03:10:56,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529231,2026-04-21T03:10:52,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529232,2026-04-20T09:06:04,EA Sports,Load Balancer (ELB) Errors,High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529233,2026-04-20T03:10:51,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529234,2026-04-19T21:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529235,2026-04-19T11:25:05,EA Sports,Transaction Not Received (No-Hit),High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529236,2026-04-19T08:49:07,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529237,2026-04-19T03:10:50,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529238,2026-04-18T03:10:51,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529239,2026-04-17T20:52:03,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529240,2026-04-17T20:38:05,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529241,2026-04-17T20:18:05,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529242,2026-04-17T19:18:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529243,2026-04-17T05:42:05,Bridgestone,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529244,2026-04-17T03:10:52,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529245,2026-04-16T21:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529246,2026-04-16T07:16:04,EA Sports,Load Balancer (ELB) Errors,High,Sev2,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529247,2026-04-15T03:10:51,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529248,2026-04-15T02:03:09,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529249,2026-04-14T07:26:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529250,2026-04-14T03:11:36,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529251,2026-04-14T01:36:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529252,2026-04-13T03:10:51,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529253,2026-04-12T13:36:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529254,2026-04-12T08:06:08,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529255,2026-04-12T08:00:32,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529256,2026-04-12T08:00:14,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529257,2026-04-11T23:10:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529258,2026-04-11T07:33:08,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529259,2026-04-11T06:38:08,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529260,2026-04-11T03:10:39,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529261,2026-04-10T22:32:57,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529262,2026-04-10T21:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529263,2026-04-10T20:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529264,2026-04-10T19:24:09,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529265,2026-04-10T09:45:57,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529266,2026-04-10T06:40:09,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529267,2026-04-10T02:21:08,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529268,2026-04-09T21:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529269,2026-04-09T07:10:28,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529270,2026-04-09T05:48:21,Pizza Hut,Batch Job Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529271,2026-04-09T04:43:00,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529272,2026-04-09T01:05:20,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529273,2026-04-09T01:00:17,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529274,2026-04-09T00:55:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529275,2026-04-09T00:45:05,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529276,2026-04-09T00:40:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529277,2026-04-09T00:30:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529278,2026-04-09T00:25:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529279,2026-04-09T00:21:07,Pizza Hut,Service / Process Not Running,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529280,2026-04-09T00:15:07,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529281,2026-04-09T00:10:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529282,2026-04-09T00:05:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529283,2026-04-09T00:05:06,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529284,2026-04-09T00:00:17,Pizza Hut,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529285,2026-04-09T00:00:10,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529286,2026-04-08T23:58:21,Pizza Hut,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529287,2026-04-08T23:55:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529288,2026-04-08T23:55:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529289,2026-04-08T23:50:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529290,2026-04-08T23:50:04,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529291,2026-04-08T23:45:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529292,2026-04-08T23:45:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529293,2026-04-08T23:40:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529294,2026-04-08T23:35:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529295,2026-04-08T23:35:09,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529296,2026-04-08T04:10:18,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529297,2026-04-08T02:13:32,EA Sports,Escalation / Page-out,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529298,2026-04-07T03:12:31,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529299,2026-04-06T23:08:52,Pizza Hut,DB Concurrency / Waiting Users,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529300,2026-04-06T03:04:58,Pizza Hut,Extract / Report Delivery Delay,High,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529301,2026-04-04T03:12:41,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529302,2026-04-03T19:18:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529303,2026-04-03T03:12:42,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529304,2026-04-02T09:04:37,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529305,2026-04-02T09:04:35,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529306,2026-04-02T09:04:33,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529307,2026-04-02T04:33:49,Bridgestone,Data Hub Batch Workflow Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529308,2026-04-02T02:27:39,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529309,2026-04-02T02:20:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529310,2026-04-02T02:11:00,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529311,2026-04-02T01:51:39,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529312,2026-04-01T00:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529313,2026-03-31T03:12:46,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529314,2026-03-27T19:24:04,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529315,2026-03-27T07:22:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529316,2026-03-27T06:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529317,2026-03-27T03:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529318,2026-03-27T03:13:28,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529319,2026-03-26T13:42:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529320,2026-03-26T07:22:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529321,2026-03-25T03:11:03,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529322,2026-03-23T07:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529323,2026-03-21T22:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529324,2026-03-21T02:20:49,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529325,2026-03-20T17:16:04,Bridgestone,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529326,2026-03-20T02:12:49,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529327,2026-03-20T02:10:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529328,2026-03-19T03:12:48,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529329,2026-03-19T00:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529330,2026-03-18T03:11:58,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529331,2026-03-17T23:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529332,2026-03-17T03:12:48,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529333,2026-03-17T01:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529334,2026-03-16T03:12:00,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529335,2026-03-15T05:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529336,2026-03-15T03:11:06,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529337,2026-03-14T03:11:07,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529338,2026-03-13T23:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529339,2026-03-13T20:36:05,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529340,2026-03-13T17:36:02,Bridgestone,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529341,2026-03-13T13:18:04,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529342,2026-03-13T07:53:56,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529343,2026-03-13T03:21:46,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529344,2026-03-12T04:21:45,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529345,2026-03-12T04:04:15,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529346,2026-03-12T03:11:45,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529347,2026-03-11T18:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529348,2026-03-11T14:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529349,2026-03-11T12:15:32,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529350,2026-03-11T07:17:22,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529351,2026-03-11T07:17:19,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529352,2026-03-11T07:17:17,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529353,2026-03-11T07:17:14,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529354,2026-03-11T06:37:01,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529355,2026-03-11T06:36:59,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529356,2026-03-11T06:36:55,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529357,2026-03-11T06:36:53,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529358,2026-03-10T15:46:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529359,2026-03-10T05:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529360,2026-03-10T04:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529361,2026-03-10T03:13:34,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529362,2026-03-09T22:20:56,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529363,2026-03-09T16:51:47,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529364,2026-03-09T08:55:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529365,2026-03-09T08:45:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529366,2026-03-09T08:30:06,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529367,2026-03-09T08:10:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529368,2026-03-09T08:05:06,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529369,2026-03-09T07:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529370,2026-03-08T22:10:08,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529371,2026-03-08T17:11:47,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529372,2026-03-07T23:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529373,2026-03-07T23:10:57,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529374,2026-03-07T22:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529375,2026-03-07T21:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529376,2026-03-07T20:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529377,2026-03-07T16:32:37,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529378,2026-03-07T03:11:52,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529379,2026-03-06T22:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529380,2026-03-06T22:20:57,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529381,2026-03-06T22:10:57,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529382,2026-03-06T21:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529383,2026-03-06T20:40:04,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529384,2026-03-06T20:18:05,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529385,2026-03-06T19:18:05,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529386,2026-03-06T16:41:48,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529387,2026-03-06T03:11:02,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529388,2026-03-05T22:50:56,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529389,2026-03-05T17:01:48,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529390,2026-03-05T10:21:24,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529391,2026-03-05T09:36:29,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529392,2026-03-05T09:34:39,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529393,2026-03-05T06:42:29,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529394,2026-03-05T00:10:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529395,2026-03-05T00:05:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529396,2026-03-04T23:25:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529397,2026-03-04T23:15:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529398,2026-03-04T23:00:10,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529399,2026-03-04T22:50:14,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529400,2026-03-04T22:45:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529401,2026-03-04T22:40:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529402,2026-03-04T22:40:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529403,2026-03-04T22:35:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529404,2026-03-04T22:35:09,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529405,2026-03-04T17:04:37,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529406,2026-03-04T11:31:16,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529407,2026-03-03T23:30:27,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529408,2026-03-03T10:49:42,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529409,2026-03-03T09:41:24,Bridgestone,Data Hub Batch Workflow Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529410,2026-03-03T09:35:45,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529411,2026-03-02T22:51:19,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529412,2026-03-02T17:10:29,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529413,2026-03-02T09:32:09,Bridgestone,Data Hub Batch Workflow Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529414,2026-03-02T03:06:19,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529415,2026-03-01T23:50:30,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529416,2026-03-01T18:10:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529417,2026-03-01T16:41:05,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529418,2026-03-01T08:46:24,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529419,2026-03-01T04:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529420,2026-03-01T03:11:22,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529421,2026-02-28T23:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529422,2026-02-28T17:04:41,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529423,2026-02-28T09:33:05,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529424,2026-02-28T03:10:45,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529425,2026-02-27T22:50:42,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529426,2026-02-27T20:39:21,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529427,2026-02-27T19:17:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529428,2026-02-27T18:58:42,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529429,2026-02-27T17:00:43,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529430,2026-02-27T11:19:07,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529431,2026-02-27T05:23:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529432,2026-02-27T03:11:35,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529433,2026-02-27T01:21:32,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529434,2026-02-27T00:20:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529435,2026-02-26T22:40:42,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529436,2026-02-26T22:10:44,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529437,2026-02-26T16:41:32,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529438,2026-02-26T12:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529439,2026-02-26T04:02:41,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529440,2026-02-26T01:22:44,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529441,2026-02-25T20:35:53,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529442,2026-02-25T19:13:07,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529443,2026-02-25T18:05:08,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529444,2026-02-25T18:02:23,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529445,2026-02-25T17:52:23,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529446,2026-02-25T17:41:08,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529447,2026-02-25T01:37:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529448,2026-02-25T01:10:09,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529449,2026-02-24T23:52:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529450,2026-02-24T16:22:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529451,2026-02-24T16:07:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529452,2026-02-24T14:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529453,2026-02-24T13:15:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529454,2026-02-24T13:10:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529455,2026-02-24T11:48:34,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529456,2026-02-24T11:02:32,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529457,2026-02-24T05:24:55,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529458,2026-02-24T03:23:23,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529459,2026-02-24T03:12:25,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529460,2026-02-23T12:54:13,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529461,2026-02-23T12:54:05,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529462,2026-02-23T12:54:03,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529463,2026-02-23T12:51:42,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529464,2026-02-23T12:49:26,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529465,2026-02-23T12:35:47,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529466,2026-02-23T07:22:07,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529467,2026-02-22T23:35:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529468,2026-02-22T23:30:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529469,2026-02-22T23:25:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529470,2026-02-22T23:20:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529471,2026-02-22T23:10:03,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529472,2026-02-22T23:05:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529473,2026-02-22T23:00:03,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529474,2026-02-22T22:55:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529475,2026-02-22T22:50:04,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529476,2026-02-22T22:45:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529477,2026-02-22T05:38:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529478,2026-02-22T03:12:28,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529479,2026-02-21T15:07:07,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529480,2026-02-21T03:11:40,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529481,2026-02-21T01:44:09,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529482,2026-02-21T01:11:40,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529483,2026-02-20T20:43:05,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529484,2026-02-20T20:23:03,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529485,2026-02-20T06:36:05,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529486,2026-02-20T03:11:42,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529487,2026-02-19T18:31:05,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529488,2026-02-19T07:34:04,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529489,2026-02-19T07:29:59,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529490,2026-02-19T03:12:32,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529491,2026-02-18T22:22:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529492,2026-02-18T18:07:05,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529493,2026-02-17T13:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529494,2026-02-17T12:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529495,2026-02-17T12:22:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529496,2026-02-17T12:15:14,Bridgestone,Load Distribution Alert,Medium,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529497,2026-02-17T12:10:09,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529498,2026-02-17T12:07:24,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529499,2026-02-17T11:20:10,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529500,2026-02-17T11:07:21,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529501,2026-02-17T09:07:19,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529502,2026-02-17T09:00:12,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529503,2026-02-17T04:07:32,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529504,2026-02-16T22:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529505,2026-02-16T15:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529506,2026-02-16T15:37:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529507,2026-02-16T15:22:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529508,2026-02-16T14:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529509,2026-02-16T14:37:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529510,2026-02-16T12:52:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529511,2026-02-16T12:22:06,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529512,2026-02-16T03:12:34,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529513,2026-02-16T00:03:40,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529514,2026-02-15T17:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529515,2026-02-15T16:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529516,2026-02-15T13:37:05,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529517,2026-02-15T03:12:35,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529518,2026-02-14T14:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529519,2026-02-14T04:52:33,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529520,2026-02-14T03:11:49,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529521,2026-02-13T23:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529522,2026-02-13T23:22:06,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529523,2026-02-13T23:10:09,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529524,2026-02-13T20:45:09,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529525,2026-02-13T20:37:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529526,2026-02-13T20:21:07,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529527,2026-02-13T19:23:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529528,2026-02-13T19:17:11,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529529,2026-02-13T15:07:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529530,2026-02-13T13:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529531,2026-02-13T11:37:05,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529532,2026-02-13T04:05:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529533,2026-02-13T03:55:12,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529534,2026-02-12T17:00:09,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529535,2026-02-10T23:08:28,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529536,2026-02-10T17:15:09,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529537,2026-02-10T17:15:09,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529538,2026-02-10T15:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529539,2026-02-10T15:45:14,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529540,2026-02-10T15:45:11,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529541,2026-02-10T15:45:11,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529542,2026-02-10T15:45:11,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529543,2026-02-10T15:45:11,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529544,2026-02-10T15:45:10,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529545,2026-02-10T15:45:10,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529546,2026-02-10T15:45:10,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529547,2026-02-10T15:45:09,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529548,2026-02-10T15:33:09,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529549,2026-02-10T15:33:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529550,2026-02-10T08:37:05,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529551,2026-02-09T17:50:08,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529552,2026-02-09T16:29:26,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529553,2026-02-09T04:01:09,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529554,2026-02-09T02:47:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529555,2026-02-08T03:12:43,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529556,2026-02-07T22:00:03,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529557,2026-02-07T21:40:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529558,2026-02-07T21:30:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529559,2026-02-07T21:10:03,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529560,2026-02-07T17:28:44,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529561,2026-02-07T16:46:44,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529562,2026-02-07T06:06:03,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529563,2026-02-07T05:56:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529564,2026-02-07T03:10:17,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529565,2026-02-07T00:32:48,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529566,2026-02-07T00:06:45,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529567,2026-02-06T20:37:08,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529568,2026-02-06T19:23:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529569,2026-02-06T06:48:44,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529570,2026-02-06T04:16:51,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529571,2026-02-06T04:05:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529572,2026-02-06T03:45:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529573,2026-02-06T03:35:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529574,2026-02-06T03:20:09,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529575,2026-02-06T02:55:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529576,2026-02-05T22:46:05,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529577,2026-02-05T07:06:45,EA Sports,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529578,2026-02-05T06:20:56,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529579,2026-02-05T02:31:26,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529580,2026-02-04T15:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529581,2026-02-03T16:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529582,2026-02-03T15:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529583,2026-02-03T05:18:37,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529584,2026-02-03T03:50:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529585,2026-02-03T03:35:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529586,2026-02-03T03:20:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529587,2026-02-03T03:19:35,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529588,2026-02-03T03:00:13,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529589,2026-02-03T02:50:10,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529590,2026-02-03T02:40:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529591,2026-02-02T22:23:37,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529592,2026-02-02T17:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529593,2026-02-02T16:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529594,2026-02-02T13:34:35,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529595,2026-02-02T01:53:10,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529596,2026-02-01T08:45:22,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529597,2026-02-01T03:10:25,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529598,2026-01-31T07:14:06,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529599,2026-01-30T22:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529600,2026-01-30T21:46:05,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529601,2026-01-30T20:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529602,2026-01-30T20:36:04,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529603,2026-01-30T20:18:06,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529604,2026-01-30T10:54:01,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529605,2026-01-30T10:53:59,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529606,2026-01-30T10:53:57,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529607,2026-01-30T10:53:54,EA Sports,Service / Process Not Running,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529608,2026-01-30T07:50:12,EA Sports,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529609,2026-01-30T07:50:10,EA Sports,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529610,2026-01-30T03:10:26,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529611,2026-01-30T00:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529612,2026-01-29T23:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529613,2026-01-29T22:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529614,2026-01-29T14:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529615,2026-01-29T10:40:34,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529616,2026-01-29T09:00:09,EA Sports,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529617,2026-01-29T08:54:08,EA Sports,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529618,2026-01-29T07:40:26,EA Sports,Service / Process Not Running,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529619,2026-01-29T07:40:26,EA Sports,Service / Process Not Running,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529620,2026-01-29T05:36:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529621,2026-01-27T19:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529622,2026-01-27T09:36:05,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529623,2026-01-27T09:26:05,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529624,2026-01-27T09:16:07,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529625,2026-01-27T08:56:06,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529626,2026-01-27T08:26:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529627,2026-01-27T06:52:06,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529628,2026-01-27T06:36:05,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529629,2026-01-27T05:40:10,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529630,2026-01-27T03:42:07,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529631,2026-01-26T11:16:09,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529632,2026-01-26T02:01:54,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529633,2026-01-26T00:36:10,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529634,2026-01-25T19:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529635,2026-01-25T05:41:55,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529636,2026-01-25T05:36:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529637,2026-01-25T05:04:41,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529638,2026-01-25T04:35:26,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529639,2026-01-25T03:23:46,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529640,2026-01-25T03:10:31,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529641,2026-01-25T02:53:46,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529642,2026-01-25T02:43:46,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529643,2026-01-25T02:35:25,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529644,2026-01-25T02:12:57,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529645,2026-01-24T03:10:31,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529646,2026-01-23T19:24:09,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529647,2026-01-23T12:12:39,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529648,2026-01-23T11:13:25,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529649,2026-01-23T06:17:12,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529650,2026-01-23T03:10:36,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529651,2026-01-23T03:04:09,EA Sports,Monitoring Agent Offline,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529652,2026-01-22T19:45:06,EA Sports,Moment (Personalization) Failures,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529653,2026-01-22T19:40:06,EA Sports,Moment (Personalization) Failures,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529654,2026-01-22T17:38:03,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529655,2026-01-22T17:37:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529656,2026-01-22T12:26:10,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529657,2026-01-22T12:23:03,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529658,2026-01-22T12:22:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529659,2026-01-22T12:20:05,EA Sports,Moment (Personalization) Failures,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529660,2026-01-22T12:16:05,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529661,2026-01-21T05:46:12,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529662,2026-01-21T03:10:35,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529663,2026-01-20T03:10:36,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529664,2026-01-20T01:52:00,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529665,2026-01-19T19:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529666,2026-01-19T17:56:12,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529667,2026-01-19T11:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529668,2026-01-19T11:23:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529669,2026-01-19T10:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529670,2026-01-19T09:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529671,2026-01-19T03:10:37,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529672,2026-01-17T19:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529673,2026-01-17T03:10:39,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529674,2026-01-17T01:49:09,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529675,2026-01-17T01:12:55,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529676,2026-01-16T19:18:09,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529677,2026-01-16T05:18:11,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529678,2026-01-16T03:10:40,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529679,2026-01-15T03:10:44,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529680,2026-01-14T18:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529681,2026-01-14T17:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529682,2026-01-14T16:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529683,2026-01-14T16:30:12,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529684,2026-01-14T11:22:06,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529685,2026-01-14T11:20:38,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529686,2026-01-14T11:00:11,Pizza Hut,Server Unreachable / Uptime,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529687,2026-01-13T23:29:29,Pizza Hut,DB Concurrency / Waiting Users,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529688,2026-01-13T23:10:12,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529689,2026-01-13T23:10:09,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529690,2026-01-13T23:10:05,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529691,2026-01-13T23:04:10,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529692,2026-01-13T23:04:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529693,2026-01-13T03:10:19,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529694,2026-01-12T11:16:08,Pizza Hut,Server Unreachable / Uptime,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529695,2026-01-12T11:16:08,Pizza Hut,Server Unreachable / Uptime,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529696,2026-01-12T11:16:07,Pizza Hut,Server Unreachable / Uptime,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529697,2026-01-12T06:37:04,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529698,2026-01-12T03:10:16,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529699,2026-01-12T00:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529700,2026-01-11T06:24:20,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529701,2026-01-11T03:54:12,Bridgestone,Data Hub Batch Workflow Failure,High,Sev2,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529702,2026-01-11T03:10:17,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529703,2026-01-11T02:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529704,2026-01-11T02:07:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529705,2026-01-10T19:43:53,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529706,2026-01-10T05:53:03,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529707,2026-01-10T05:36:06,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529708,2026-01-10T05:26:05,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529709,2026-01-10T05:23:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529710,2026-01-10T03:10:21,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529711,2026-01-10T00:51:56,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529712,2026-01-09T20:36:04,Pizza Hut,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529713,2026-01-09T20:26:06,EA Sports,Monitoring Agent Offline,Low,Sev4,4 - Low,Product Support - Agility Loyalty
+INC3529714,2026-01-09T19:18:06,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529715,2026-01-09T03:10:23,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529716,2026-01-08T06:01:57,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529717,2026-01-08T04:20:43,Bridgestone,API Latency / Slow Response,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529718,2026-01-08T03:35:01,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529719,2026-01-08T03:21:29,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529720,2026-01-08T01:40:14,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529721,2026-01-08T01:35:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529722,2026-01-08T01:20:10,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529723,2026-01-08T01:10:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529724,2026-01-08T00:55:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529725,2026-01-08T00:50:10,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529726,2026-01-08T00:45:12,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529727,2026-01-08T00:40:06,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529728,2026-01-08T00:35:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529729,2026-01-08T00:31:50,Pizza Hut,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529730,2026-01-08T00:30:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529731,2026-01-08T00:20:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529732,2026-01-08T00:16:22,Pizza Hut,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529733,2026-01-08T00:10:14,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529734,2026-01-07T23:55:11,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529735,2026-01-07T23:50:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529736,2026-01-07T23:45:12,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529737,2026-01-07T23:40:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529738,2026-01-07T23:35:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529739,2026-01-07T23:35:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529740,2026-01-07T09:09:08,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529741,2026-01-07T08:43:08,Pizza Hut,Server Unreachable / Uptime,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529742,2026-01-07T08:39:09,Pizza Hut,Server Unreachable / Uptime,Low,Sev3,3 - Medium,Product Support - Agility Loyalty
+INC3529743,2026-01-07T05:36:03,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529744,2026-01-07T03:10:40,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529745,2026-01-06T22:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529746,2026-01-06T21:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529747,2026-01-06T03:10:43,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529748,2026-01-06T03:10:42,Pizza Hut,Memory Utilization,Medium,Sev2,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529749,2026-01-06T03:10:40,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty
+INC3529750,2026-01-05T21:37:05,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529751,2026-01-05T20:07:03,Bridgestone,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529752,2026-01-05T19:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529753,2026-01-05T05:56:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529754,2026-01-05T05:36:05,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529755,2026-01-05T05:26:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529756,2026-01-05T03:12:25,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529757,2026-01-05T03:00:59,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529758,2026-01-04T23:25:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529759,2026-01-04T23:15:12,Pizza Hut,API Latency / Slow Response,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529760,2026-01-04T22:50:09,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529761,2026-01-04T22:45:11,Pizza Hut,Moment (Personalization) Failures,High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529762,2026-01-04T11:23:04,EA Sports,API Error Rate,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529763,2026-01-04T11:15:05,EA Sports,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529764,2026-01-04T11:12:01,EA Sports,Synthetic Monitoring (ThousandEyes),High,Sev1,3 - Medium,Product Support - Agility Loyalty
+INC3529765,2026-01-04T06:36:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529766,2026-01-04T06:06:05,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529767,2026-01-04T03:10:18,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529768,2026-01-03T23:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529769,2026-01-03T03:11:09,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529770,2026-01-02T20:46:03,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529771,2026-01-02T19:46:04,Bridgestone,Transaction Not Received (No-Hit),High,Sev1,3 - Medium,Client Support Subscription Services - Bridgestone
+INC3529772,2026-01-01T08:45:18,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529773,2026-01-01T05:46:04,EA Sports,Load Balancer (ELB) Errors,High,Sev1,3 - Medium,Client Support Subscription Services - EA Sports
+INC3529774,2026-01-01T04:11:09,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529775,2026-01-01T04:02:46,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529776,2026-01-01T03:51:58,Pizza Hut,Batch Job Failure,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529777,2026-01-01T03:10:22,Pizza Hut,Extract / Report Delivery Delay,High,Sev1,3 - Medium,Client Support Subscription Services - Pizza Hut Brands
+INC3529778,2026-01-01T03:08:47,Pizza Hut,Disk Space,Medium,Sev2,3 - Medium,Product Support - Agility Loyalty

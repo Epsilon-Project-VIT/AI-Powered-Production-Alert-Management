@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-10-04T19:21:24.813119",
+  "configuration": {
+    "temporal_window_hours": 24.0,
+    "min_correlation_score": 0.7,
+    "correlation_weights": {
+      "semantic": 0.3,
+      "temporal": 0.2,
+      "client": 0.15,
+      "family": 0.1,
+      "service": 0.15,
+      "stage2": 0.1
+    },
+    "stage2_weights": {
+      "alert_type_weight": 0.3,
+      "severity_weight": 0.25,
+      "business_impact_weight": 0.2,
+      "priority_weight": 0.15,
+      "routing_weight": 0.1
+    }
+  },
+  "statistics": {
+    "total_alerts": 889,
+    "total_incidents": 151,
+    "grouped_alerts": 509,
+    "uncorrelated_alerts": 380,
+    "grouping_rate": 57.25534308211474,
+    "group_size_stats": {
+      "mean": 3.370860927152318,
+      "median": 2.0,
+      "max": 31,
+      "min": 2
+    },
+    "duration_stats": {
+      "mean_hours": 13.375421265636499,
+      "median_hours": 2.862222222222222,
+      "max_hours": 142.8413888888889,
+      "min_hours": 0.0
+    },
+    "incidents_by_method": {
+      "exact_signature_match": 116,
+      "graph_connected_component": 35
+    },
+    "incidents_by_client": {
+      "Bridgestone": 44,
+      "Pizza Hut": 73,
+      "EA Sports": 34
+    }
+  }
+}

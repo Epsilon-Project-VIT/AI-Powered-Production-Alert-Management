@@ -1,0 +1,1524 @@
+{
+  "metadata": {
+    "total_analyses": 151,
+    "diagnosis_status_counts": {
+      "ambiguous": 150,
+      "insufficient_evidence": 1
+    },
+    "timestamp": "2026-10-03T14:02:00.181553",
+    "rca_scope": "historical_alert_text_only",
+    "note": "Mock telemetry RCA - no real logs/metrics/traces available"
+  },
+  "analyses": [
+    {
+      "incident_id": "INCIDENT-0001",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 22,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0002",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 40,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0003",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 20770,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0004",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 2727,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0005",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "mulesoft",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 56,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0006",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 2097,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0007",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 15,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0008",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 675,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0009",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 468,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0010",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 432,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0011",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 65,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0012",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 219,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0013",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 2548,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0014",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1507,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0015",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 14,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0016",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 4831,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0017",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 327,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0018",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 518,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0019",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 709,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0020",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 7106,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0021",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13789,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0022",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 203,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0023",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 617,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0024",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 140,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0025",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1106,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0026",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 34,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0027",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 27687,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0028",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6978,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0029",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13841,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0030",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13874,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0031",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 17,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0032",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 28191,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0033",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1495,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0034",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 225,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0035",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 14,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0036",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 9208,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0037",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6920,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0038",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 788,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0039",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6852,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0040",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 354,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0041",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 223,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0042",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 68,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0043",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 5541,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0044",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6940,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0045",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6581,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0046",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6371,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0047",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13800,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0048",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 3,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0049",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 143,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0050",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 554,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0051",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0052",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 2065,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0053",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 83,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0054",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 41321,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0055",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 16,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0056",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 166,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0057",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6623,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0058",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 32,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0059",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 567,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0060",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "elb",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 24,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0061",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6337,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0062",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 37,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0063",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6928,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0064",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 822,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0065",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 657,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0066",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 198,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0067",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 3117,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0068",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 3170,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0069",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 43,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0070",
+      "diagnosis_status": "insufficient_evidence",
+      "probable_root_cause": {
+        "component": "moment (personalization) failures",
+        "failure_type": "service_error"
+      },
+      "evidence_count": 0,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0071",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 20,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0072",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 188,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0073",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13899,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0074",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6959,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0075",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 192,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0076",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "mulesoft",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 73,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0077",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 324,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0078",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6318,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0079",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13938,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0080",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 40,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0081",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6894,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0082",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 7538,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0083",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 567,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0084",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 107,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0085",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13508,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0086",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 8645,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0087",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13910,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0088",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6595,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0089",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 26,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0090",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6300,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0091",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6969,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0092",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 3995,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0093",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 192,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0094",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1420,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0095",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13843,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0096",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1139,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0097",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6899,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0098",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 34,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0099",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 2969,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0100",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13816,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0101",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1489,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0102",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 575,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0103",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1184,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0104",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 268,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0105",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 280,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0106",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 15,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0107",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 273,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0108",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6987,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0109",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 135,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0110",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6052,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0111",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "mulesoft",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 68,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0112",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13845,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0113",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1245,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0114",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1116,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0115",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 2129,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0116",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6912,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0117",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6304,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0118",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 2888,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0119",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1589,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0120",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6892,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0121",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 854,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0122",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1125,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0123",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 39,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0124",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 423,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0125",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "mulesoft",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 70,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0126",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 67,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0127",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 202,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0128",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 512,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0129",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 59,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0130",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 1062,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0131",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 13867,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0132",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 67,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0133",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6950,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0134",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 217,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0135",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 2889,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0136",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6772,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0137",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6379,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0138",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 248,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0139",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 33,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0140",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 888,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0141",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 285,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0142",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6954,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0143",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 217,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0144",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6975,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0145",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6888,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0146",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 54,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0147",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 58,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0148",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 11,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0149",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 289,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0150",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 6909,
+      "recommended_actions_count": 2
+    },
+    {
+      "incident_id": "INCIDENT-0151",
+      "diagnosis_status": "ambiguous",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "performance_degradation"
+      },
+      "evidence_count": 787,
+      "recommended_actions_count": 2
+    }
+  ]
+}

@@ -1,0 +1,918 @@
+alert_id,created_at,client,description
+INC3529778,2026-01-01 03:08:47,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHT3BQU05I Disk C:\ Warning. Used 85.09%; Free 14.91%; Disk Capacity 2047997 MB. 
+Threshold is 85%."
+INC3529777,2026-01-01 03:10:22,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529776,2026-01-01 03:51:58,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529775,2026-01-01 04:02:46,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529774,2026-01-01 04:11:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529773,2026-01-01 05:46:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-01T10:46:00.334154390Z UTC - 7 ELB errors occurred in t
+INC3529772,2026-01-01 08:45:18,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: VAP Extract Process Not Completed
+INC3529771,2026-01-02 19:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529770,2026-01-02 20:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529769,2026-01-03 03:11:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529768,2026-01-03 23:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529767,2026-01-04 03:10:18,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529766,2026-01-04 06:06:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-04T11:06:00.036957275Z UTC - 7 ELB errors occurred in t
+INC3529765,2026-01-04 06:36:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-04T11:36:00.355683565Z UTC - 6 ELB errors occurred in t
+INC3529764,2026-01-04 11:12:01,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Prod Web API - Error Type is any [TE]
+INC3529763,2026-01-04 11:15:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-01-04T16:15:00.377404625Z UTC - 7 total hits
+INC3529762,2026-01-04 11:23:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT P1EASS_API_ERR_WARN - 1% INTERNALSERVERERROR threshold (CRITICAL) exceeded in one or more Web
+INC3529761,2026-01-04 22:45:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 2 API calls had Moment failures in last 15 minutes
+INC3529760,2026-01-04 22:50:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 2 API calls had Moment failures in last 15 minutes
+INC3529759,2026-01-04 23:15:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 29908 API calls took more than 7 seconds each in the last hour
+INC3529758,2026-01-04 23:25:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 3793 API calls took more than 7 seconds each in the last hour
+INC3529757,2026-01-05 03:00:59,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Weekly metrics report Job - Not Completed
+INC3529756,2026-01-05 03:12:25,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529755,2026-01-05 05:26:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-05T10:26:00.162183467Z UTC - 22 ELB errors occurred in 
+INC3529754,2026-01-05 05:36:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-05T10:36:00.075199101Z UTC - 8 ELB errors occurred in t
+INC3529753,2026-01-05 05:56:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-05T10:56:00.491492520Z UTC - 26 ELB errors occurred in 
+INC3529752,2026-01-05 19:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529751,2026-01-05 20:07:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529750,2026-01-05 21:37:05,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529749,2026-01-06 03:10:40,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHT3BQU05I Disk C:\ Warning. Used 85.16%; Free 14.84%; Disk Capacity 2047997 MB. 
+Threshold is 85%."
+INC3529748,2026-01-06 03:10:42,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT3BQU05I The Physical Memory Usage on the device is 50%.The Virtual Memory Usage on the device is 36%.
+INC3529747,2026-01-06 03:10:43,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529746,2026-01-06 21:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529745,2026-01-06 22:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529744,2026-01-07 03:10:40,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529743,2026-01-07 05:36:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-07T10:36:00.217933264Z UTC - 6 ELB errors occurred in t
+INC3529742,2026-01-07 08:39:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ua2uPZHTora61 is Unreachable
+INC3529741,2026-01-07 08:43:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) U2PZHT-AL-EC2-DB-STANDBY is Unreachable
+INC3529740,2026-01-07 09:09:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) U2PZHT-AL-EC2-DB is Unreachable
+INC3529739,2026-01-07 23:35:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 245 API calls had Moment failures in last 15 minutes
+INC3529738,2026-01-07 23:35:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 82984 API calls took more than 7 seconds each in the last hour
+INC3529737,2026-01-07 23:40:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 103708 API calls took more than 7 seconds each in the last hour
+INC3529736,2026-01-07 23:45:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 25 Moment failures in last 5 minutes
+INC3529735,2026-01-07 23:50:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 207 API calls had Moment failures in last 15 minutes
+INC3529734,2026-01-07 23:55:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 106360 API calls took more than 7 seconds each in the last hour
+INC3529733,2026-01-08 00:10:14,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 106112 API calls took more than 7 seconds each in the last hour
+INC3529732,2026-01-08 00:16:22,Pizza Hut,CRITICAL_AutoTicket: ThousandEyes PZHT (Pizza Hut) PCL PZHT PROD Fusion Admin Tool - Error is present [TE]
+INC3529731,2026-01-08 00:20:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 73321 API calls took more than 7 seconds each in the last hour
+INC3529730,2026-01-08 00:30:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 36941 API calls took more than 7 seconds each in the last hour
+INC3529729,2026-01-08 00:31:50,Pizza Hut,CRITICAL_AutoTicket: ThousandEyes PZHT (Pizza Hut) PCL PZHT PROD Web API - Error is present [TE]
+INC3529728,2026-01-08 00:35:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 32429 API calls took more than 7 seconds each in the last hour
+INC3529727,2026-01-08 00:40:06,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 203 Moment failures in last 5 minutes
+INC3529726,2026-01-08 00:45:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 61 Moment failures in last 5 minutes
+INC3529725,2026-01-08 00:50:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 228 API calls had Moment failures in last 15 minutes
+INC3529724,2026-01-08 00:55:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 2 API calls had Moment failures in last 15 minutes
+INC3529723,2026-01-08 01:10:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 46265 API calls took more than 7 seconds each in the last hour
+INC3529722,2026-01-08 01:20:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 46265 API calls took more than 7 seconds each in the last hour
+INC3529721,2026-01-08 01:35:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 20766 API calls took more than 7 seconds each in the last hour
+INC3529720,2026-01-08 01:40:14,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 2309 API calls took more than 7 seconds each in the last hour
+INC3529719,2026-01-08 03:21:29,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT39T2031 The Physical Memory Usage on the device is 50%.The Virtual Memory Usage on the device is 13%.
+INC3529718,2026-01-08 03:35:01,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT39T2031 The Physical Memory Usage on the device is 51%.The Virtual Memory Usage on the device is 13%.
+INC3529717,2026-01-08 04:20:43,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529716,2026-01-08 06:01:57,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529715,2026-01-09 03:10:23,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529714,2026-01-09 19:18:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529713,2026-01-09 20:26:06,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3529712,2026-01-09 20:36:04,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529711,2026-01-10 00:51:56,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529710,2026-01-10 03:10:21,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529709,2026-01-10 05:23:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT P1EASS_API_ERR_WARN - 1% INTERNALSERVERERROR threshold (CRITICAL) exceeded in one or more Web
+INC3529708,2026-01-10 05:26:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-10T10:26:00.361026117Z UTC - 12 ELB errors occurred in 
+INC3529707,2026-01-10 05:36:06,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-10T10:36:00.317813546Z UTC - 6 ELB errors occurred in t
+INC3529706,2026-01-10 05:53:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT P1EASS_API_ERR_WARN - 1% INTERNALSERVERERROR threshold (CRITICAL) exceeded in one or more Web
+INC3529705,2026-01-10 19:43:53,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529704,2026-01-11 02:07:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529703,2026-01-11 02:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529702,2026-01-11 03:10:17,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529701,2026-01-11 03:54:12,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529700,2026-01-11 06:24:20,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529699,2026-01-12 00:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529698,2026-01-12 03:10:16,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529697,2026-01-12 06:37:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529696,2026-01-12 11:16:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) UA2UPZHT02BAVV is Unreachable
+INC3529695,2026-01-12 11:16:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) UA2UPZHT01J5UA is Unreachable
+INC3529694,2026-01-12 11:16:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) UA2UPZHT08AT6 is Unreachable
+INC3529693,2026-01-13 03:10:19,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529692,2026-01-13 23:04:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) PA2UPZHT026E6P is Unreachable
+INC3529691,2026-01-13 23:04:10,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) PA2UPZHT02E38M is Unreachable
+INC3529690,2026-01-13 23:10:05,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) PA2UPZHT01SO0D is Unreachable
+INC3529689,2026-01-13 23:10:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) PA2UPZHT04STD is Unreachable
+INC3529688,2026-01-13 23:10:12,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) PA2UPZHT01EEHF is Unreachable
+INC3529687,2026-01-13 23:29:29,Pizza Hut,Metrics Average Users Waiting Count is at 156.915 for event class Concurrency
+INC3529686,2026-01-14 11:00:11,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) UA2UPZHT025RDA is Unreachable
+INC3529685,2026-01-14 11:20:38,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT P1BGSN_API_PROCESS_TIME - API requests exceeded 10 seconds in the past 10 mins
+INC3529684,2026-01-14 11:22:06,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529683,2026-01-14 16:30:12,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529682,2026-01-14 16:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529681,2026-01-14 17:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529680,2026-01-14 18:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529679,2026-01-15 03:10:44,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529678,2026-01-16 03:10:40,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529677,2026-01-16 05:18:11,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-21 Disk / Critical.Used 99.00%; Free 1.00%; Disk Capacity 51187 MB.Threshold is 95%.
+INC3529676,2026-01-16 19:18:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529675,2026-01-17 01:12:55,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529674,2026-01-17 01:49:09,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529673,2026-01-17 03:10:39,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529672,2026-01-17 19:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529671,2026-01-19 03:10:37,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529670,2026-01-19 09:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529669,2026-01-19 10:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529668,2026-01-19 11:23:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT P1EASS_API_ERR_WARN - 1% INTERNALSERVERERROR threshold (CRITICAL) exceeded in one or more Web
+INC3529667,2026-01-19 11:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529666,2026-01-19 17:56:12,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529665,2026-01-19 19:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529664,2026-01-20 01:52:00,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT39T2031 The Physical Memory Usage on the device is 50%.The Virtual Memory Usage on the device is 41%.
+INC3529663,2026-01-20 03:10:36,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529662,2026-01-21 03:10:35,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529661,2026-01-21 05:46:12,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-21T10:46:00.143647918Z UTC - 6 ELB errors occurred in t
+INC3529660,2026-01-22 12:16:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-22T17:16:00.321057758Z UTC - 472 ELB errors occurred in
+INC3529659,2026-01-22 12:20:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_MOMENT_FAILCHECK - 2026-01-22T17:20:00.460592011Z UTC - 14 Moment failures in 
+INC3529658,2026-01-22 12:22:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_API_ERR_CRITICAL - 2026-01-22T17:22:00.090000215Z UTC - 10% INTERNALSERVERERRO
+INC3529657,2026-01-22 12:23:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT P1EASS_API_ERR_WARN - 1% INTERNALSERVERERROR threshold (CRITICAL) exceeded in one or more Web
+INC3529656,2026-01-22 12:26:10,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-22T17:26:00.254861908Z UTC - 2238 ELB errors occurred i
+INC3529655,2026-01-22 17:37:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_API_ERR_CRITICAL - 2026-01-22T22:37:00.325501306Z UTC - 10% INTERNALSERVERERRO
+INC3529654,2026-01-22 17:38:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT P1EASS_API_ERR_WARN - 1% INTERNALSERVERERROR threshold (CRITICAL) exceeded in one or more Web
+INC3529653,2026-01-22 19:40:06,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_MOMENT_FAILCHECK - 2026-01-23T00:40:00.299147387Z UTC - 6 Moment failures in l
+INC3529652,2026-01-22 19:45:06,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_MOMENT_FAILCHECK - 2026-01-23T00:45:00.017771881Z UTC - 7 Moment failures in l
+INC3529651,2026-01-23 03:04:09,EA Sports,CRITICAL_AutoTicket: EASS (EA Sports) Multiple OpsRamp Agents Offline
+INC3529650,2026-01-23 03:10:36,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529649,2026-01-23 06:17:12,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-23T11:16:00.146136454Z UTC - 8 ELB errors occurred in t
+INC3529648,2026-01-23 11:13:25,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Prod Web API - Error Type is any [TE]
+INC3529647,2026-01-23 12:12:39,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Prod Web API - Error Type is any [TE]
+INC3529646,2026-01-23 19:24:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529645,2026-01-24 03:10:31,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529644,2026-01-25 02:12:57,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529643,2026-01-25 02:35:25,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529642,2026-01-25 02:43:46,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529641,2026-01-25 02:53:46,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529640,2026-01-25 03:10:31,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529639,2026-01-25 03:23:46,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529638,2026-01-25 04:35:26,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529637,2026-01-25 05:04:41,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529636,2026-01-25 05:36:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-25T10:36:00.123534062Z UTC - 6 ELB errors occurred in t
+INC3529635,2026-01-25 05:41:55,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT39T2031 The Physical Memory Usage on the device is 57%.The Virtual Memory Usage on the device is 50%.
+INC3529634,2026-01-25 19:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529633,2026-01-26 00:36:10,Pizza Hut,Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTTBL02 Disk D:\ Warning. Used 85.40%; Free 14.60%; Disk Capacity 122861 MB. Threshold is 85%.
+INC3529632,2026-01-26 02:01:54,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529631,2026-01-26 11:16:09,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-26T16:16:00.396205851Z UTC - 793 ELB errors occurred in
+INC3529630,2026-01-27 03:42:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529629,2026-01-27 05:40:10,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable
+INC3529628,2026-01-27 06:36:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-27T11:36:00.494819884Z UTC - 34 ELB errors occurred in 
+INC3529627,2026-01-27 06:52:06,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-94-101 OpsRamp agent is offline
+INC3529626,2026-01-27 08:26:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-27T13:26:00.095944803Z UTC - 15 ELB errors occurred in 
+INC3529625,2026-01-27 08:56:06,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-27T13:56:00.274060179Z UTC - 6 ELB errors occurred in t
+INC3529624,2026-01-27 09:16:07,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-27T14:16:00.100011293Z UTC - 13 ELB errors occurred in 
+INC3529623,2026-01-27 09:26:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-27T14:26:00.034597806Z UTC - 12 ELB errors occurred in 
+INC3529622,2026-01-27 09:36:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-27T14:36:00.419274180Z UTC - 14 ELB errors occurred in 
+INC3529621,2026-01-27 19:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529620,2026-01-29 05:36:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-01-29T10:36:00.345853470Z UTC - 6 ELB errors occurred in t
+INC3529619,2026-01-29 07:40:26,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) PA2WEASS1FN600L Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529618,2026-01-29 07:40:26,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) PA2WEASS1FN600L Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529617,2026-01-29 08:54:08,EA Sports,CRITICAL_AutoTicket: EASS (EA Sports) Multiple OpsRamp Agents Offline
+INC3529616,2026-01-29 09:00:09,EA Sports,CRITICAL_AutoTicket: EASS (EA Sports) Multiple OpsRamp Agents Offline
+INC3529615,2026-01-29 10:40:34,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529614,2026-01-29 14:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529613,2026-01-29 22:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529612,2026-01-29 23:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529611,2026-01-30 00:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529610,2026-01-30 03:10:26,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529609,2026-01-30 07:50:10,EA Sports,CRITICAL_AutoTicket: EASS (EA Sports) Multiple OpsRamp Agents Offline
+INC3529608,2026-01-30 07:50:12,EA Sports,CRITICAL_AutoTicket: EASS (EA Sports) Multiple OpsRamp Agents Offline
+INC3529607,2026-01-30 10:53:54,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) DA2WEASS039F01N Epsilon.Fusion.Batch.JobService | Not Running
+INC3529606,2026-01-30 10:53:57,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) DA2WEASS039F01N Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529605,2026-01-30 10:53:59,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) DA2WEASS039F01N Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529604,2026-01-30 10:54:01,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) DA2WEASS039F01N Bitvise SSH Server | Not Running
+INC3529603,2026-01-30 20:18:06,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3529602,2026-01-30 20:36:04,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529601,2026-01-30 20:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529600,2026-01-30 21:46:05,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529599,2026-01-30 22:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529598,2026-01-31 07:14:06,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTTBL02 Disk D:\ Warning. Used 88.13%; Free 11.87%; Disk Capacity 122861 MB. 
+Threshold is 85%."
+INC3529597,2026-02-01 03:10:25,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529596,2026-02-01 08:45:22,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: VAP Extract Process Not Completed
+INC3529595,2026-02-02 01:53:10,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529594,2026-02-02 13:34:35,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529593,2026-02-02 16:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529592,2026-02-02 17:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529591,2026-02-02 22:23:37,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529590,2026-02-03 02:40:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 5544 API calls took more than 7 seconds each in the last hour
+INC3529589,2026-02-03 02:50:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 7769 API calls took more than 7 seconds each in the last hour
+INC3529588,2026-02-03 03:00:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 16527 API calls took more than 7 seconds each in the last hour
+INC3529587,2026-02-03 03:19:35,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529586,2026-02-03 03:20:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 22127 API calls took more than 7 seconds each in the last hour
+INC3529585,2026-02-03 03:35:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 20331 API calls took more than 7 seconds each in the last hour
+INC3529584,2026-02-03 03:50:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 11896 API calls took more than 7 seconds each in the last hour
+INC3529583,2026-02-03 05:18:37,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Segment delta extract are not delivered to Pizza Hut
+INC3529582,2026-02-03 15:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529581,2026-02-03 16:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529580,2026-02-04 15:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529579,2026-02-05 02:31:26,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 247004 API calls took more than 7 seconds each in the last hour
+INC3529578,2026-02-05 06:20:56,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-02-05T11:16:00.481406543Z UTC - 11 ELB errors occurred in 
+INC3529577,2026-02-05 07:06:45,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS0BT3074 Disk C:\ Warning. Used 85.01%; Free 14.99%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529576,2026-02-05 22:46:05,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529575,2026-02-06 02:55:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 1288 API calls took more than 7 seconds each in the last hour
+INC3529574,2026-02-06 03:20:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 2 Moment failures in last 5 minutes
+INC3529573,2026-02-06 03:35:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 5003 API calls took more than 7 seconds each in the last hour
+INC3529572,2026-02-06 03:45:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 5433 API calls took more than 7 seconds each in the last hour
+INC3529571,2026-02-06 04:05:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 3975 API calls took more than 7 seconds each in the last hour
+INC3529570,2026-02-06 04:16:51,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Segment delta extract are not delivered to Pizza Hut
+INC3529569,2026-02-06 06:48:44,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS0BT3074 Disk C:\ Warning. Used 85.01%; Free 14.99%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529568,2026-02-06 19:23:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529567,2026-02-06 20:37:08,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529566,2026-02-07 00:06:45,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS0BT3074 Disk C:\ Warning. Used 85.00%; Free 15.00%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529565,2026-02-07 00:32:48,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS0BT3074 Disk C:\ Warning. Used 85.00%; Free 15.00%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529564,2026-02-07 03:10:17,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529563,2026-02-07 05:56:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-02-07T10:56:00.399189717Z UTC - 6 ELB errors occurred in t
+INC3529562,2026-02-07 06:06:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-02-07T11:06:00.343735860Z UTC - 6 ELB errors occurred in t
+INC3529561,2026-02-07 16:46:44,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS0BT3074 Disk C:\ Warning. Used 85.00%; Free 15.00%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529560,2026-02-07 17:28:44,EA Sports,ESCALATE : Warning AutoTicket:  EASS (EA Sports) PA2WEASS0BT3074 Disk C:\ Warning. Used 85.00%; Free 15.00%; Disk Capacity 307197 MB. Threshold is 85%
+INC3529559,2026-02-07 21:10:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-08T02:10:00.145756758Z UTC - 56 total hits
+INC3529558,2026-02-07 21:30:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-08T02:30:00.431452798Z UTC - 56 total hits
+INC3529557,2026-02-07 21:40:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-08T02:40:00.351267798Z UTC - 56 total hits
+INC3529556,2026-02-07 22:00:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-08T03:00:00.165907994Z UTC - 56 total hits
+INC3529555,2026-02-08 03:12:43,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529554,2026-02-09 02:47:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable
+INC3529553,2026-02-09 04:01:09,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-94-101 OpsRamp agent is offline
+INC3529552,2026-02-09 16:29:26,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Prod Web API - Error Type is any [TE]
+INC3529551,2026-02-09 17:50:08,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529550,2026-02-10 08:37:05,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529549,2026-02-10 15:33:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529548,2026-02-10 15:33:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529547,2026-02-10 15:45:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529546,2026-02-10 15:45:10,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529545,2026-02-10 15:45:10,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529544,2026-02-10 15:45:10,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529543,2026-02-10 15:45:11,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529542,2026-02-10 15:45:11,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529541,2026-02-10 15:45:11,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529540,2026-02-10 15:45:11,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529539,2026-02-10 15:45:14,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529538,2026-02-10 15:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529536,2026-02-10 17:15:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529537,2026-02-10 17:15:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) workerenv-7474659312863077-b1134109-bf21-4c9e-b28f-d71cee909e5d-worker is Unreachable
+INC3529535,2026-02-10 23:08:28,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: CRITICAL: DDPtsExpireProcess(Part-2) job not completed
+INC3529534,2026-02-12 17:00:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 3 Moment failures in last 5 minutes
+INC3529533,2026-02-13 03:55:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 3 Moment failures in last 5 minutes
+INC3529532,2026-02-13 04:05:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 3 API calls had Moment failures in last 15 minutes
+INC3529531,2026-02-13 11:37:05,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529530,2026-02-13 13:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529529,2026-02-13 15:07:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529528,2026-02-13 19:17:11,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable
+INC3529527,2026-02-13 19:23:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529526,2026-02-13 20:21:07,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3529525,2026-02-13 20:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529524,2026-02-13 20:45:09,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529523,2026-02-13 23:10:09,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529522,2026-02-13 23:22:06,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529521,2026-02-13 23:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529520,2026-02-14 03:11:49,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529519,2026-02-14 04:52:33,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529518,2026-02-14 14:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529517,2026-02-15 03:12:35,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529516,2026-02-15 13:37:05,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529515,2026-02-15 16:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529514,2026-02-15 17:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529513,2026-02-16 00:03:40,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) DA2WEASS13KF06F Bitvise SSH Server | Not Running
+INC3529512,2026-02-16 03:12:34,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529511,2026-02-16 12:22:06,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529510,2026-02-16 12:52:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529509,2026-02-16 14:37:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529508,2026-02-16 14:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529507,2026-02-16 15:22:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529506,2026-02-16 15:37:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529505,2026-02-16 15:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529504,2026-02-16 22:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529503,2026-02-17 04:07:32,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT1FHI069 Batch Server P1PZHT-AL-EC2-WS-BATCH-ASG - Uptime Less than 5 Minutes
+INC3529502,2026-02-17 09:00:12,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529501,2026-02-17 09:07:19,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529500,2026-02-17 11:07:21,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529499,2026-02-17 11:20:10,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529498,2026-02-17 12:07:24,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529497,2026-02-17 12:10:09,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529496,2026-02-17 12:15:14,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_WEBAPISERVER_LOAD_DISTRIBUTION_UNEVEN - WebAPIServer distribution is uneven or invalid s
+INC3529495,2026-02-17 12:22:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529494,2026-02-17 12:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529493,2026-02-17 13:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529492,2026-02-18 18:07:05,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529491,2026-02-18 22:22:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529490,2026-02-19 03:12:32,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529489,2026-02-19 07:29:59,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529488,2026-02-19 07:34:04,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529487,2026-02-19 18:31:05,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529486,2026-02-20 03:11:42,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529485,2026-02-20 06:36:05,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3529484,2026-02-20 20:23:03,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3529483,2026-02-20 20:43:05,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529482,2026-02-21 01:11:40,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529481,2026-02-21 01:44:09,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529480,2026-02-21 03:11:40,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529479,2026-02-21 15:07:07,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529478,2026-02-22 03:12:28,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529477,2026-02-22 05:38:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT P1EASS_API_ERR_WARN - 1% INTERNALSERVERERROR threshold (CRITICAL) exceeded in one or more Web
+INC3529476,2026-02-22 22:45:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T03:45:00.297776734Z UTC - 18 total hits
+INC3529475,2026-02-22 22:50:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T03:50:00.498982233Z UTC - 18 total hits
+INC3529474,2026-02-22 22:55:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T03:55:00.254654084Z UTC - 18 total hits
+INC3529473,2026-02-22 23:00:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T04:00:00.445659095Z UTC - 18 total hits
+INC3529472,2026-02-22 23:05:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T04:05:00.162214231Z UTC - 18 total hits
+INC3529471,2026-02-22 23:10:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T04:10:00.405287786Z UTC - 18 total hits
+INC3529470,2026-02-22 23:20:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T04:20:00.285321740Z UTC - 18 total hits
+INC3529469,2026-02-22 23:25:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T04:25:00.004906503Z UTC - 18 total hits
+INC3529468,2026-02-22 23:30:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T04:30:00.203557180Z UTC - 18 total hits
+INC3529467,2026-02-22 23:35:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-02-23T04:35:00.390109069Z UTC - 18 total hits
+INC3529466,2026-02-23 07:22:07,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529465,2026-02-23 12:35:47,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3529464,2026-02-23 12:49:26,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529463,2026-02-23 12:51:42,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3529462,2026-02-23 12:54:03,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529461,2026-02-23 12:54:05,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529460,2026-02-23 12:54:13,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529459,2026-02-24 03:12:25,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Daily_Delta_AZREWARDS - FAILURE
+INC3529458,2026-02-24 03:23:23,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Point_Expiration_Daily - FAILURE
+INC3529457,2026-02-24 05:24:55,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Point_Expiration_Daily - FAILURE
+INC3529456,2026-02-24 11:02:32,EA Sports,ESCALATE : Critical AutoTicket:  EASS (EA Sports) PA2WEASS20C501O Disk D:\ Critical.Used 90.64%; Free 9.36%; Disk Capacity 307197 MB.Threshold is 90%.
+INC3529455,2026-02-24 11:48:34,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS20C501O Disk C:\ Warning. Used 87.85%; Free 12.15%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529454,2026-02-24 13:10:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 1 API calls had Moment failures in last 15 minutes
+INC3529453,2026-02-24 13:15:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 1 API calls had Moment failures in last 15 minutes
+INC3529452,2026-02-24 14:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529451,2026-02-24 16:07:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529450,2026-02-24 16:22:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529449,2026-02-24 23:52:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529448,2026-02-25 01:10:09,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529447,2026-02-25 01:37:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529446,2026-02-25 17:41:08,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529445,2026-02-25 17:52:23,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3529444,2026-02-25 18:02:23,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529443,2026-02-25 18:05:08,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529442,2026-02-25 19:13:07,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529441,2026-02-25 20:35:53,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3529440,2026-02-26 01:22:44,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529439,2026-02-26 04:02:41,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529438,2026-02-26 12:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529437,2026-02-26 16:41:32,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529436,2026-02-26 22:10:44,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529435,2026-02-26 22:40:42,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529434,2026-02-27 00:20:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 3094 API calls took more than 7 seconds each in the last hour
+INC3529433,2026-02-27 01:21:32,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529432,2026-02-27 03:11:35,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529431,2026-02-27 05:23:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT P1EASS_API_ERR_WARN - 1% INTERNALSERVERERROR threshold (CRITICAL) exceeded in one or more Web
+INC3529430,2026-02-27 11:19:07,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-200 Disk /u01 Critical.Used 95.00%; Free 5.00%; Disk Capacity 201398 MB.Threshold is 95%.
+INC3529429,2026-02-27 17:00:43,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529428,2026-02-27 18:58:42,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) DA2WEASS0FAP007 Epsilon.Fusion.Batch.JobService | Not Running
+INC3529427,2026-02-27 19:17:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529426,2026-02-27 20:39:21,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529425,2026-02-27 22:50:42,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529424,2026-02-28 03:10:45,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529423,2026-02-28 09:33:05,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529422,2026-02-28 17:04:41,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529421,2026-02-28 23:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529420,2026-03-01 03:11:22,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529419,2026-03-01 04:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529418,2026-03-01 08:46:24,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: VAP Extract Process Not Completed
+INC3529417,2026-03-01 16:41:05,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529416,2026-03-01 18:10:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 1 API calls had Moment failures in last 15 minutes
+INC3529415,2026-03-01 23:50:30,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529414,2026-03-02 03:06:19,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Weekly metrics report Job - Not Completed
+INC3529413,2026-03-02 09:32:09,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529412,2026-03-02 17:10:29,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529411,2026-03-02 22:51:19,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529410,2026-03-03 09:35:45,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3529409,2026-03-03 09:41:24,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529408,2026-03-03 10:49:42,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Import_Email_Process_Activity - FAILURE
+INC3529407,2026-03-03 23:30:27,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529406,2026-03-04 11:31:16,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529405,2026-03-04 17:04:37,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529404,2026-03-04 22:35:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 9 Moment failures in last 5 minutes
+INC3529403,2026-03-04 22:35:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 10 API calls had Moment failures in last 15 minutes
+INC3529402,2026-03-04 22:40:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 43 API calls had Moment failures in last 15 minutes
+INC3529401,2026-03-04 22:40:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 6055 API calls took more than 7 seconds each in the last hour
+INC3529400,2026-03-04 22:45:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 43 API calls had Moment failures in last 15 minutes
+INC3529399,2026-03-04 22:50:14,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 6106 API calls took more than 7 seconds each in the last hour
+INC3529398,2026-03-04 23:00:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 6234 API calls took more than 7 seconds each in the last hour
+INC3529397,2026-03-04 23:15:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 6206 API calls took more than 7 seconds each in the last hour
+INC3529396,2026-03-04 23:25:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 6205 API calls took more than 7 seconds each in the last hour
+INC3529395,2026-03-05 00:05:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 26 Moment failures in last 5 minutes
+INC3529394,2026-03-05 00:10:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 26 API calls had Moment failures in last 15 minutes
+INC3529393,2026-03-05 06:42:29,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0B3P02Q The Physical Memory Usage on the device is 63%.The Virtual Memory Usage on the device is 52%.
+INC3529392,2026-03-05 09:34:39,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529391,2026-03-05 09:36:29,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3529390,2026-03-05 10:21:24,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0B3P02Q The Physical Memory Usage on the device is 52%.The Virtual Memory Usage on the device is 37%.
+INC3529389,2026-03-05 17:01:48,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529388,2026-03-05 22:50:56,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529387,2026-03-06 03:11:02,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529386,2026-03-06 16:41:48,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529385,2026-03-06 19:18:05,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529384,2026-03-06 20:18:05,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3529383,2026-03-06 20:40:04,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529382,2026-03-06 21:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529381,2026-03-06 22:10:57,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529380,2026-03-06 22:20:57,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529379,2026-03-06 22:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529378,2026-03-07 03:11:52,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529377,2026-03-07 16:32:37,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529376,2026-03-07 20:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529375,2026-03-07 21:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529374,2026-03-07 22:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529373,2026-03-07 23:10:57,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529372,2026-03-07 23:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529371,2026-03-08 17:11:47,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529370,2026-03-08 22:10:08,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529369,2026-03-09 07:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529368,2026-03-09 08:05:06,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-03-09T12:05:00.084926993Z UTC - 12 total hits
+INC3529367,2026-03-09 08:10:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-03-09T12:10:00.310384253Z UTC - 12 total hits
+INC3529366,2026-03-09 08:30:06,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-03-09T12:30:00.131104363Z UTC - 12 total hits
+INC3529365,2026-03-09 08:45:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-03-09T12:45:00.231989421Z UTC - 12 total hits
+INC3529364,2026-03-09 08:55:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-03-09T12:55:00.137361543Z UTC - 12 total hits
+INC3529363,2026-03-09 16:51:47,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529362,2026-03-09 22:20:56,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529361,2026-03-10 03:13:34,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529360,2026-03-10 04:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529359,2026-03-10 05:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529358,2026-03-10 15:46:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable
+INC3529357,2026-03-11 06:36:53,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS23D60CU Epsilon.Fusion.Batch.JobService | Not Running
+INC3529356,2026-03-11 06:36:55,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS23D60CU Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529355,2026-03-11 06:36:59,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS23D60CU Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529354,2026-03-11 06:37:01,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS23D60CU Bitvise SSH Server | Not Running
+INC3529353,2026-03-11 07:17:14,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS1MV7064 Epsilon.Fusion.Batch.JobService | Not Running
+INC3529352,2026-03-11 07:17:17,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS1MV7064 Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529351,2026-03-11 07:17:19,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS1MV7064 Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529350,2026-03-11 07:17:22,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS1MV7064 Bitvise SSH Server | Not Running
+INC3529349,2026-03-11 12:15:32,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-21 Disk / Critical.Used 95.00%; Free 5.00%; Disk Capacity 71667 MB.Threshold is 95%.
+INC3529348,2026-03-11 14:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529347,2026-03-11 18:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529346,2026-03-12 03:11:45,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529345,2026-03-12 04:04:15,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529344,2026-03-12 04:21:45,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529343,2026-03-13 03:21:46,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529342,2026-03-13 07:53:56,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Prod Web API - Error Type is any [TE]
+INC3529341,2026-03-13 13:18:04,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable
+INC3529340,2026-03-13 17:36:02,Bridgestone,WARNING_AutoTicket:  BGSN (Bridgestone) QZ2UBGSNzl9qmjb3 OpsRamp agent is offline
+INC3529339,2026-03-13 20:36:05,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529338,2026-03-13 23:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529337,2026-03-14 03:11:07,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529336,2026-03-15 03:11:06,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529335,2026-03-15 05:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529334,2026-03-16 03:12:00,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529333,2026-03-17 01:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529332,2026-03-17 03:12:48,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529331,2026-03-17 23:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529330,2026-03-18 03:11:58,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529329,2026-03-19 00:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529328,2026-03-19 03:12:48,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529327,2026-03-20 02:10:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable
+INC3529326,2026-03-20 02:12:49,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Prod Web API - Error Type is any [TE]
+INC3529325,2026-03-20 17:16:04,Bridgestone,WARNING_AutoTicket:  BGSN (Bridgestone) QZ2UBGSNzl9qmjb3 OpsRamp agent is offline
+INC3529324,2026-03-21 02:20:49,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Extract_Point_Redemption_Delta_AZREWARDS - FAILURE
+INC3529323,2026-03-21 22:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529322,2026-03-23 07:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529321,2026-03-25 03:11:03,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529320,2026-03-26 07:22:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_API_ERR_CRITICAL - 2026-03-26T11:22:00.452064473Z UTC - 10% INTERNALSERVERERRO
+INC3529319,2026-03-26 13:42:07,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-21 Disk / Critical.Used 95.00%; Free 5.00%; Disk Capacity 71667 MB.Threshold is 95%.
+INC3529318,2026-03-27 03:13:28,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529317,2026-03-27 03:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529316,2026-03-27 06:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529315,2026-03-27 07:22:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_API_ERR_CRITICAL - 2026-03-27T11:22:00.458575429Z UTC - 10% INTERNALSERVERERRO
+INC3529314,2026-03-27 19:24:04,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529313,2026-03-31 03:12:46,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529312,2026-04-01 00:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529311,2026-04-02 01:51:39,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: SLA Job not started - 13 Jobs
+INC3529310,2026-04-02 02:11:00,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 6 API calls had Moment failures in last 15 minutes
+INC3529309,2026-04-02 02:20:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 2 Moment failures in last 5 minutes
+INC3529308,2026-04-02 02:27:39,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 5 Moment failures in last 5 minutes
+INC3529307,2026-04-02 04:33:49,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Daily_Delta_AZREWARDS - FAILURE
+INC3529306,2026-04-02 09:04:33,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS19JN03I Epsilon.Fusion.Batch.JobService | Not Running
+INC3529305,2026-04-02 09:04:35,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS19JN03I Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529304,2026-04-02 09:04:37,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS19JN03I Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529303,2026-04-03 03:12:42,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529302,2026-04-03 19:18:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529301,2026-04-04 03:12:41,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529300,2026-04-06 03:04:58,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Weekly metrics report Job - Not Completed
+INC3529299,2026-04-06 23:08:52,Pizza Hut,Metrics Average Users Waiting Count is at 27.96 for event class Concurrency
+INC3529298,2026-04-07 03:12:31,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529297,2026-04-08 02:13:32,EA Sports,Please page out to EASS_DBA Team.
+INC3529296,2026-04-08 04:10:18,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529295,2026-04-08 23:35:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 14 API calls had Moment failures in last 15 minutes
+INC3529294,2026-04-08 23:35:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 9117 API calls took more than 7 seconds each in the last hour
+INC3529293,2026-04-08 23:40:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 17 API calls had Moment failures in last 15 minutes
+INC3529292,2026-04-08 23:45:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 66 Moment failures in last 5 minutes
+INC3529291,2026-04-08 23:45:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 72 API calls had Moment failures in last 15 minutes
+INC3529290,2026-04-08 23:50:04,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 76 Moment failures in last 5 minutes
+INC3529289,2026-04-08 23:50:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 61038 API calls took more than 7 seconds each in the last hour
+INC3529288,2026-04-08 23:55:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 223 API calls had Moment failures in last 15 minutes
+INC3529287,2026-04-08 23:55:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 78838 API calls took more than 7 seconds each in the last hour
+INC3529286,2026-04-08 23:58:21,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) Multiple OpsRamp Agents Offline
+INC3529285,2026-04-09 00:00:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 97585 API calls took more than 7 seconds each in the last hour
+INC3529284,2026-04-09 00:00:17,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) Multiple OpsRamp Agents Offline
+INC3529283,2026-04-09 00:05:06,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 107 Moment failures in last 5 minutes
+INC3529282,2026-04-09 00:05:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 116346 API calls took more than 7 seconds each in the last hour
+INC3529281,2026-04-09 00:10:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 135838 API calls took more than 7 seconds each in the last hour
+INC3529280,2026-04-09 00:15:07,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 93 Moment failures in last 5 minutes
+INC3529279,2026-04-09 00:21:07,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2Q2Q067 Epsilon.Fusion.Batch.JobService | Not Running
+INC3529278,2026-04-09 00:25:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 156197 API calls took more than 7 seconds each in the last hour
+INC3529277,2026-04-09 00:30:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 154880 API calls took more than 7 seconds each in the last hour
+INC3529276,2026-04-09 00:40:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 121046 API calls took more than 7 seconds each in the last hour
+INC3529275,2026-04-09 00:45:05,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 1 Moment failures in last 5 minutes
+INC3529274,2026-04-09 00:55:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 67579 API calls took more than 7 seconds each in the last hour
+INC3529273,2026-04-09 01:00:17,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 49353 API calls took more than 7 seconds each in the last hour
+INC3529272,2026-04-09 01:05:20,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 30556 API calls took more than 7 seconds each in the last hour
+INC3529271,2026-04-09 04:43:00,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Daily_Delta_AZREWARDS - FAILURE
+INC3529270,2026-04-09 05:48:21,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529269,2026-04-09 07:10:28,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2Q2Q067 The Physical Memory Usage on the device is 57%.The Virtual Memory Usage on the device is 35%.
+INC3529268,2026-04-09 21:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529267,2026-04-10 02:21:08,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3529266,2026-04-10 06:40:09,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529265,2026-04-10 09:45:57,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529264,2026-04-10 19:24:09,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529263,2026-04-10 20:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529262,2026-04-10 21:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529261,2026-04-10 22:32:57,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529260,2026-04-11 03:10:39,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529259,2026-04-11 06:38:08,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTWKS04 Disk C:\ Warning. Used 86.22%; Free 13.78%; Disk Capacity 101729 MB. 
+Threshold is 85%."
+INC3529258,2026-04-11 07:33:08,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529257,2026-04-11 23:10:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-04-12T03:10:00.264286982Z UTC - 35 total hits
+INC3529256,2026-04-12 08:00:14,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-04-12T11:46:00.146038223Z UTC - 6 ELB errors occurred in t
+INC3529255,2026-04-12 08:00:32,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529254,2026-04-12 08:06:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529253,2026-04-12 13:36:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529252,2026-04-13 03:10:51,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529251,2026-04-14 01:36:07,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTWKS04 Disk C:\ Warning. Used 85.57%; Free 14.43%; Disk Capacity 101729 MB. 
+Threshold is 85%."
+INC3529250,2026-04-14 03:11:36,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529249,2026-04-14 07:26:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-04-14T11:26:00.367061950Z UTC - 26 ELB errors occurred in 
+INC3529248,2026-04-15 02:03:09,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Extract_Point_Redemption_Delta_AZREWARDS - FAILURE
+INC3529247,2026-04-15 03:10:51,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529246,2026-04-16 07:16:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-04-16T11:16:00.044521634Z UTC - 23 ELB errors occurred in 
+INC3529245,2026-04-16 21:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529244,2026-04-17 03:10:52,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529243,2026-04-17 05:42:05,Bridgestone,Critical AutoTicket:  BGSN (Bridgestone) pc1uBGSNetl11 Disk /etl Critical.Used 95.00%; Free 5.00%; Disk Capacity 3684576 MB.Threshold is 95%.
+INC3529242,2026-04-17 19:18:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529241,2026-04-17 20:18:05,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3529240,2026-04-17 20:38:05,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529239,2026-04-17 20:52:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_API_ERR_CRITICAL - 2026-04-18T00:52:00.048998566Z UTC - 10% INTERNALSERVERERRO
+INC3529238,2026-04-18 03:10:51,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529237,2026-04-19 03:10:50,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529236,2026-04-19 08:49:07,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529235,2026-04-19 11:25:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-04-19T15:25:00.338916356Z UTC - 6 total hits
+INC3529234,2026-04-19 21:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529233,2026-04-20 03:10:51,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529232,2026-04-20 09:06:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-04-20T13:06:00.080489204Z UTC - 6 ELB errors occurred in t
+INC3529231,2026-04-21 03:10:52,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529230,2026-04-22 03:10:56,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529229,2026-04-23 03:10:58,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529228,2026-04-23 20:30:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 1 API calls had Moment failures in last 15 minutes
+INC3529227,2026-04-23 20:35:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 1 API calls had Moment failures in last 15 minutes
+INC3529226,2026-04-24 03:10:59,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529225,2026-04-24 19:18:05,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529224,2026-04-24 20:40:06,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529223,2026-04-25 01:28:13,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529222,2026-04-25 02:08:03,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529221,2026-04-25 03:10:49,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529220,2026-04-26 03:10:49,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529219,2026-04-27 03:10:59,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529218,2026-04-28 01:59:42,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2Q2Q067 The Physical Memory Usage on the device is 50%.The Virtual Memory Usage on the device is 43%.
+INC3529217,2026-04-28 02:17:39,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Extract_Point_Redemption_Delta_AZREWARDS - FAILURE
+INC3529216,2026-04-28 03:10:54,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529215,2026-04-29 03:11:03,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529214,2026-04-29 08:00:47,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529213,2026-04-29 08:09:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529212,2026-04-30 03:10:58,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529211,2026-04-30 10:15:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-04-30T14:15:00.188682417Z UTC - 11 total hits
+INC3529210,2026-04-30 10:20:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-04-30T14:20:00.386323854Z UTC - 11 total hits
+INC3529209,2026-04-30 11:00:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-04-30T15:00:00.055043305Z UTC - 12 total hits
+INC3529208,2026-05-01 03:11:01,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529207,2026-05-01 19:18:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529206,2026-05-01 20:32:04,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529205,2026-05-02 01:59:44,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2Q2Q067 The Physical Memory Usage on the device is 51%.The Virtual Memory Usage on the device is 44%.
+INC3529204,2026-05-02 03:11:53,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529203,2026-05-03 03:11:01,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529202,2026-05-04 03:10:59,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529201,2026-05-04 12:40:36,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS Testing OpsRamp Integration
+INC3529200,2026-05-05 08:05:09,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-05-05T12:05:00.025964243Z UTC - 11 total hits
+INC3529199,2026-05-06 03:11:02,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529198,2026-05-06 04:22:51,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - Q3EASS Testing OpsRamp Integration
+INC3529197,2026-05-06 06:31:23,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT QA_[Q3EASS UNIFIED-ALERT] CRITICAL: Batch jobs failed - 06-MAY-2026
+INC3529196,2026-05-06 14:21:18,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS41250FO Epsilon.Fusion.Batch.JobService | Not Running
+INC3529195,2026-05-06 14:21:20,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS41250FO Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529194,2026-05-06 14:21:22,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS41250FO Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529193,2026-05-06 14:21:24,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS41250FO Bitvise SSH Server | Not Running
+INC3529192,2026-05-06 23:30:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 16 API calls had Moment failures in last 15 minutes
+INC3529191,2026-05-06 23:30:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 48232 API calls took more than 7 seconds each in the last hour
+INC3529190,2026-05-06 23:35:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 69 API calls had Moment failures in last 15 minutes
+INC3529189,2026-05-06 23:35:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 62 Moment failures in last 5 minutes
+INC3529188,2026-05-06 23:35:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 66235 API calls took more than 7 seconds each in the last hour
+INC3529187,2026-05-06 23:40:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 206 API calls had Moment failures in last 15 minutes
+INC3529186,2026-05-06 23:45:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 292 API calls had Moment failures in last 15 minutes
+INC3529185,2026-05-06 23:45:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 104169 API calls took more than 7 seconds each in the last hour
+INC3529184,2026-05-06 23:55:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 243 API calls had Moment failures in last 15 minutes
+INC3529183,2026-05-07 00:00:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 85 Moment failures in last 5 minutes
+INC3529182,2026-05-07 00:05:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 234 API calls had Moment failures in last 15 minutes
+INC3529181,2026-05-07 00:10:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 78 Moment failures in last 5 minutes
+INC3529180,2026-05-07 00:15:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 92 Moment failures in last 5 minutes
+INC3529179,2026-05-07 00:20:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 172 API calls had Moment failures in last 15 minutes
+INC3529178,2026-05-07 00:22:09,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529177,2026-05-07 00:30:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 206187 API calls took more than 7 seconds each in the last hour
+INC3529176,2026-05-07 00:40:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 169198 API calls took more than 7 seconds each in the last hour
+INC3529175,2026-05-07 00:45:15,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 148169 API calls took more than 7 seconds each in the last hour
+INC3529174,2026-05-07 00:55:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 98594 API calls took more than 7 seconds each in the last hour
+INC3529173,2026-05-07 01:05:14,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 48856 API calls took more than 7 seconds each in the last hour
+INC3529172,2026-05-07 01:10:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_TRN10_GT7SEC - 23754 API calls took more than 7 seconds each in the last hour
+INC3529171,2026-05-07 09:38:11,Pizza Hut,Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTWKS04 Disk C:\ Warning. Used 88.29%; Free 11.71%; Disk Capacity 101729 MB. Threshold is 85%.
+INC3529170,2026-05-08 20:16:04,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3529169,2026-05-08 20:36:04,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529168,2026-05-09 02:00:30,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0K9M02P The Physical Memory Usage on the device is 50%.The Virtual Memory Usage on the device is 41%.
+INC3529167,2026-05-09 03:11:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529166,2026-05-10 03:11:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529165,2026-05-10 09:39:07,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTWKS04 Disk C:\ Warning. Used 85.99%; Free 14.01%; Disk Capacity 101729 MB. 
+Threshold is 85%."
+INC3529164,2026-05-10 13:20:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-05-10T17:20:00.113105523Z UTC - 16 total hits
+INC3529163,2026-05-11 03:11:15,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529162,2026-05-11 07:46:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-05-11T11:46:00.343938223Z UTC - 6 ELB errors occurred in t
+INC3529161,2026-05-11 13:43:08,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) DA2WPZHTWKS01 Disk D:\ Critical.Used 90.17%; Free 9.83%; Disk Capacity 102396 MB.Threshold is 90%.
+INC3529160,2026-05-11 20:32:15,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529159,2026-05-11 20:46:17,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529158,2026-05-11 21:04:07,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529157,2026-05-11 21:17:19,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529156,2026-05-11 22:33:35,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529155,2026-05-11 22:46:25,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529154,2026-05-11 23:02:27,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529153,2026-05-11 23:10:59,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529152,2026-05-11 23:18:25,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529151,2026-05-12 03:11:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529150,2026-05-12 12:22:08,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529149,2026-05-12 12:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529148,2026-05-12 13:07:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529147,2026-05-12 14:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529146,2026-05-13 02:24:23,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS06VJ043 Epsilon.Fusion.Batch.JobService | Not Running
+INC3529145,2026-05-13 02:24:25,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS06VJ043 Epsilon.Fusion.Batch.ScannerService | Not Running|U1EASS
+INC3529144,2026-05-13 02:24:27,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS06VJ043 Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529143,2026-05-13 02:24:29,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS06VJ043 Bitvise SSH Server | Not Running
+INC3529142,2026-05-14 03:11:15,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529141,2026-05-14 08:22:08,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529140,2026-05-14 23:31:44,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529139,2026-05-15 01:02:06,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529138,2026-05-15 01:12:55,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529137,2026-05-15 01:52:55,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529136,2026-05-15 03:10:45,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529135,2026-05-15 16:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529134,2026-05-15 18:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529133,2026-05-15 20:39:04,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529132,2026-05-16 01:25:39,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529131,2026-05-16 03:10:41,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529130,2026-05-16 07:17:08,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) DA2WPZHTWKS01 Disk D:\ Critical.Used 90.17%; Free 9.83%; Disk Capacity 102396 MB.Threshold is 90%.
+INC3529129,2026-05-17 03:10:41,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529128,2026-05-17 07:49:40,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS2LDO006 Disk C:\ Warning. Used 85.00%; Free 15.00%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529127,2026-05-18 03:10:38,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529126,2026-05-18 06:01:40,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS2LDO006 Disk C:\ Warning. Used 85.03%; Free 14.97%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529125,2026-05-18 19:43:38,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS2LDO006 Disk C:\ Warning. Used 85.00%; Free 15.00%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529124,2026-05-18 19:49:38,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS2LDO006 Disk C:\ Warning. Used 85.00%; Free 15.00%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529123,2026-05-18 20:25:38,EA Sports,Warning AutoTicket:  EASS (EA Sports) PA2WEASS2LDO006 Disk C:\ Warning. Used 85.00%; Free 15.00%; Disk Capacity 307197 MB. Threshold is 85%.
+INC3529122,2026-05-19 00:07:05,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529121,2026-05-19 01:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529120,2026-05-19 03:10:39,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529119,2026-05-20 03:10:40,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529118,2026-05-21 03:10:38,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529117,2026-05-21 03:35:21,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0K9M02P The Physical Memory Usage on the device is 51%.The Virtual Memory Usage on the device is 36%.
+INC3529116,2026-05-22 02:20:18,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0K9M02P The Physical Memory Usage on the device is 52%.The Virtual Memory Usage on the device is 39%.
+INC3529115,2026-05-22 03:10:40,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529114,2026-05-22 08:53:35,EA Sports,Warning AutoTicket:  EASS (EA Sports) PA2WEASS2LDO006 Disk C:\ Warning. Used 86.68%; Free 13.32%; Disk Capacity 307197 MB. Threshold is 85%.
+INC3529113,2026-05-22 20:37:05,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529112,2026-05-23 03:10:26,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529111,2026-05-24 03:10:29,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529110,2026-05-25 03:10:30,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529109,2026-05-25 09:27:09,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT UAT_[U1EASS UNIFIED-ALERT] CRITICAL: Batch jobs failed - 25-MAY-2026
+INC3529108,2026-05-26 10:02:51,EA Sports,Warning AutoTicket:  EASS (EA Sports) PA2WEASS1S6I063 Disk D:\ Warning. Used 87.69%; Free 12.31%; Disk Capacity 307197 MB. Threshold is 85%.
+INC3529107,2026-05-26 10:48:51,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASS1S6I063 Disk C:\ Warning. Used 85.02%; Free 14.98%; Disk Capacity 307197 MB. 
+Threshold is 85%."
+INC3529106,2026-05-27 02:09:26,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0K9M02P Disk C:\ Warning. Used 85.33%; Free 14.67%; Disk Capacity 2047997 MB. 
+Threshold is 85%."
+INC3529105,2026-05-27 03:10:27,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529104,2026-05-27 06:56:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-05-27T10:56:00.283707031Z UTC - 20 ELB errors occurred in 
+INC3529103,2026-05-28 03:10:31,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529102,2026-05-29 03:10:26,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529101,2026-05-29 19:19:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529100,2026-05-29 20:41:06,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529099,2026-05-29 23:42:42,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529098,2026-05-29 23:51:52,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529097,2026-05-30 03:10:24,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529096,2026-05-30 08:21:05,EA Sports,Critical AutoTicket:  EASS (EA Sports) PA2WEASSWKS11 Disk C:\ Critical.Used 90.36%; Free 9.64%; Disk Capacity 102397 MB.Threshold is 90%.
+INC3529095,2026-05-31 10:11:06,Pizza Hut,Warning AutoTicket:  PZHT (Pizza Hut) DA2WPZHTWKS12 Disk C:\ Warning. Used 86.49%; Free 13.51%; Disk Capacity 194556 MB. Threshold is 85%.
+INC3529094,2026-05-31 20:05:06,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-06-01T00:05:00.448359500Z UTC - 53 total hits
+INC3529093,2026-06-01 01:37:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529092,2026-06-01 03:03:36,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Weekly metrics report Job - Not Completed
+INC3529091,2026-06-01 03:10:23,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529090,2026-06-01 03:33:05,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) DA2WPZHTWKS12 Disk C:\ Critical.Used 90.56%; Free 9.44%; Disk Capacity 194556 MB.Threshold is 90%.
+INC3529089,2026-06-01 07:45:07,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-200 Disk /lfs/dba Critical.Used 95.00%; Free 5.00%; Disk Capacity 50216 MB.Threshold is 95%.
+INC3529088,2026-06-01 11:19:07,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-200 Disk /lfs/dba Critical.Used 95.00%; Free 5.00%; Disk Capacity 50216 MB.Threshold is 95%.
+INC3529087,2026-06-01 14:51:07,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-200 Disk /lfs/dba Critical.Used 95.00%; Free 5.00%; Disk Capacity 50216 MB.Threshold is 95%.
+INC3529086,2026-06-01 18:25:08,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-200 Disk /lfs/dba Critical.Used 95.00%; Free 5.00%; Disk Capacity 50216 MB.Threshold is 95%.
+INC3529085,2026-06-01 21:59:07,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-104-200 Disk /lfs/dba Critical.Used 95.00%; Free 5.00%; Disk Capacity 50216 MB.Threshold is 95%.
+INC3529084,2026-06-02 02:14:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0K9M02P The Physical Memory Usage on the device is 51%.The Virtual Memory Usage on the device is 42%.
+INC3529083,2026-06-02 03:10:15,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529082,2026-06-02 11:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529081,2026-06-03 02:19:08,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0K9M02P Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529080,2026-06-03 02:25:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 3 API calls had Moment failures in last 15 minutes
+INC3529079,2026-06-03 03:10:27,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr
+INC3529078,2026-06-03 04:22:42,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529077,2026-06-03 04:32:39,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529076,2026-06-03 04:42:48,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529075,2026-06-03 04:51:49,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529074,2026-06-03 05:09:42,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0K9M02P Disk C:\ Warning. Used 85.26%; Free 14.74%; Disk Capacity 2047997 MB. 
+Threshold is 85%."
+INC3529073,2026-06-03 09:16:22,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Store_Import - FAILURE
+INC3529072,2026-06-03 09:51:49,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS3R1G06M Epsilon.Fusion.Batch.JobService | Not Running
+INC3529071,2026-06-03 09:51:50,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS3R1G06M Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529070,2026-06-03 09:51:54,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS3R1G06M Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529069,2026-06-03 09:51:55,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS3R1G06M Bitvise SSH Server | Not Running|Q2EASS
+INC3529068,2026-06-03 13:43:10,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS0U4M09O Epsilon.Fusion.Batch.JobService | Not Running
+INC3529067,2026-06-03 13:43:12,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS0U4M09O Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529066,2026-06-03 13:43:14,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS0U4M09O Epsilon.Fusion.Batch.SchedulerService | Not Running|Completed
+INC3529065,2026-06-03 15:13:08,EA Sports,Critical AutoTicket:  EASS (EA Sports) pa2uEASSora11 Disk /u01 Critical.Used 95.00%; Free 5.00%; Disk Capacity 100604 MB.Threshold is 95%.
+INC3529064,2026-06-03 17:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529063,2026-06-04 04:03:53,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 04-JUN-2026
+INC3529062,2026-06-04 06:31:34,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 04-JUN-2026
+INC3529061,2026-06-05 04:15:55,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Segment delta extract are not delivered to Pizza Hut
+INC3529060,2026-06-05 05:02:35,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529059,2026-06-05 05:05:56,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529058,2026-06-05 07:52:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529057,2026-06-05 08:10:17,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3529056,2026-06-05 08:37:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529055,2026-06-05 14:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529054,2026-06-06 06:31:32,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 06-JUN-2026
+INC3529053,2026-06-07 06:32:20,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 07-JUN-2026
+INC3529052,2026-06-08 19:52:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529051,2026-06-09 06:33:07,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 09-JUN-2026
+INC3529050,2026-06-09 07:55:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ua2uPZHTora61 is Unreachable
+INC3529049,2026-06-09 07:57:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) U2PZHT-AL-EC2-DB-STANDBY is Unreachable
+INC3529048,2026-06-10 06:34:46,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 10-JUN-2026
+INC3529047,2026-06-10 22:35:13,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 2 Moment failures in last 5 minutes
+INC3529046,2026-06-10 22:39:02,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT0K9M02P Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529045,2026-06-10 22:45:15,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 2 API calls had Moment failures in last 15 minutes
+INC3529044,2026-06-11 04:13:10,Pizza Hut,Critical AutoTicket:  PZHT (Pizza Hut) ip-10-226-122-81 Disk /lfs/dba Critical.Used 99.00%; Free 1.00%; Disk Capacity 503768 MB.Threshold is 95%.
+INC3529043,2026-06-11 16:07:10,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3529042,2026-06-12 00:58:17,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Failed DRL Version API servers
+INC3529041,2026-06-12 01:00:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 16 Moment failures in last 5 minutes
+INC3529040,2026-06-12 01:05:18,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 35 Moment failures in last 5 minutes
+INC3529039,2026-06-12 01:10:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 94 API calls had Moment failures in last 15 minutes
+INC3529038,2026-06-12 03:20:48,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529037,2026-06-12 06:38:53,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 12-JUN-2026
+INC3529036,2026-06-12 20:37:07,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529035,2026-06-13 06:33:01,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 13-JUN-2026
+INC3529034,2026-06-13 14:05:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-06-13T18:05:00.195807698Z UTC - 14 total hits
+INC3529033,2026-06-13 14:10:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-06-13T18:10:00.416601780Z UTC - 14 total hits
+INC3529032,2026-06-13 14:15:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-06-13T18:15:00.136814829Z UTC - 14 total hits
+INC3529031,2026-06-13 14:20:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-06-13T18:20:00.361071920Z UTC - 14 total hits
+INC3529030,2026-06-13 15:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529029,2026-06-13 16:46:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3529028,2026-06-15 06:39:39,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 15-JUN-2026
+INC3529027,2026-06-16 01:36:43,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT07M306M The Physical Memory Usage on the device is 50%.The Virtual Memory Usage on the device is 43%.
+INC3529026,2026-06-17 09:05:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-06-17T13:05:00.328084038Z UTC - 5 total hits
+INC3529025,2026-06-17 09:20:08,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_TRN5_NOT200RC - 2026-06-17T13:20:00.459189221Z UTC - 5 total hits
+INC3529024,2026-06-18 12:03:37,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3529023,2026-06-18 22:13:39,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHT07M306M Disk C:\ Warning. Used 85.18%; Free 14.82%; Disk Capacity 2047997 MB. 
+Threshold is 85%."
+INC3529022,2026-06-19 19:25:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3529021,2026-06-19 20:35:06,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3529020,2026-06-21 12:55:18,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) ua2uEASSora70 SYSTEM_REBOOT 
+INC3529019,2026-06-22 06:33:45,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 22-JUN-2026
+INC3529018,2026-06-23 08:02:26,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Prod Fusion Admin Tool - Error is present [TE]
+INC3529017,2026-06-23 08:10:37,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Prod Fusion Admin Tool - Error Type is any [TE]
+INC3529016,2026-06-24 03:25:17,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) da2uEASSora11 SYSTEM_REBOOT
+INC3529015,2026-06-26 20:19:06,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) QA2UEASS06H1H OpsRamp agent is offline
+INC3529014,2026-06-26 20:25:13,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3529013,2026-06-30 05:29:23,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3529012,2026-07-01 13:13:05,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS3V8G09C Epsilon.Fusion.Batch.JobService | Not Running
+INC3529011,2026-07-01 13:13:06,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS3V8G09C Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3529010,2026-07-01 13:13:07,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS3V8G09C Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3529009,2026-07-01 13:13:08,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) QA2WEASS3V8G09C Bitvise SSH Server | Not Running
+INC3529008,2026-07-02 00:30:10,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 3285 Moment failures in last 5 minutes
+INC3529007,2026-07-02 00:30:12,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 1754 API calls had Moment failures in last 15 minutes
+INC3529006,2026-07-02 00:35:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_PPL_API_MOMENT_ERRORS - 3710 API calls had Moment failures in last 15 minutes
+INC3529005,2026-07-02 00:40:09,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 2943 Moment failures in last 5 minutes
+INC3529004,2026-07-02 00:40:11,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT ALERT - P1PZHT_MOMENT_FAILCHECK - 2944 Moment failures in last 5 minutes
+INC3529003,2026-07-02 06:35:09,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 02-JUL-2026
+INC3529002,2026-07-02 07:30:06,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTWKS04 Disk C:\ Warning. Used 88.74%; Free 11.26%; Disk Capacity 101729 MB. 
+Threshold is 85%."
+INC3529001,2026-07-02 08:20:58,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3529000,2026-07-02 09:04:32,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3528999,2026-07-02 15:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3528997,2026-07-03 20:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3528998,2026-07-03 20:46:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT ALERT - P1BGSN_TRN5_NOT200RC -  total hits
+INC3528995,2026-07-03 20:52:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528996,2026-07-03 20:52:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528994,2026-07-05 10:04:54,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 05-JUL-2026
+INC3528993,2026-07-06 19:11:31,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3528992,2026-07-06 20:37:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528991,2026-07-07 17:20:07,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTWKS02 Disk C:\ Warning. Used 86.30%; Free 13.70%; Disk Capacity 122209 MB. 
+Threshold is 85%."
+INC3528990,2026-07-08 04:22:19,EA Sports,"Warning AutoTicket:  EASS (EA Sports) QA2WEASS1F4T0E0 Disk C:\ Warning. Used 85.12%; Free 14.88%; Disk Capacity 255997 MB. 
+Threshold is 85%."
+INC3528989,2026-07-08 06:30:08,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS09SD06I Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3528988,2026-07-08 06:30:09,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS09SD06I Epsilon.Fusion.Batch.JobService | Not Running
+INC3528987,2026-07-08 06:30:09,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS09SD06I Epsilon.Fusion.Batch.ScannerService | Not Running
+INC3528986,2026-07-08 06:30:09,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS09SD06I Bitvise SSH Server | Not Running
+INC3528985,2026-07-09 06:02:02,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3528984,2026-07-09 12:44:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable
+INC3528983,2026-07-10 01:24:51,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] CRITICAL: Batch jobs failed
+INC3528982,2026-07-10 19:18:05,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-100-18 is Unreachable
+INC3528981,2026-07-10 20:38:04,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3528980,2026-07-10 21:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528979,2026-07-11 01:34:36,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2S6A035 The Physical Memory Usage on the device is 53%.The Virtual Memory Usage on the device is 47%.
+INC3528978,2026-07-11 02:09:36,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2S6A035 The Physical Memory Usage on the device is 58%.The Virtual Memory Usage on the device is 39%.
+INC3528977,2026-07-13 02:44:04,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) UA2WEASS2I5M00O Epsilon.Fusion.Batch.SchedulerService | Not Running
+INC3528976,2026-07-13 07:06:07,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable|PCPO-54866
+INC3528975,2026-07-14 03:10:09,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT p1BGSN_API_AVG_TIME - API requests exceeded 1000ms in the past 10 mins
+INC3528974,2026-07-14 10:14:05,Bridgestone,CRITICAL_AutoTicket: BGSN (Bridgestone) Multiple OpsRamp Agents Offline
+INC3528973,2026-07-15 01:50:46,EA Sports,FRMS Workflow bww_prod_Output_to_bww_sftp_EABrands_com has completed for Client: EA_Sports - FAILED
+INC3528972,2026-07-15 02:00:55,Pizza Hut,FRMS Workflow prod_inspire_CDP_outgoing_to_sftp01 has completed for Client: Pizza HutDonuts - FAILED
+INC3528971,2026-07-15 07:14:06,Bridgestone,CRITICAL_AutoTicket: BGSN (Bridgestone) Multiple OpsRamp Agents Offline
+INC3528970,2026-07-15 07:24:58,Pizza Hut,FRMS Workflow prod_inspire_CDP_outgoing_to_sftp01 has completed for Client: Pizza HutDonuts - FAILED
+INC3528969,2026-07-15 07:27:17,Pizza Hut,FRMS Workflow prod_inspire_CDP_outgoing_to_sftp01 has completed for Client: Pizza HutDonuts - FAILED
+INC3528968,2026-07-15 07:27:20,Pizza Hut,FRMS Workflow prod_inspire_CDP_outgoing_to_sftp01 has completed for Client: Pizza HutDonuts - FAILED
+INC3528967,2026-07-15 09:23:34,Pizza Hut,FRMS Workflow prod_inspire_CDP_outgoing_to_sftp01 has completed for Client: Pizza HutDonuts - FAILED
+INC3528966,2026-07-15 09:23:37,Pizza Hut,FRMS Workflow prod_inspire_CDP_outgoing_to_sftp01 has completed for Client: Pizza HutDonuts - FAILED
+INC3528965,2026-07-16 13:13:16,EA Sports,"Warning AutoTicket:  EASS (EA Sports) QA2WEASS1F4T0E0 Disk C:\ Warning. Used 85.62%; Free 14.38%; Disk Capacity 255997 MB. 
+Threshold is 85%."
+INC3528964,2026-07-16 13:53:29,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 16-JUL-2026
+INC3528963,2026-07-17 06:58:04,Bridgestone,CRITICAL_AutoTicket: BGSN (Bridgestone) Multiple OpsRamp Agents Offline
+INC3528962,2026-07-17 08:48:03,Bridgestone,WARNING_AutoTicket:  BGSN (Bridgestone) UZ0WBGSNXRROG OpsRamp agent is offline
+INC3528961,2026-07-18 01:37:31,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2S6A035 The Physical Memory Usage on the device is 54%.The Virtual Memory Usage on the device is 47%.
+INC3528960,2026-07-20 04:01:28,EA Sports,"Warning AutoTicket:  EASS (EA Sports) QA2WEASS1F4T0E0 Disk C:\ Warning. Used 85.89%; Free 14.11%; Disk Capacity 255997 MB. 
+Threshold is 85%."
+INC3528959,2026-07-20 06:33:32,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 20-JUL-2026
+INC3528958,2026-07-21 05:05:11,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3528957,2026-07-21 05:17:51,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3528956,2026-07-21 05:20:25,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3528955,2026-07-21 05:37:44,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3528954,2026-07-22 03:37:51,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Daily_Delta_AZREWARDS - FAILURE
+INC3528953,2026-07-22 07:47:32,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Daily_Delta_AZREWARDS - FAILURE
+INC3528952,2026-07-22 08:50:34,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 22-JUL-2026
+INC3528951,2026-07-22 08:59:54,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_ALERT BWW Daily data extract(s) may be delayed today - 22-JUL-2026
+INC3528950,2026-07-22 10:14:43,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 22-JUL-2026
+INC3528949,2026-07-22 10:27:13,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 22-JUL-2026
+INC3528948,2026-07-22 10:28:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 22-JUL-2026
+INC3528947,2026-07-22 10:51:24,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 22-JUL-2026
+INC3528946,2026-07-23 07:56:22,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528945,2026-07-23 08:08:08,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable|PCPO-54930
+INC3528944,2026-07-23 08:49:41,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528943,2026-07-23 09:56:23,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528942,2026-07-23 10:55:32,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528941,2026-07-23 11:49:41,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528940,2026-07-23 12:53:53,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528939,2026-07-23 13:53:01,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528938,2026-07-23 14:54:41,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528937,2026-07-23 15:53:52,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528936,2026-07-23 16:51:22,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528935,2026-07-23 17:55:32,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528934,2026-07-23 18:49:42,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528933,2026-07-23 19:53:51,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 23-JUL-2026
+INC3528932,2026-07-23 20:50:32,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528931,2026-07-23 21:53:02,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528930,2026-07-23 22:50:30,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528929,2026-07-23 23:53:02,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528928,2026-07-24 00:53:00,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528927,2026-07-24 01:53:52,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528926,2026-07-24 02:48:50,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528925,2026-07-24 03:52:10,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528924,2026-07-24 04:57:10,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528923,2026-07-24 05:44:05,Bridgestone,Critical AutoTicket:  BGSN (Bridgestone) pc1uBGSNetl11 Disk /etl Critical.Used 95.00%; Free 5.00%; Disk Capacity 3684576 MB.Threshold is 95%.
+INC3528922,2026-07-24 05:54:40,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528921,2026-07-24 06:50:30,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528920,2026-07-24 07:49:40,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528919,2026-07-24 08:48:50,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 24-JUL-2026
+INC3528918,2026-07-25 09:16:07,EA Sports,"Warning AutoTicket:  EASS (EA Sports) PA2WEASSWKS12 Disk C:\ Warning. Used 86.31%; Free 13.69%; Disk Capacity 102397 MB. 
+Threshold is 85%."
+INC3528917,2026-07-27 05:49:29,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3528916,2026-07-28 07:31:51,EA Sports,FRMS Workflow bww_prod_Output_to_bww_sftp_EABrands_com has completed for Client: EA_Sports - FAILED
+INC3528915,2026-07-28 07:34:30,EA Sports,FRMS Workflow bww_prod_Output_to_bww_sftp_EABrands_com has completed for Client: EA_Sports - FAILED
+INC3528914,2026-07-28 08:34:41,EA Sports,FRMS Workflow bww_prod_Output_to_bww_sftp_EABrands_com has completed for Client: EA_Sports - FAILED
+INC3528913,2026-07-28 08:36:06,Pizza Hut,CRITICAL_AutoTicket: PZHT (Pizza Hut) ip-10-226-94-101 is Unreachable
+INC3528912,2026-07-29 04:13:16,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3528911,2026-07-30 09:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528910,2026-07-30 10:22:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528909,2026-07-30 10:26:06,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTWKS02 Disk C:\ Warning. Used 86.26%; Free 13.74%; Disk Capacity 122209 MB. 
+Threshold is 85%."
+INC3528908,2026-07-30 23:22:04,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528907,2026-07-31 05:43:13,EA Sports,FRMS Workflow bww_prod_Output_to_bww_sftp_EABrands_com has completed for Client: EA_Sports - FAILED
+INC3528906,2026-07-31 20:18:04,EA Sports,WARNING_AutoTicket:  EASS (EA Sports) qa2uEASSora21 OpsRamp agent is offline
+INC3528905,2026-07-31 20:34:05,Pizza Hut,WARNING_AutoTicket:  PZHT (Pizza Hut) ip-10-226-100-18 OpsRamp agent is offline
+INC3528904,2026-08-01 01:18:24,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3528903,2026-08-01 01:52:39,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2S6A035 The Physical Memory Usage on the device is 55%.The Virtual Memory Usage on the device is 48%.
+INC3528902,2026-08-01 01:57:29,EA Sports,CRITICAL_AutoTicket: ThousandEyes EASS (EA Sports) PCL EASS Mulesoft - Error Type is any [TE]
+INC3528901,2026-08-01 10:52:23,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT PROD_EASS Prod  P1EASS Jobs Failure in last 1 hour - 01-AUG-2026
+INC3528899,2026-08-01 21:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528900,2026-08-01 21:37:03,Bridgestone,CRITICAL_AutoTicket:  BGSN (Bridgestone) BGSN_WATCHER_ALERT P1BGSN_API_ERR_CRITICAL_WH_CUSTOM - Alert condition met
+INC3528898,2026-08-02 01:37:40,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2S6A035 The Physical Memory Usage on the device is 52%.The Virtual Memory Usage on the device is 25%.
+INC3528897,2026-08-02 02:27:40,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PA2WPZHT2S6A035 The Physical Memory Usage on the device is 53%.The Virtual Memory Usage on the device is 36%.
+INC3528896,2026-08-02 03:20:34,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - RUN_DURATION
+INC3528895,2026-08-02 10:46:50,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Delta_AZREWARDS - FAILURE
+INC3528894,2026-08-05 02:12:06,Pizza Hut,"Warning AutoTicket:  PZHT (Pizza Hut) PA2WPZHTWKS02 Disk C:\ Warning. Used 85.18%; Free 14.82%; Disk Capacity 122209 MB. 
+Threshold is 85%."
+INC3528893,2026-08-05 03:57:12,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Custom_Extract_Point_Detail_Daily_Delta_AZREWARDS - FAILURE
+INC3528892,2026-08-06 02:30:02,Bridgestone,Data Hub Alert (Workflow) : P1BGSN - BGSN_Batch_Extract_Point_Redemption_Delta_AZREWARDS - FAILURE
+INC3528891,2026-08-06 07:06:03,EA Sports,CRITICAL_AutoTicket:  EASS (EA Sports) EASS_WATCHER_ALERT ALERT - P1EASS_ELB_ERRCHECK - 2026-08-06T11:06:00.412405759Z UTC - 8 ELB errors occurred in t
+INC3528890,2026-08-07 03:10:38,Pizza Hut,CRITICAL_AutoTicket:  PZHT (Pizza Hut) PZHT_WATCHER_ALERT PROD_[P1PZHT UNIFIED-ALERT] Warning: SLA extracts are not yet delivered to Pizza Hut and Pizza Hut Contr

@@ -1,0 +1,2182 @@
+{
+  "metadata": {
+    "total_incidents": 151,
+    "correlated_alerts": 509,
+    "uncorrelated_alerts": 380,
+    "grouping_rate_percent": 57.25534308211474,
+    "timestamp": "2026-10-03T14:02:00.179321",
+    "note": "Candidate incident groups (no ground truth incident labels for validation)"
+  },
+  "incidents": [
+    {
+      "incident_id": "INCIDENT-0001",
+      "alert_ids": [
+        "INC3529692",
+        "INC3529691",
+        "INC3529690",
+        "INC3529689",
+        "INC3529688"
+      ],
+      "alert_count": 5,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-13T23:04:06",
+      "incident_end": "2026-01-13T23:10:12",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9823073148727417
+    },
+    {
+      "incident_id": "INCIDENT-0002",
+      "alert_ids": [
+        "INC3529759",
+        "INC3529758"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-04T23:15:12",
+      "incident_end": "2026-01-04T23:25:12",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9987330436706543
+    },
+    {
+      "incident_id": "INCIDENT-0003",
+      "alert_ids": [
+        "INC3529715",
+        "INC3529710",
+        "INC3529702",
+        "INC3529698"
+      ],
+      "alert_count": 4,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-09T03:10:23",
+      "incident_end": "2026-01-12T03:10:16",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0004",
+      "alert_ids": [
+        "INC3529451",
+        "INC3529450",
+        "INC3529449",
+        "INC3529447"
+      ],
+      "alert_count": 4,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-24T16:07:03",
+      "incident_end": "2026-02-25T01:37:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0005",
+      "alert_ids": [
+        "INC3529482",
+        "INC3529481"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-02-21T01:11:40",
+      "incident_end": "2026-02-21T01:44:09",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0006",
+      "alert_ids": [
+        "INC3529089",
+        "INC3529088",
+        "INC3529087",
+        "INC3529086",
+        "INC3529085"
+      ],
+      "alert_count": 5,
+      "client": "Pizza Hut",
+      "incident_start": "2026-06-01T07:45:07",
+      "incident_end": "2026-06-01T21:59:07",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0007",
+      "alert_ids": [
+        "INC3529228",
+        "INC3529227"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-23T20:30:10",
+      "incident_end": "2026-04-23T20:35:11",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0008",
+      "alert_ids": [
+        "INC3529140",
+        "INC3529139",
+        "INC3529138",
+        "INC3529137"
+      ],
+      "alert_count": 4,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-14T23:31:44",
+      "incident_end": "2026-05-15T01:52:55",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0009",
+      "alert_ids": [
+        "INC3529191",
+        "INC3529188",
+        "INC3529185",
+        "INC3529177",
+        "INC3529176",
+        "INC3529175",
+        "INC3529174",
+        "INC3529173",
+        "INC3529172"
+      ],
+      "alert_count": 9,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-06T23:30:11",
+      "incident_end": "2026-05-07T01:10:13",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9984704256057739
+    },
+    {
+      "incident_id": "INCIDENT-0010",
+      "alert_ids": [
+        "INC3529294",
+        "INC3529289",
+        "INC3529287",
+        "INC3529285",
+        "INC3529282",
+        "INC3529281",
+        "INC3529278",
+        "INC3529277",
+        "INC3529276",
+        "INC3529274",
+        "INC3529273",
+        "INC3529272"
+      ],
+      "alert_count": 12,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-08T23:35:12",
+      "incident_end": "2026-04-09T01:05:20",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9948740005493164
+    },
+    {
+      "incident_id": "INCIDENT-0011",
+      "alert_ids": [
+        "INC3529034",
+        "INC3529033",
+        "INC3529032",
+        "INC3529031"
+      ],
+      "alert_count": 4,
+      "client": "EA Sports",
+      "incident_start": "2026-06-13T14:05:04",
+      "incident_end": "2026-06-13T14:20:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0012",
+      "alert_ids": [
+        "INC3529401",
+        "INC3529399",
+        "INC3529398",
+        "INC3529397",
+        "INC3529396"
+      ],
+      "alert_count": 5,
+      "client": "Pizza Hut",
+      "incident_start": "2026-03-04T22:40:12",
+      "incident_end": "2026-03-04T23:25:12",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9972848892211914
+    },
+    {
+      "incident_id": "INCIDENT-0013",
+      "alert_ids": [
+        "INC3529594",
+        "INC3529591"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-02T13:34:35",
+      "incident_end": "2026-02-02T22:23:37",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0014",
+      "alert_ids": [
+        "INC3529657",
+        "INC3529654"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-01-22T12:23:03",
+      "incident_end": "2026-01-22T17:38:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0015",
+      "alert_ids": [
+        "INC3529292",
+        "INC3529290"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-08T23:45:10",
+      "incident_end": "2026-04-08T23:50:04",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9971189498901367
+    },
+    {
+      "incident_id": "INCIDENT-0016",
+      "alert_ids": [
+        "INC3529566",
+        "INC3529565",
+        "INC3529561"
+      ],
+      "alert_count": 3,
+      "client": "EA Sports",
+      "incident_start": "2026-02-07T00:06:45",
+      "incident_end": "2026-02-07T16:46:44",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0017",
+      "alert_ids": [
+        "INC3529590",
+        "INC3529589",
+        "INC3529588",
+        "INC3529586",
+        "INC3529585",
+        "INC3529584"
+      ],
+      "alert_count": 6,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-03T02:40:12",
+      "incident_end": "2026-02-03T03:50:13",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9977752566337585
+    },
+    {
+      "incident_id": "INCIDENT-0018",
+      "alert_ids": [
+        "INC3529549",
+        "INC3529548",
+        "INC3529547",
+        "INC3529546",
+        "INC3529545",
+        "INC3529544",
+        "INC3529541",
+        "INC3529540",
+        "INC3529543",
+        "INC3529542",
+        "INC3529539",
+        "INC3529536",
+        "INC3529537"
+      ],
+      "alert_count": 13,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-10T15:33:07",
+      "incident_end": "2026-02-10T17:15:09",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0019",
+      "alert_ids": [
+        "INC3529701",
+        "INC3529700"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-11T03:54:12",
+      "incident_end": "2026-01-11T06:24:20",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0020",
+      "alert_ids": [
+        "INC3528903",
+        "INC3528898",
+        "INC3528897"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-08-01T01:52:39",
+      "incident_end": "2026-08-02T02:27:40",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9988959431648254
+    },
+    {
+      "incident_id": "INCIDENT-0021",
+      "alert_ids": [
+        "INC3528952",
+        "INC3528950",
+        "INC3528949",
+        "INC3528948",
+        "INC3528947",
+        "INC3528946",
+        "INC3528944",
+        "INC3528943",
+        "INC3528942",
+        "INC3528941",
+        "INC3528940",
+        "INC3528939",
+        "INC3528938",
+        "INC3528937",
+        "INC3528936",
+        "INC3528935",
+        "INC3528934",
+        "INC3528933",
+        "INC3528932",
+        "INC3528931",
+        "INC3528930",
+        "INC3528929",
+        "INC3528928",
+        "INC3528927",
+        "INC3528926",
+        "INC3528925",
+        "INC3528924",
+        "INC3528922",
+        "INC3528921",
+        "INC3528920",
+        "INC3528919"
+      ],
+      "alert_count": 31,
+      "client": "EA Sports",
+      "incident_start": "2026-07-22T08:50:34",
+      "incident_end": "2026-07-24T08:48:50",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0022",
+      "alert_ids": [
+        "INC3529355",
+        "INC3529351"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-03-11T06:36:59",
+      "incident_end": "2026-03-11T07:17:19",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9903751611709595
+    },
+    {
+      "incident_id": "INCIDENT-0023",
+      "alert_ids": [
+        "INC3529738",
+        "INC3529737",
+        "INC3529734",
+        "INC3529733",
+        "INC3529731",
+        "INC3529730",
+        "INC3529728",
+        "INC3529721",
+        "INC3529720"
+      ],
+      "alert_count": 9,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-07T23:35:12",
+      "incident_end": "2026-01-08T01:40:14",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9977032542228699
+    },
+    {
+      "incident_id": "INCIDENT-0024",
+      "alert_ids": [
+        "INC3529078",
+        "INC3529077",
+        "INC3529076",
+        "INC3529075"
+      ],
+      "alert_count": 4,
+      "client": "Pizza Hut",
+      "incident_start": "2026-06-03T04:22:42",
+      "incident_end": "2026-06-03T04:51:49",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0025",
+      "alert_ids": [
+        "INC3529072",
+        "INC3529068"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-06-03T09:51:49",
+      "incident_end": "2026-06-03T13:43:10",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.995856761932373
+    },
+    {
+      "incident_id": "INCIDENT-0026",
+      "alert_ids": [
+        "INC3529214",
+        "INC3529213"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-29T08:00:47",
+      "incident_end": "2026-04-29T08:09:09",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0027",
+      "alert_ids": [
+        "INC3529142",
+        "INC3529136",
+        "INC3529131",
+        "INC3529129",
+        "INC3529127"
+      ],
+      "alert_count": 5,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-14T03:11:15",
+      "incident_end": "2026-05-18T03:10:38",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0028",
+      "alert_ids": [
+        "INC3529268",
+        "INC3529263",
+        "INC3529262"
+      ],
+      "alert_count": 3,
+      "client": "Bridgestone",
+      "incident_start": "2026-04-09T21:46:03",
+      "incident_end": "2026-04-10T21:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0029",
+      "alert_ids": [
+        "INC3529756",
+        "INC3529747",
+        "INC3529744"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-05T03:12:25",
+      "incident_end": "2026-01-07T03:10:40",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0030",
+      "alert_ids": [
+        "INC3529244",
+        "INC3529238",
+        "INC3529237"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-17T03:10:52",
+      "incident_end": "2026-04-19T03:10:50",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0031",
+      "alert_ids": [
+        "INC3529211",
+        "INC3529210"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-04-30T10:15:04",
+      "incident_end": "2026-04-30T10:20:05",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0032",
+      "alert_ids": [
+        "INC3529531",
+        "INC3529529",
+        "INC3529525",
+        "INC3529522",
+        "INC3529518",
+        "INC3529516",
+        "INC3529511",
+        "INC3529510",
+        "INC3529509",
+        "INC3529507",
+        "INC3529506",
+        "INC3529501",
+        "INC3529500",
+        "INC3529498",
+        "INC3529495",
+        "INC3529494",
+        "INC3529493"
+      ],
+      "alert_count": 17,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-13T11:37:05",
+      "incident_end": "2026-02-17T13:37:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0033",
+      "alert_ids": [
+        "INC3529658",
+        "INC3529655"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-01-22T12:22:04",
+      "incident_end": "2026-01-22T17:37:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0034",
+      "alert_ids": [
+        "INC3529476",
+        "INC3529475",
+        "INC3529474",
+        "INC3529473",
+        "INC3529472",
+        "INC3529471",
+        "INC3529470",
+        "INC3529469",
+        "INC3529468",
+        "INC3529467"
+      ],
+      "alert_count": 10,
+      "client": "EA Sports",
+      "incident_start": "2026-02-22T22:45:05",
+      "incident_end": "2026-02-22T23:35:05",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0035",
+      "alert_ids": [
+        "INC3529464",
+        "INC3529462",
+        "INC3529461",
+        "INC3529460"
+      ],
+      "alert_count": 4,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-23T12:49:26",
+      "incident_end": "2026-02-23T12:54:13",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0036",
+      "alert_ids": [
+        "INC3529614",
+        "INC3529613",
+        "INC3529612",
+        "INC3529611",
+        "INC3529601",
+        "INC3529600",
+        "INC3529599"
+      ],
+      "alert_count": 7,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-29T14:46:04",
+      "incident_end": "2026-01-30T22:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0037",
+      "alert_ids": [
+        "INC3529432",
+        "INC3529424"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-27T03:11:35",
+      "incident_end": "2026-02-28T03:10:45",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0038",
+      "alert_ids": [
+        "INC3529160",
+        "INC3529159",
+        "INC3529158",
+        "INC3529157",
+        "INC3529156",
+        "INC3529155",
+        "INC3529154",
+        "INC3529153",
+        "INC3529152"
+      ],
+      "alert_count": 9,
+      "client": "Bridgestone",
+      "incident_start": "2026-05-11T20:32:15",
+      "incident_end": "2026-05-11T23:18:25",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0039",
+      "alert_ids": [
+        "INC3529215",
+        "INC3529212"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-29T03:11:03",
+      "incident_end": "2026-04-30T03:10:58",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0040",
+      "alert_ids": [
+        "INC3529739",
+        "INC3529725"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-07T23:35:11",
+      "incident_end": "2026-01-08T00:50:10",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9968955516815186
+    },
+    {
+      "incident_id": "INCIDENT-0041",
+      "alert_ids": [
+        "INC3529368",
+        "INC3529367",
+        "INC3529366",
+        "INC3529365",
+        "INC3529364"
+      ],
+      "alert_count": 5,
+      "client": "EA Sports",
+      "incident_start": "2026-03-09T08:05:06",
+      "incident_end": "2026-03-09T08:55:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0042",
+      "alert_ids": [
+        "INC3529465",
+        "INC3529463"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-23T12:35:47",
+      "incident_end": "2026-02-23T12:51:42",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0043",
+      "alert_ids": [
+        "INC3529255",
+        "INC3529252"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-12T08:00:32",
+      "incident_end": "2026-04-13T03:10:51",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0044",
+      "alert_ids": [
+        "INC3529219",
+        "INC3529216"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-27T03:10:59",
+      "incident_end": "2026-04-28T03:10:54",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0045",
+      "alert_ids": [
+        "INC3529117",
+        "INC3529116"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-21T03:35:21",
+      "incident_end": "2026-05-22T02:20:18",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9990166425704956
+    },
+    {
+      "incident_id": "INCIDENT-0046",
+      "alert_ids": [
+        "INC3529369",
+        "INC3529360",
+        "INC3529359"
+      ],
+      "alert_count": 3,
+      "client": "Bridgestone",
+      "incident_start": "2026-03-09T07:46:03",
+      "incident_end": "2026-03-10T05:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0047",
+      "alert_ids": [
+        "INC3529650",
+        "INC3529645",
+        "INC3529640"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-23T03:10:36",
+      "incident_end": "2026-01-25T03:10:31",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0048",
+      "alert_ids": [
+        "INC3529286",
+        "INC3529284"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-08T23:58:21",
+      "incident_end": "2026-04-09T00:00:17",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0049",
+      "alert_ids": [
+        "INC3528958",
+        "INC3528957",
+        "INC3528956",
+        "INC3528955"
+      ],
+      "alert_count": 4,
+      "client": "Bridgestone",
+      "incident_start": "2026-07-21T05:05:11",
+      "incident_end": "2026-07-21T05:37:44",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0050",
+      "alert_ids": [
+        "INC3529630",
+        "INC3529629"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-27T03:42:07",
+      "incident_end": "2026-01-27T05:40:10",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0051",
+      "alert_ids": [
+        "INC3529528",
+        "INC3529527"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-13T19:17:11",
+      "incident_end": "2026-02-13T19:23:07",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0052",
+      "alert_ids": [
+        "INC3528972",
+        "INC3528970",
+        "INC3528969",
+        "INC3528968",
+        "INC3528967",
+        "INC3528966"
+      ],
+      "alert_count": 6,
+      "client": "Pizza Hut",
+      "incident_start": "2026-07-15T02:00:55",
+      "incident_end": "2026-07-15T09:23:37",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0053",
+      "alert_ids": [
+        "INC3529776",
+        "INC3529775",
+        "INC3529774"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-01T03:51:58",
+      "incident_end": "2026-01-01T04:11:09",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0054",
+      "alert_ids": [
+        "INC3529407",
+        "INC3529405",
+        "INC3529389",
+        "INC3529388",
+        "INC3529386",
+        "INC3529381",
+        "INC3529380",
+        "INC3529377",
+        "INC3529373",
+        "INC3529371",
+        "INC3529370",
+        "INC3529363",
+        "INC3529362"
+      ],
+      "alert_count": 13,
+      "client": "Pizza Hut",
+      "incident_start": "2026-03-03T23:30:27",
+      "incident_end": "2026-03-09T22:20:56",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0055",
+      "alert_ids": [
+        "INC3529402",
+        "INC3529400"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-03-04T22:40:10",
+      "incident_end": "2026-03-04T22:45:11",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0056",
+      "alert_ids": [
+        "INC3528979",
+        "INC3528978"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-07-11T01:34:36",
+      "incident_end": "2026-07-11T02:09:36",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9980120658874512
+    },
+    {
+      "incident_id": "INCIDENT-0057",
+      "alert_ids": [
+        "INC3529415",
+        "INC3529412",
+        "INC3529411"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-03-01T23:50:30",
+      "incident_end": "2026-03-02T22:51:19",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0058",
+      "alert_ids": [
+        "INC3529099",
+        "INC3529098"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-29T23:42:42",
+      "incident_end": "2026-05-29T23:51:52",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0059",
+      "alert_ids": [
+        "INC3529135",
+        "INC3529134"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-05-15T16:46:03",
+      "incident_end": "2026-05-15T18:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0060",
+      "alert_ids": [
+        "INC3529563",
+        "INC3529562"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-02-07T05:56:04",
+      "incident_end": "2026-02-07T06:06:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0061",
+      "alert_ids": [
+        "INC3529703",
+        "INC3529699"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-11T02:46:03",
+      "incident_end": "2026-01-12T00:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0062",
+      "alert_ids": [
+        "INC3528998",
+        "INC3528997"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-07-03T20:46:03",
+      "incident_end": "2026-07-03T20:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0063",
+      "alert_ids": [
+        "INC3529337",
+        "INC3529336"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-03-14T03:11:07",
+      "incident_end": "2026-03-15T03:11:06",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0064",
+      "alert_ids": [
+        "INC3529644",
+        "INC3529643",
+        "INC3529642",
+        "INC3529641",
+        "INC3529639",
+        "INC3529638",
+        "INC3529637"
+      ],
+      "alert_count": 7,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-25T02:12:57",
+      "incident_end": "2026-01-25T05:04:41",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0065",
+      "alert_ids": [
+        "INC3529150",
+        "INC3529149",
+        "INC3529148",
+        "INC3529147"
+      ],
+      "alert_count": 4,
+      "client": "Bridgestone",
+      "incident_start": "2026-05-12T12:22:08",
+      "incident_end": "2026-05-12T14:37:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0066",
+      "alert_ids": [
+        "INC3529001",
+        "INC3529000"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-07-02T08:20:58",
+      "incident_end": "2026-07-02T09:04:32",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0067",
+      "alert_ids": [
+        "INC3529534",
+        "INC3529533"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-12T17:00:09",
+      "incident_end": "2026-02-13T03:55:12",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0068",
+      "alert_ids": [
+        "INC3529489",
+        "INC3529488",
+        "INC3529487"
+      ],
+      "alert_count": 3,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-19T07:29:59",
+      "incident_end": "2026-02-19T18:31:05",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0069",
+      "alert_ids": [
+        "INC3528899",
+        "INC3528900"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-08-01T21:37:03",
+      "incident_end": "2026-08-01T21:37:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0070",
+      "alert_ids": [
+        "INC3529005",
+        "INC3529004"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-07-02T00:40:09",
+      "incident_end": "2026-07-02T00:40:11",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9995608329772949
+    },
+    {
+      "incident_id": "INCIDENT-0071",
+      "alert_ids": [
+        "INC3529454",
+        "INC3529453"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-24T13:10:11",
+      "incident_end": "2026-02-24T13:15:11",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0072",
+      "alert_ids": [
+        "INC3529357",
+        "INC3529353"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-03-11T06:36:53",
+      "incident_end": "2026-03-11T07:17:14",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9900317192077637
+    },
+    {
+      "incident_id": "INCIDENT-0073",
+      "alert_ids": [
+        "INC3529204",
+        "INC3529203",
+        "INC3529202"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-02T03:11:53",
+      "incident_end": "2026-05-04T03:10:59",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0074",
+      "alert_ids": [
+        "INC3529346",
+        "INC3529345",
+        "INC3529344",
+        "INC3529343"
+      ],
+      "alert_count": 4,
+      "client": "Pizza Hut",
+      "incident_start": "2026-03-12T03:11:45",
+      "incident_end": "2026-03-13T03:21:46",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0075",
+      "alert_ids": [
+        "INC3529354",
+        "INC3529350"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-03-11T06:37:01",
+      "incident_end": "2026-03-11T07:17:22",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9822268486022949
+    },
+    {
+      "incident_id": "INCIDENT-0076",
+      "alert_ids": [
+        "INC3529223",
+        "INC3529222"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-04-25T01:28:13",
+      "incident_end": "2026-04-25T02:08:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0077",
+      "alert_ids": [
+        "INC3529575",
+        "INC3529573",
+        "INC3529572",
+        "INC3529571"
+      ],
+      "alert_count": 4,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-06T02:55:13",
+      "incident_end": "2026-02-06T04:05:12",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9979982376098633
+    },
+    {
+      "incident_id": "INCIDENT-0078",
+      "alert_ids": [
+        "INC3529333",
+        "INC3529331"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-03-17T01:46:03",
+      "incident_end": "2026-03-17T23:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0079",
+      "alert_ids": [
+        "INC3529437",
+        "INC3529436",
+        "INC3529435",
+        "INC3529433",
+        "INC3529429",
+        "INC3529425",
+        "INC3529423",
+        "INC3529422"
+      ],
+      "alert_count": 8,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-26T16:41:32",
+      "incident_end": "2026-02-28T17:04:41",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0080",
+      "alert_ids": [
+        "INC3529695",
+        "INC3529694"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-12T11:16:08",
+      "incident_end": "2026-01-12T11:16:08",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9863386154174805
+    },
+    {
+      "incident_id": "INCIDENT-0081",
+      "alert_ids": [
+        "INC3529332",
+        "INC3529330"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-03-17T03:12:48",
+      "incident_end": "2026-03-18T03:11:58",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0082",
+      "alert_ids": [
+        "INC3529382",
+        "INC3529379",
+        "INC3529376",
+        "INC3529375",
+        "INC3529374",
+        "INC3529372"
+      ],
+      "alert_count": 6,
+      "client": "Bridgestone",
+      "incident_start": "2026-03-06T21:46:03",
+      "incident_end": "2026-03-07T23:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0083",
+      "alert_ids": [
+        "INC3529458",
+        "INC3529457"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-24T03:23:23",
+      "incident_end": "2026-02-24T05:24:55",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0084",
+      "alert_ids": [
+        "INC3529187",
+        "INC3529182"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-06T23:40:09",
+      "incident_end": "2026-05-07T00:05:11",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9974255561828613
+    },
+    {
+      "incident_id": "INCIDENT-0085",
+      "alert_ids": [
+        "INC3529593",
+        "INC3529592",
+        "INC3529582",
+        "INC3529581",
+        "INC3529580"
+      ],
+      "alert_count": 5,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-02T16:46:04",
+      "incident_end": "2026-02-04T15:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0086",
+      "alert_ids": [
+        "INC3529515",
+        "INC3529514",
+        "INC3529508",
+        "INC3529505",
+        "INC3529504"
+      ],
+      "alert_count": 5,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-15T16:46:03",
+      "incident_end": "2026-02-16T22:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0087",
+      "alert_ids": [
+        "INC3529490",
+        "INC3529486",
+        "INC3529480"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-19T03:12:32",
+      "incident_end": "2026-02-21T03:11:40",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0088",
+      "alert_ids": [
+        "INC3529617",
+        "INC3529616",
+        "INC3529609",
+        "INC3529608"
+      ],
+      "alert_count": 4,
+      "client": "EA Sports",
+      "incident_start": "2026-01-29T08:54:08",
+      "incident_end": "2026-01-30T07:50:12",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0089",
+      "alert_ids": [
+        "INC3529295",
+        "INC3529293"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-08T23:35:09",
+      "incident_end": "2026-04-08T23:40:10",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9885938167572021
+    },
+    {
+      "incident_id": "INCIDENT-0090",
+      "alert_ids": [
+        "INC3529406",
+        "INC3529392"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-03-04T11:31:16",
+      "incident_end": "2026-03-05T09:34:39",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0091",
+      "alert_ids": [
+        "INC3529163",
+        "INC3529151"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-11T03:11:15",
+      "incident_end": "2026-05-12T03:11:10",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0092",
+      "alert_ids": [
+        "INC3528911",
+        "INC3528910",
+        "INC3528908"
+      ],
+      "alert_count": 3,
+      "client": "Bridgestone",
+      "incident_start": "2026-07-30T09:37:03",
+      "incident_end": "2026-07-30T23:22:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0093",
+      "alert_ids": [
+        "INC3529356",
+        "INC3529352"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-03-11T06:36:55",
+      "incident_end": "2026-03-11T07:17:17",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9880359172821045
+    },
+    {
+      "incident_id": "INCIDENT-0094",
+      "alert_ids": [
+        "INC3529421",
+        "INC3529419"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-28T23:46:04",
+      "incident_end": "2026-03-01T04:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0095",
+      "alert_ids": [
+        "INC3529103",
+        "INC3529102",
+        "INC3529097"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-28T03:10:31",
+      "incident_end": "2026-05-30T03:10:24",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0096",
+      "alert_ids": [
+        "INC3529071",
+        "INC3529067"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-06-03T09:51:50",
+      "incident_end": "2026-06-03T13:43:12",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9955141544342041
+    },
+    {
+      "incident_id": "INCIDENT-0097",
+      "alert_ids": [
+        "INC3529037",
+        "INC3529035"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-06-12T06:38:53",
+      "incident_end": "2026-06-13T06:33:01",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0098",
+      "alert_ids": [
+        "INC3528996",
+        "INC3528995"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-07-03T20:52:03",
+      "incident_end": "2026-07-03T20:52:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0099",
+      "alert_ids": [
+        "INC3529446",
+        "INC3529444",
+        "INC3529443",
+        "INC3529442",
+        "INC3529440",
+        "INC3529439"
+      ],
+      "alert_count": 6,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-25T17:41:08",
+      "incident_end": "2026-02-26T04:02:41",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0100",
+      "alert_ids": [
+        "INC3529671",
+        "INC3529663",
+        "INC3529662"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-19T03:10:37",
+      "incident_end": "2026-01-21T03:10:35",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0101",
+      "alert_ids": [
+        "INC3529685",
+        "INC3529683"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-14T11:20:38",
+      "incident_end": "2026-01-14T16:30:12",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.962928056716919
+    },
+    {
+      "incident_id": "INCIDENT-0102",
+      "alert_ids": [
+        "INC3529682",
+        "INC3529681",
+        "INC3529680"
+      ],
+      "alert_count": 3,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-14T16:46:04",
+      "incident_end": "2026-01-14T18:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0103",
+      "alert_ids": [
+        "INC3528954",
+        "INC3528953"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-07-22T03:37:51",
+      "incident_end": "2026-07-22T07:47:32",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0104",
+      "alert_ids": [
+        "INC3529771",
+        "INC3529770"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-02T19:46:04",
+      "incident_end": "2026-01-02T20:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0105",
+      "alert_ids": [
+        "INC3529030",
+        "INC3529029"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-06-13T15:46:04",
+      "incident_end": "2026-06-13T16:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0106",
+      "alert_ids": [
+        "INC3529761",
+        "INC3529760"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-04T22:45:11",
+      "incident_end": "2026-01-04T22:50:09",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0107",
+      "alert_ids": [
+        "INC3529648",
+        "INC3529647"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-01-23T11:13:25",
+      "incident_end": "2026-01-23T12:12:39",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0108",
+      "alert_ids": [
+        "INC3529119",
+        "INC3529118"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-20T03:10:40",
+      "incident_end": "2026-05-21T03:10:38",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0109",
+      "alert_ids": [
+        "INC3529709",
+        "INC3529706"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-01-10T05:23:04",
+      "incident_end": "2026-01-10T05:53:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0110",
+      "alert_ids": [
+        "INC3528974",
+        "INC3528971"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-07-14T10:14:05",
+      "incident_end": "2026-07-15T07:14:06",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0111",
+      "alert_ids": [
+        "INC3529675",
+        "INC3529674"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-01-17T01:12:55",
+      "incident_end": "2026-01-17T01:49:09",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0112",
+      "alert_ids": [
+        "INC3529226",
+        "INC3529221",
+        "INC3529220"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-24T03:10:59",
+      "incident_end": "2026-04-26T03:10:49",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0113",
+      "alert_ids": [
+        "INC3529492",
+        "INC3529491"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-18T18:07:05",
+      "incident_end": "2026-02-18T22:22:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0114",
+      "alert_ids": [
+        "INC3529070",
+        "INC3529066"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-06-03T09:51:54",
+      "incident_end": "2026-06-03T13:43:14",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9829035997390747
+    },
+    {
+      "incident_id": "INCIDENT-0115",
+      "alert_ids": [
+        "INC3529659",
+        "INC3529653",
+        "INC3529652"
+      ],
+      "alert_count": 3,
+      "client": "EA Sports",
+      "incident_start": "2026-01-22T12:20:05",
+      "incident_end": "2026-01-22T19:45:06",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9801557660102844
+    },
+    {
+      "incident_id": "INCIDENT-0116",
+      "alert_ids": [
+        "INC3529320",
+        "INC3529315"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-03-26T07:22:04",
+      "incident_end": "2026-03-27T07:22:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0117",
+      "alert_ids": [
+        "INC3529265",
+        "INC3529261",
+        "INC3529258"
+      ],
+      "alert_count": 3,
+      "client": "Bridgestone",
+      "incident_start": "2026-04-10T09:45:57",
+      "incident_end": "2026-04-11T07:33:08",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0118",
+      "alert_ids": [
+        "INC3529670",
+        "INC3529669",
+        "INC3529667",
+        "INC3529665"
+      ],
+      "alert_count": 4,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-19T09:46:03",
+      "incident_end": "2026-01-19T19:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0119",
+      "alert_ids": [
+        "INC3529254",
+        "INC3529253"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-12T08:06:08",
+      "incident_end": "2026-04-12T13:36:06",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0120",
+      "alert_ids": [
+        "INC3529250",
+        "INC3529247"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-14T03:11:36",
+      "incident_end": "2026-04-15T03:10:51",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0121",
+      "alert_ids": [
+        "INC3529317",
+        "INC3529316"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-03-27T03:46:03",
+      "incident_end": "2026-03-27T06:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0122",
+      "alert_ids": [
+        "INC3529348",
+        "INC3529347"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-03-11T14:46:04",
+      "incident_end": "2026-03-11T18:46:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0123",
+      "alert_ids": [
+        "INC3529723",
+        "INC3529722"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-08T01:10:12",
+      "incident_end": "2026-01-08T01:20:10",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0124",
+      "alert_ids": [
+        "INC3529751",
+        "INC3529750"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-05T20:07:03",
+      "incident_end": "2026-01-05T21:37:05",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0125",
+      "alert_ids": [
+        "INC3528904",
+        "INC3528902"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-08-01T01:18:24",
+      "incident_end": "2026-08-01T01:57:29",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0126",
+      "alert_ids": [
+        "INC3529026",
+        "INC3529025"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-06-17T09:05:05",
+      "incident_end": "2026-06-17T09:20:08",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0127",
+      "alert_ids": [
+        "INC3529125",
+        "INC3529124",
+        "INC3529123"
+      ],
+      "alert_count": 3,
+      "client": "EA Sports",
+      "incident_start": "2026-05-18T19:43:38",
+      "incident_end": "2026-05-18T20:25:38",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0128",
+      "alert_ids": [
+        "INC3528963",
+        "INC3528962"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-07-17T06:58:04",
+      "incident_end": "2026-07-17T08:48:03",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.8303720951080322
+    },
+    {
+      "incident_id": "INCIDENT-0129",
+      "alert_ids": [
+        "INC3529183",
+        "INC3529180"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-07T00:00:10",
+      "incident_end": "2026-05-07T00:15:12",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9973406791687012
+    },
+    {
+      "incident_id": "INCIDENT-0130",
+      "alert_ids": [
+        "INC3529393",
+        "INC3529390"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-03-05T06:42:29",
+      "incident_end": "2026-03-05T10:21:24",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9993047714233398
+    },
+    {
+      "incident_id": "INCIDENT-0131",
+      "alert_ids": [
+        "INC3529679",
+        "INC3529678",
+        "INC3529673"
+      ],
+      "alert_count": 3,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-15T03:10:44",
+      "incident_end": "2026-01-17T03:10:39",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0132",
+      "alert_ids": [
+        "INC3529732",
+        "INC3529729"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-08T00:16:22",
+      "incident_end": "2026-01-08T00:31:50",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.8432712554931641
+    },
+    {
+      "incident_id": "INCIDENT-0133",
+      "alert_ids": [
+        "INC3529091",
+        "INC3529083"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-06-01T03:10:23",
+      "incident_end": "2026-06-02T03:10:15",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0134",
+      "alert_ids": [
+        "INC3529108",
+        "INC3529107"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-05-26T10:02:51",
+      "incident_end": "2026-05-26T10:48:51",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9892014265060425
+    },
+    {
+      "incident_id": "INCIDENT-0135",
+      "alert_ids": [
+        "INC3529530",
+        "INC3529521"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-13T13:46:04",
+      "incident_end": "2026-02-13T23:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0136",
+      "alert_ids": [
+        "INC3529577",
+        "INC3529569"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-02-05T07:06:45",
+      "incident_end": "2026-02-06T06:48:44",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0137",
+      "alert_ids": [
+        "INC3529128",
+        "INC3529126"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-05-17T07:49:40",
+      "incident_end": "2026-05-18T06:01:40",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9983706474304199
+    },
+    {
+      "incident_id": "INCIDENT-0138",
+      "alert_ids": [
+        "INC3529559",
+        "INC3529558",
+        "INC3529557",
+        "INC3529556"
+      ],
+      "alert_count": 4,
+      "client": "EA Sports",
+      "incident_start": "2026-02-07T21:10:03",
+      "incident_end": "2026-02-07T22:00:03",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0139",
+      "alert_ids": [
+        "INC3529018",
+        "INC3529017"
+      ],
+      "alert_count": 2,
+      "client": "EA Sports",
+      "incident_start": "2026-06-23T08:02:26",
+      "incident_end": "2026-06-23T08:10:37",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9710962772369385
+    },
+    {
+      "incident_id": "INCIDENT-0140",
+      "alert_ids": [
+        "INC3529502",
+        "INC3529499",
+        "INC3529497"
+      ],
+      "alert_count": 3,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-17T09:00:12",
+      "incident_end": "2026-02-17T12:10:09",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0141",
+      "alert_ids": [
+        "INC3529746",
+        "INC3529745"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-01-06T21:46:03",
+      "incident_end": "2026-01-06T22:46:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0142",
+      "alert_ids": [
+        "INC3529517",
+        "INC3529512"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-02-15T03:12:35",
+      "incident_end": "2026-02-16T03:12:34",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0143",
+      "alert_ids": [
+        "INC3529058",
+        "INC3529056"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-06-05T07:52:03",
+      "incident_end": "2026-06-05T08:37:04",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0144",
+      "alert_ids": [
+        "INC3529769",
+        "INC3529767"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-03T03:11:09",
+      "incident_end": "2026-01-04T03:10:18",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0145",
+      "alert_ids": [
+        "INC3529115",
+        "INC3529112"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-05-22T03:10:40",
+      "incident_end": "2026-05-23T03:10:26",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0146",
+      "alert_ids": [
+        "INC3529719",
+        "INC3529718"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-08T03:21:29",
+      "incident_end": "2026-01-08T03:35:01",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9984934329986572
+    },
+    {
+      "incident_id": "INCIDENT-0147",
+      "alert_ids": [
+        "INC3529741",
+        "INC3529740"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-01-07T08:43:08",
+      "incident_end": "2026-01-07T09:09:08",
+      "correlation_method": "graph_connected_component",
+      "avg_correlation_score": 0.9093811511993408
+    },
+    {
+      "incident_id": "INCIDENT-0148",
+      "alert_ids": [
+        "INC3529060",
+        "INC3529059"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-06-05T05:02:35",
+      "incident_end": "2026-06-05T05:05:56",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0149",
+      "alert_ids": [
+        "INC3528916",
+        "INC3528915",
+        "INC3528914"
+      ],
+      "alert_count": 3,
+      "client": "EA Sports",
+      "incident_start": "2026-07-28T07:31:51",
+      "incident_end": "2026-07-28T08:34:41",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0150",
+      "alert_ids": [
+        "INC3529303",
+        "INC3529301"
+      ],
+      "alert_count": 2,
+      "client": "Pizza Hut",
+      "incident_start": "2026-04-03T03:12:42",
+      "incident_end": "2026-04-04T03:12:41",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    },
+    {
+      "incident_id": "INCIDENT-0151",
+      "alert_ids": [
+        "INC3529445",
+        "INC3529441"
+      ],
+      "alert_count": 2,
+      "client": "Bridgestone",
+      "incident_start": "2026-02-25T17:52:23",
+      "incident_end": "2026-02-25T20:35:53",
+      "correlation_method": "exact_signature_match",
+      "avg_correlation_score": 1.0
+    }
+  ]
+}
