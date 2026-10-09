@@ -186,15 +186,25 @@ if len(filtered_df) > 0:
                 alert_type_conf = alert.get('alert_type_confidence', 0)
                 severity_conf = alert.get('severity_confidence', 0)
                 business_impact_conf = alert.get('business_impact_confidence', 0)
+                priority_conf = alert.get('priority_confidence', 0)
+                assignment_group_conf = alert.get('assignment_group_confidence', 0)
                 
                 alert_type_text = str(alert.get('predicted_alert_type', 'Unknown'))
                 if len(alert_type_text) > 50:
                     alert_type_text = alert_type_text[:50] + "..."
                 
                 business_impact_text = str(alert.get('predicted_business_impact', 'Unknown'))
-                assignment_group_text = str(alert.get('assignment_group', 'Unknown'))
+                priority_text = str(alert.get('predicted_priority', 'Unknown'))
+                
+                assignment_group_text = str(alert.get('predicted_assignment_group', 'Unknown'))
                 if len(assignment_group_text) > 50:
                     assignment_group_text = assignment_group_text[:50] + "..."
+                
+                # Historical labels for comparison
+                historical_priority = str(alert.get('priority_true_label', 'N/A'))
+                historical_assignment_group = str(alert.get('assignment_group_true_label', 'N/A'))
+                if len(historical_assignment_group) > 50:
+                    historical_assignment_group = historical_assignment_group[:50] + "..."
 
                 html(f"""
                 <div class="custom-card">
@@ -224,12 +234,28 @@ if len(filtered_df) > 0:
                             <td class="td-bold">{business_impact_conf:.1%}</td>
                         </tr>
                         <tr>
-                            <td class="td-label" style="padding-top: 0.5rem;">Priority:</td>
-                            <td class="td-value" style="padding-top: 0.5rem;">{alert.get('priority', 'Unknown')}</td>
+                            <td class="td-label" style="padding-top: 0.5rem;">Priority (Predicted):</td>
+                            <td class="td-value" style="padding-top: 0.5rem;">{priority_text}</td>
                         </tr>
                         <tr>
-                            <td class="td-label">Assignment Group:</td>
-                            <td class="td-value" style="font-size: 0.825rem;">{assignment_group_text}</td>
+                            <td class="td-label">Confidence:</td>
+                            <td class="td-bold">{priority_conf:.1%}</td>
+                        </tr>
+                        <tr>
+                            <td class="td-label" style="font-size: 0.75rem; color: var(--text-secondary);">Historical Priority:</td>
+                            <td class="td-value" style="font-size: 0.75rem; color: var(--text-secondary);">{historical_priority}</td>
+                        </tr>
+                        <tr>
+                            <td class="td-label" style="padding-top: 0.5rem;">Assignment Group (Predicted):</td>
+                            <td class="td-value" style="font-size: 0.825rem; padding-top: 0.5rem;">{assignment_group_text}</td>
+                        </tr>
+                        <tr>
+                            <td class="td-label">Confidence:</td>
+                            <td class="td-bold">{assignment_group_conf:.1%}</td>
+                        </tr>
+                        <tr>
+                            <td class="td-label" style="font-size: 0.75rem; color: var(--text-secondary);">Historical Assignment Group:</td>
+                            <td class="td-value" style="font-size: 0.75rem; color: var(--text-secondary);">{historical_assignment_group}</td>
                         </tr>
                     </table>
                 </div>
@@ -240,8 +266,8 @@ if len(filtered_df) > 0:
                     "• Alert Type: TF-IDF + Logistic Regression<br>"
                     "• Severity: Embedding + SVM<br>"
                     "• Business Impact: Embedding + SVM<br>"
-                    "• Priority: Raw data (historical ground truth)<br>"
-                    "• Assignment Group: Raw data (historical ground truth)",
+                    "• Priority: TF-IDF + Logistic Regression<br>"
+                    "• Assignment Group: TF-IDF + Logistic Regression",
                     "info"
                 )
 

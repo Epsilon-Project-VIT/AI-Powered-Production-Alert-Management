@@ -76,7 +76,7 @@ def main():
     recent_alerts = stage2_df.head(10)
 
     # Display recent alerts using Streamlit dataframe
-    display_df = recent_alerts[['alert_id', 'client', 'created_at', 'priority', 'assignment_group']].copy()
+    display_df = recent_alerts[['alert_id', 'client', 'created_at', 'predicted_priority', 'predicted_assignment_group']].copy()
     display_df.columns = ['Alert ID', 'Client', 'Created', 'Priority', 'Assignment Group']
 
     # Format timestamp

@@ -148,7 +148,7 @@ if len(filtered_df) > 0:
                 html(f"""
                 <div class="metric-card">
                     <div class="metric-label">Client</div>
-                    <div class="detail-text">{rca['client']}</div>
+                    <div class="detail-text">{rca.get('client', 'N/A')}</div>
                 </div>
                 """)
 
@@ -156,7 +156,7 @@ if len(filtered_df) > 0:
                 html(f"""
                 <div class="metric-card">
                     <div class="metric-label">Alert Count</div>
-                    <div class="detail-number">{rca['alert_count']}</div>
+                    <div class="detail-number">{rca.get('alert_count', 'N/A')}</div>
                 </div>
                 """)
 
@@ -223,16 +223,36 @@ if len(filtered_df) > 0:
             # Probable Root Cause
             html("<h3>Probable Failure Mechanism</h3>")
 
-            if rca.get('probable_root_cause'):
-                root_cause = rca['probable_root_cause']
-                component = root_cause.get('component', 'Unknown')
-                failure_type = root_cause.get('failure_type', 'Unknown')
-                confidence = root_cause.get('confidence', 0)
-                description = root_cause.get('description', 'No description available')
+            root_cause = rca.get('probable_root_cause', {})
+            component = root_cause.get('component') or 'Unknown'
+            failure_type = root_cause.get('failure_type') or 'Unknown'
+            confidence = root_cause.get('confidence')  # None means genuinely absent
+            description = root_cause.get('description')  # None means genuinely absent
 
+            # Only show the Probable Failure Mechanism section when we have component data
+            if component and component != 'Unknown':
                 col1, col2 = st.columns([1, 1])
 
                 with col1:
+                    # Confidence display: show actual value or "Not available"
+                    if confidence is not None:
+                        confidence_pct = f"{confidence:.1%}"
+                        confidence_bar_width = f"{confidence * 100:.0f}%"
+                        confidence_bar_html = f"""<div class="confidence-bar-wrap">
+    <div class="confidence-bar-track">
+        <div class="confidence-bar-fill" style="width: {confidence_bar_width};"></div>
+    </div>
+    <span class="confidence-bar-value">{confidence_pct}</span>
+</div>
+<div class="confidence-bar-note">
+    Experimental score (NOT calibrated probability)
+</div>"""
+                    else:
+                        confidence_bar_html = """<span style="color: #94a3b8; font-style: italic;">Not available</span>
+<div class="confidence-bar-note">
+    Experimental score (NOT calibrated probability)
+</div>"""
+
                     html(f"""
                     <div class="custom-card">
                         <table class="compact-table">
@@ -247,15 +267,7 @@ if len(filtered_df) > 0:
                             <tr>
                                 <td class="td-label">Experimental Confidence:</td>
                                 <td>
-                                    <div class="confidence-bar-wrap">
-                                        <div class="confidence-bar-track">
-                                            <div class="confidence-bar-fill" style="width: {confidence*100}%;"></div>
-                                        </div>
-                                        <span class="confidence-bar-value">{confidence:.1%}</span>
-                                    </div>
-                                    <div class="confidence-bar-note">
-                                        Experimental score (NOT calibrated probability)
-                                    </div>
+                                    {confidence_bar_html}
                                 </td>
                             </tr>
                         </table>
@@ -269,24 +281,37 @@ if len(filtered_df) > 0:
                     )
 
                 with col2:
+                    # Description: show actual or clear "not in source"
+                    if description:
+                        description_html = description
+                    else:
+                        description_html = "<em style='color: #94a3b8;'>No description available in source result</em>"
+
                     html(f"""
                     <div class="custom-card">
                         <div class="card-header">Description</div>
-                        <div class="reasoning-text">{description}</div>
+                        <div class="reasoning-text">{description_html}</div>
                     </div>
                     """)
 
-                # Supporting Evidence
-                if 'supporting_evidence_ids' in root_cause and root_cause['supporting_evidence_ids']:
-                    evidence_ids = root_cause['supporting_evidence_ids']
+                # Evidence section
+                # Show actual evidence objects when present (rich schema),
+                # or evidence_count as a count-only summary when schema is minimal
+                evidence_list_raw = rca.get('evidence', [])
+                evidence_count_stored = rca.get('evidence_count', len(evidence_list_raw))
 
-                    with st.expander(f"Supporting Evidence ({len(evidence_ids)} items - ALL MOCK)"):
-                        evidence_list = "<br>".join(
-                            [f"&bull; <code class='evidence-code'>{eid}</code>" for eid in evidence_ids[:10]]
+                # Supporting evidence IDs from probable_root_cause (rich schema)
+                supporting_ids = root_cause.get('supporting_evidence_ids', [])
+
+                if supporting_ids:
+                    with st.expander(f"Supporting Evidence ({len(supporting_ids)} items)"):
+                        evidence_html = "<br>".join(
+                            [f"&bull; <code class='evidence-code'>{eid}</code>" for eid in supporting_ids[:10]]
                         )
-                        st.markdown(evidence_list, unsafe_allow_html=True)
-                        if len(evidence_ids) > 10:
-                            st.caption(f"... and {len(evidence_ids) - 10} more (all MOCK telemetry)")
+                        st.markdown(evidence_html, unsafe_allow_html=True)
+                        if len(supporting_ids) > 10:
+                            st.caption(f"... and {len(supporting_ids) - 10} more")
+
             else:
                 html("""
                 <div class="warning-box">
@@ -302,15 +327,22 @@ if len(filtered_df) > 0:
                 html("<h3>Alternative Hypotheses</h3>")
 
                 for i, alt in enumerate(rca['alternative_hypotheses'][:3], 1):
-                    with st.expander(f"Alternative {i}: {alt.get('component', 'Unknown')} - {alt.get('failure_type', 'Unknown')}"):
-                        alt_conf = alt.get('confidence', 0)
+                    alt_comp = alt.get('component', 'Unknown')
+                    alt_ft = alt.get('failure_type', 'Unknown')
+                    with st.expander(f"Alternative {i}: {alt_comp} - {alt_ft}"):
+                        alt_conf = alt.get('confidence') or alt.get('analysis_confidence')
                         reason = alt.get('reason_for_lower_rank', 'N/A')
+
+                        if alt_conf is not None:
+                            conf_str = f"{alt_conf:.1%}"
+                        else:
+                            conf_str = "Not available"
 
                         html(f"""
                         <table class="compact-table">
                             <tr>
                                 <td class="td-label" style="width: 150px;">Experimental Confidence:</td>
-                                <td class="td-bold">{alt_conf:.1%}</td>
+                                <td class="td-bold">{conf_str}</td>
                             </tr>
                             <tr>
                                 <td class="td-label" style="vertical-align: top;">Lower Rank Reason:</td>
@@ -324,20 +356,57 @@ if len(filtered_df) > 0:
             # Evidence Availability
             html("<h3>Evidence Availability</h3>")
             
-            # Count evidence by type
-            evidence_count = len(rca.get('evidence', []))
-            mock_count = sum(1 for e in rca.get('evidence', []) if e.get('is_mock', False))
+            # Determine evidence counts
+            evidence_list_raw = rca.get('evidence', [])
+            evidence_count_stored = rca.get('evidence_count', len(evidence_list_raw))
+
+            # Count mock vs non-mock in actual evidence objects
+            mock_count = sum(1 for e in evidence_list_raw if e.get('is_mock', False))
+            real_count = sum(1 for e in evidence_list_raw if not e.get('is_mock', False))
+
+            # Determine evidence type labels
+            has_historical = any(
+                e.get('source_type') == 'historical_alert' for e in evidence_list_raw
+            )
+            has_mock_telemetry = any(
+                e.get('is_mock', False) for e in evidence_list_raw
+            )
 
             col1, col2, col3 = st.columns(3)
 
             with col1:
-                html(f"""
-                <div class="custom-card">
-                    <div class="evidence-unavailable">⚠ MOCK Telemetry</div>
-                    <div class="evidence-detail">{evidence_count} total items</div>
-                    <div class="evidence-detail">{mock_count} are MOCK</div>
-                </div>
-                """)
+                if evidence_count_stored > 0:
+                    # Determine what kind of evidence this is
+                    if evidence_list_raw:
+                        # We have actual evidence objects – can distinguish types
+                        if has_historical and not has_mock_telemetry:
+                            ev_label = "✓ Historical Alert Evidence"
+                            ev_style = "color: #22c55e;"
+                        elif has_historical and has_mock_telemetry:
+                            ev_label = "⚠ Historical + MOCK Evidence"
+                            ev_style = "color: #f59e0b;"
+                        else:
+                            ev_label = "⚠ MOCK Telemetry"
+                            ev_style = "color: #f59e0b;"
+                        ev_detail = f"{len(evidence_list_raw)} total items"
+                    else:
+                        # Schema A: only count stored, no objects
+                        ev_label = "✓ Evidence (count from source)"
+                        ev_style = "color: #22c55e;"
+                        ev_detail = f"{evidence_count_stored} total items"
+                    html(f"""
+                    <div class="custom-card">
+                        <div class="evidence-unavailable" style="{ev_style}">{ev_label}</div>
+                        <div class="evidence-detail">{ev_detail}</div>
+                    </div>
+                    """)
+                else:
+                    html("""
+                    <div class="custom-card">
+                        <div class="evidence-unavailable">✗ No Evidence Available</div>
+                        <div class="evidence-detail">0 items in source result</div>
+                    </div>
+                    """)
 
             with col2:
                 html("""
@@ -354,6 +423,31 @@ if len(filtered_df) > 0:
                     <div class="evidence-detail">Not in dataset</div>
                 </div>
                 """)
+
+            # Show actual evidence objects if present (rich schema)
+            if evidence_list_raw:
+                html("<br>")
+                with st.expander(f"Evidence Details ({len(evidence_list_raw)} items)"):
+                    for ev in evidence_list_raw[:10]:
+                        src_type = ev.get('source_type', 'unknown')
+                        is_mock = ev.get('is_mock', False)
+                        prov_note = ev.get('provenance_note', '')
+                        ev_desc = ev.get('description', '')
+                        badge = "MOCK" if is_mock else "REAL"
+                        badge_color = "#f59e0b" if is_mock else "#22c55e"
+                        html(f"""
+                        <div style="border-left: 3px solid {badge_color}; padding: 0.5rem 0.75rem; margin-bottom: 0.5rem; background: rgba(255,255,255,0.03); border-radius: 0 4px 4px 0;">
+                            <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.25rem;">
+                                <code class="evidence-code">{ev.get('evidence_id', '')}</code>
+                                <span style="background: {badge_color}; color: #000; font-size: 0.65rem; padding: 1px 5px; border-radius: 3px; font-weight: 700;">{badge}</span>
+                                <span style="color: #94a3b8; font-size: 0.8rem;">{src_type}</span>
+                            </div>
+                            <div style="font-size: 0.85rem; color: #cbd5e1;">{ev_desc[:200]}{'...' if len(ev_desc) > 200 else ''}</div>
+                            {f'<div style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">{prov_note}</div>' if prov_note else ''}
+                        </div>
+                        """)
+                    if len(evidence_list_raw) > 10:
+                        st.caption(f"... and {len(evidence_list_raw) - 10} more evidence items")
 
             html("<br>")
 

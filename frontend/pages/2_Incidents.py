@@ -92,13 +92,23 @@ if selected_method != "All":
 html(f"<p class='filter-count'>Showing {len(filtered_df):,} of {len(incidents_df):,} incidents</p>")
 
 if len(filtered_df) > 0:
+    # Helper function to format correlation method for display
+    def format_correlation_method(method):
+        """Convert raw correlation_method to human-readable format."""
+        if method == 'exact_signature_match':
+            return "Graph Connected Component\nExact Signature Match"
+        elif method == 'graph_connected_component':
+            return "Graph Connected Component\nValidated Correlation"
+        else:
+            return method
+    
     # Display using Streamlit dataframe
     display_df = filtered_df.head(50)[['incident_id', 'client', 'alert_count', 'first_seen', 'correlation_method']].copy()
-    display_df.columns = ['Incident ID', 'Client', 'Alerts', 'First Seen', 'Method']
+    display_df.columns = ['Incident ID', 'Client', 'Alerts', 'First Seen', 'Correlation']
 
     display_df['Incident ID'] = display_df['Incident ID'].apply(format_incident_id)
     display_df['First Seen'] = display_df['First Seen'].apply(lambda x: format_timestamp(x))
-    display_df['Method'] = display_df['Method'].apply(lambda x: str(x)[:40] + "..." if len(str(x)) > 40 else str(x))
+    display_df['Correlation'] = display_df['Correlation'].apply(format_correlation_method)
 
     st.dataframe(display_df, use_container_width=True, hide_index=True, height=500)
 
@@ -222,14 +232,29 @@ if len(filtered_df) > 0:
             with col1:
                 method = incident.get('correlation_method', 'Unknown')
                 corr_score = incident.get('avg_correlation_score', 0)
+                
+                # Format method for display
+                if method == 'exact_signature_match':
+                    grouping_mechanism = "Graph Connected Component"
+                    correlation_basis = "Exact Signature Match"
+                elif method == 'graph_connected_component':
+                    grouping_mechanism = "Graph Connected Component"
+                    correlation_basis = "Validated Correlation"
+                else:
+                    grouping_mechanism = method
+                    correlation_basis = "Unknown"
 
                 html(f"""
                 <div class="custom-card">
                     <div class="card-header">Correlation Signals</div>
                     <table class="compact-table">
                         <tr>
-                            <td class="td-label">Method:</td>
-                            <td class="td-value">{method}</td>
+                            <td class="td-label">Grouping:</td>
+                            <td class="td-value">{grouping_mechanism}</td>
+                        </tr>
+                        <tr>
+                            <td class="td-label">Correlation basis:</td>
+                            <td class="td-value">{correlation_basis}</td>
                         </tr>
                         <tr>
                             <td class="td-label">Correlation Score:</td>
@@ -240,7 +265,7 @@ if len(filtered_df) > 0:
                 """)
                 
                 render_info_box(
-                    "<strong>Experimental Grouping</strong><br>Stage 3 correlates alerts using semantic similarity, temporal proximity, and Stage 2 predictions. These are candidate groups, not ground-truth incidents.",
+                    "<strong>Experimental Grouping</strong><br>Stage 3 uses exact/signature matching, semantic similarity, temporal and client validation, service/component compatibility, alert-family matching, Stage-2 compatibility, and experimental correlation scoring to create validated alert relationships. Final candidate incident groups are formed using graph connected components. These are candidate groups, not ground-truth incidents.",
                     "warning"
                 )
 
