@@ -379,3 +379,49 @@ class NIMReasoningProvider(ReasoningProvider):
             ),
             "reasoning_explanation": ""
         }
+
+    def analyze(
+        self,
+        context: IncidentContext,
+        evidence: List[Evidence],
+        rca_candidates: List[ProbableRootCause],
+        missing_evidence: Optional[List[str]] = None
+    ) -> RCAResult:
+        """
+        Perform reasoning analysis using NVIDIA NIM.
+        
+        Converts inputs to synthesize_rca format and packages
+        result into standard RCAResult.
+        """
+        cand_dicts = [
+            {
+                "component": c.component,
+                "failure_type": c.failure_type,
+                "confidence": c.confidence,
+                "description": c.description,
+                "supporting_evidence_ids": c.supporting_evidence_ids
+            }
+            for c in rca_candidates
+        ] if rca_candidates else []
+
+        synth_result = self.synthesize_rca(
+            context=context,
+            evidence=evidence,
+            candidate_hypotheses=cand_dicts
+        )
+
+        return RCAResult(
+            incident_id=context.incident_id,
+            analysis_timestamp=datetime.now(),
+            diagnosis_status=synth_result["diagnosis_status"],
+            probable_root_cause=synth_result.get("probable_root_cause"),
+            alternative_hypotheses=synth_result.get("alternative_hypotheses", []),
+            evidence=[],  # Populated by pipeline
+            missing_evidence=synth_result.get("missing_evidence", missing_evidence or []),
+            recommended_actions=synth_result.get("recommended_actions", []),
+            support_communication=synth_result.get("support_communication", ""),
+            stakeholder_communication=synth_result.get("stakeholder_communication", ""),
+            telemetry_is_mock=True,
+            human_review_required=True,
+            review_reasons=[]
+        )

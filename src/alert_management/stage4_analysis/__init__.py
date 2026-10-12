@@ -31,6 +31,14 @@ from .schemas import (
     TraceSpan,
     AnomalyDetection,
 )
+from .queue import (
+    Stage4TaskQueue,
+    Stage4QueueWorker,
+    TaskStatus,
+    ErrorCategory,
+    AnalysisTask,
+    QueueExecutionSummary,
+)
 
 __all__ = [
     'DiagnosisStatus',
@@ -46,4 +54,10 @@ __all__ = [
     'MetricRecord',
     'TraceSpan',
     'AnomalyDetection',
+    'Stage4TaskQueue',
+    'Stage4QueueWorker',
+    'TaskStatus',
+    'ErrorCategory',
+    'AnalysisTask',
+    'QueueExecutionSummary',
 ]

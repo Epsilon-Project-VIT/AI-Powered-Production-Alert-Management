@@ -134,43 +134,113 @@ class AnomalyDetector:
     
     def generate_evidence(
         self,
-        anomalies: List[AnomalyDetection]
+        anomalies: List[AnomalyDetection],
+        max_gap: timedelta = timedelta(minutes=10)
     ) -> List[Evidence]:
         """
-        Generate evidence from detected anomalies.
+        Generate bounded evidence episodes from detected metric anomalies.
+        
+        Aggregates contiguous anomalous points for the same metric and component
+        into a single Evidence episode record, preserving raw samples in metadata.
         
         Args:
-            anomalies: Detected anomalies
+            anomalies: Detected anomaly points
+            max_gap: Maximum gap between consecutive points to consider contiguous
             
         Returns:
-            List of evidence
+            List of aggregated Evidence objects
         """
         evidence_list = []
-        
+        if not anomalies:
+            return evidence_list
+
+        # Group anomalies by (metric_name, component)
+        grouped: dict = {}
         for anomaly in anomalies:
-            evidence = Evidence(
-                source="metrics",
-                source_type=anomaly.source_type,
-                source_id=f"anomaly_{anomaly.metric_name}_{anomaly.component}_{int(anomaly.timestamp.timestamp())}",
-                is_mock=anomaly.is_mock,
-                timestamp=anomaly.timestamp,
-                description=(
-                    f"Anomaly detected in {anomaly.metric_name} "
-                    f"(component: {anomaly.component}): "
-                    f"observed={anomaly.observed_value:.2f}, "
-                    f"expected={anomaly.expected_value:.2f}, "
-                    f"score={anomaly.anomaly_score:.2f}"
-                ),
-                weight=min(anomaly.anomaly_score, 0.9),
-                metadata={
-                    "metric_name": anomaly.metric_name,
-                    "component": anomaly.component,
-                    "observed_value": anomaly.observed_value,
-                    "expected_value": anomaly.expected_value,
-                    "anomaly_score": anomaly.anomaly_score,
-                    "detection_method": anomaly.detection_method
-                }
-            )
-            evidence_list.append(evidence)
-        
+            key = (anomaly.metric_name, anomaly.component)
+            if key not in grouped:
+                grouped[key] = []
+            grouped[key].append(anomaly)
+
+        # Process each metric/component group into contiguous episodes
+        for (metric_name, component), points in grouped.items():
+            points.sort(key=lambda p: p.timestamp)
+            clusters: List[List[AnomalyDetection]] = []
+            curr_cluster: List[AnomalyDetection] = []
+
+            for pt in points:
+                if not curr_cluster:
+                    curr_cluster.append(pt)
+                else:
+                    prev_pt = curr_cluster[-1]
+                    if (pt.timestamp - prev_pt.timestamp) <= max_gap:
+                        curr_cluster.append(pt)
+                    else:
+                        clusters.append(curr_cluster)
+                        curr_cluster = [pt]
+            if curr_cluster:
+                clusters.append(curr_cluster)
+
+            # Build single aggregated Evidence object per episode cluster
+            for cluster in clusters:
+                start_time = cluster[0].timestamp
+                end_time = cluster[-1].timestamp
+                sample_count = len(cluster)
+
+                peak_pt = max(cluster, key=lambda p: p.anomaly_score)
+                max_score = peak_pt.anomaly_score
+                avg_score = statistics.mean(p.anomaly_score for p in cluster)
+                expected_val = cluster[0].expected_value
+                peak_observed = peak_pt.observed_value
+
+                raw_samples = [
+                    {
+                        "timestamp": pt.timestamp.isoformat(),
+                        "observed_value": pt.observed_value,
+                        "expected_value": pt.expected_value,
+                        "anomaly_score": pt.anomaly_score,
+                    }
+                    for pt in cluster
+                ]
+
+                if sample_count == 1:
+                    desc = (
+                        f"Metric anomaly in {metric_name} (component: {component}): "
+                        f"observed={peak_observed:.2f}, expected={expected_val:.2f}, "
+                        f"score={max_score:.2f} at {start_time.strftime('%H:%M:%S')}"
+                    )
+                else:
+                    desc = (
+                        f"Metric anomaly episode in {metric_name} (component: {component}): "
+                        f"{sample_count} contiguous samples from {start_time.strftime('%H:%M:%S')} "
+                        f"to {end_time.strftime('%H:%M:%S')} (peak={peak_observed:.2f}, "
+                        f"expected={expected_val:.2f}, max_score={max_score:.2f})"
+                    )
+
+                source_ts = int(start_time.timestamp())
+                evidence = Evidence(
+                    source="metrics",
+                    source_type=cluster[0].source_type,
+                    source_id=f"anomaly_episode_{metric_name}_{component}_{source_ts}",
+                    is_mock=cluster[0].is_mock,
+                    timestamp=start_time,
+                    description=desc,
+                    weight=min(max_score, 0.95),
+                    metadata={
+                        "metric_name": metric_name,
+                        "component": component,
+                        "episode_start": start_time.isoformat(),
+                        "episode_end": end_time.isoformat(),
+                        "sample_count": sample_count,
+                        "expected_value": expected_val,
+                        "peak_observed": peak_observed,
+                        "max_anomaly_score": max_score,
+                        "avg_anomaly_score": avg_score,
+                        "detection_method": cluster[0].detection_method,
+                        "raw_samples": raw_samples,
+                    }
+                )
+                evidence_list.append(evidence)
+
         return evidence_list
+

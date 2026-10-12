@@ -205,6 +205,11 @@ class ProbableRootCause(BaseModel):
         default_factory=list,
         description="Evidence source_ids that support this hypothesis"
     )
+    
+    is_tentative: bool = Field(
+        default=False,
+        description="Flag indicating tentative hypothesis when evidence is inconclusive or insufficient"
+    )
 
 
 class AlternativeHypothesis(BaseModel):

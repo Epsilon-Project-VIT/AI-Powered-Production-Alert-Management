@@ -5,6 +5,7 @@ Log Analyzer - Extract patterns and evidence from logs.
 from typing import List, Dict
 from collections import Counter
 from datetime import datetime
+import hashlib
 
 from alert_management.stage4_analysis.schemas import LogRecord, Evidence, SourceType
 
@@ -59,23 +60,32 @@ class LogAnalyzer:
                 }
             ))
         
-        # Find most common error messages
-        error_messages = [log.message for log in error_logs]
-        if error_messages:
+        # Find most common error messages and associate their primary component
+        if error_logs:
+            msg_components: Dict[str, Counter] = {}
+            for log in error_logs:
+                if log.message not in msg_components:
+                    msg_components[log.message] = Counter()
+                msg_components[log.message][log.component] += 1
+
+            error_messages = [log.message for log in error_logs]
             message_counts = Counter(error_messages)
-            most_common = message_counts.most_common(3)
+            most_common = message_counts.most_common(5)
             
             for idx, (message, count) in enumerate(most_common):
+                comp = msg_components[message].most_common(1)[0][0]
+                pattern_hash = int(hashlib.sha256(message.encode("utf-8")).hexdigest()[:8], 16) % 10000
                 evidence_list.append(Evidence(
                     source="logs",
                     source_type=logs[0].source_type,
-                    source_id=f"log_pattern_{idx}_{hash(message) % 10000}",
+                    source_id=f"log_pattern_{idx}_{pattern_hash}",
                     is_mock=logs[0].is_mock,
                     timestamp=incident_start,
-                    description=f"Recurring error ({count}x): {message[:100]}",
-                    weight=0.7 - (idx * 0.1),
-                    metadata={"occurrences": count, "pattern": message}
+                    description=f"Recurring error ({count}x) in {comp}: {message[:100]}",
+                    weight=0.8 - (idx * 0.05),
+                    metadata={"occurrences": count, "pattern": message, "component": comp}
                 ))
+
         
         # Component-specific errors
         component_errors: Dict[str, int] = {}

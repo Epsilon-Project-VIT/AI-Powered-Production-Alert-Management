@@ -92,7 +92,28 @@ class MockReasoningProvider(ReasoningProvider):
         status = self._determine_status(evidence, rca_candidates, missing_evidence)
         
         # Select primary RCA
-        if rca_candidates:
+        if status == DiagnosisStatus.INSUFFICIENT_EVIDENCE:
+            if rca_candidates:
+                top = rca_candidates[0]
+                primary_rca = ProbableRootCause(
+                    component=top.component,
+                    failure_type=top.failure_type,
+                    description=f"Tentative candidate (insufficient evidence): {top.description}",
+                    confidence=min(top.confidence, 0.25),
+                    supporting_evidence_ids=top.supporting_evidence_ids,
+                    is_tentative=True
+                )
+            else:
+                primary_rca = ProbableRootCause(
+                    component="unknown",
+                    failure_type="insufficient_evidence",
+                    description="Unable to determine root cause from available evidence",
+                    confidence=0.0,
+                    supporting_evidence_ids=[],
+                    is_tentative=True
+                )
+            alternatives = []
+        elif rca_candidates:
             primary_rca = rca_candidates[0]
             
             # Generate alternatives
@@ -116,7 +137,8 @@ class MockReasoningProvider(ReasoningProvider):
                 failure_type="insufficient_evidence",
                 description="Unable to determine root cause from available evidence",
                 confidence=0.0,
-                supporting_evidence_ids=[]
+                supporting_evidence_ids=[],
+                is_tentative=True
             )
             alternatives = []
             status = DiagnosisStatus.INSUFFICIENT_EVIDENCE
@@ -174,15 +196,23 @@ class MockReasoningProvider(ReasoningProvider):
         if len(evidence) < self.min_evidence_threshold:
             return DiagnosisStatus.INSUFFICIENT_EVIDENCE
         
+        if missing_evidence and len(missing_evidence) >= 2:
+            return DiagnosisStatus.INSUFFICIENT_EVIDENCE
+
         if not rca_candidates:
             return DiagnosisStatus.INSUFFICIENT_EVIDENCE
+
         
-        # Check if top candidates have similar confidence
+        # Check if top candidates across distinct components have similar confidence (competing components)
         if len(rca_candidates) >= 2:
-            top_confidence = rca_candidates[0].confidence
-            second_confidence = rca_candidates[1].confidence
-            
-            if abs(top_confidence - second_confidence) < 0.15:
+            top_comp = rca_candidates[0].component
+            diff_comp_candidates = [c for c in rca_candidates[1:] if c.component != top_comp]
+            if diff_comp_candidates:
+                top_confidence = rca_candidates[0].confidence
+                second_confidence = diff_comp_candidates[0].confidence
+                if abs(top_confidence - second_confidence) < 0.15:
+                    return DiagnosisStatus.AMBIGUOUS
+            elif abs(rca_candidates[0].confidence - rca_candidates[1].confidence) < 0.01:
                 return DiagnosisStatus.AMBIGUOUS
         
         # Check confidence threshold
@@ -190,6 +220,7 @@ class MockReasoningProvider(ReasoningProvider):
             return DiagnosisStatus.INSUFFICIENT_EVIDENCE
         
         return DiagnosisStatus.SUFFICIENT_EVIDENCE
+
     
     def _explain_why_not_primary(
         self,
