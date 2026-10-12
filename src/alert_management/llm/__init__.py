@@ -17,7 +17,14 @@ from .exceptions import (
     NIMRateLimitError,
     NIMTimeoutError,
     NIMProviderError,
-    NIMStructuredOutputError
+    NIMStructuredOutputError,
+    GeminiError,
+    GeminiAuthenticationError,
+    GeminiConfigurationError,
+    GeminiRateLimitError,
+    GeminiTimeoutError,
+    GeminiProviderError,
+    GeminiStructuredOutputError,
 )
 
 __all__ = [
@@ -32,4 +39,11 @@ __all__ = [
     'NIMTimeoutError',
     'NIMProviderError',
     'NIMStructuredOutputError',
+    'GeminiError',
+    'GeminiAuthenticationError',
+    'GeminiConfigurationError',
+    'GeminiRateLimitError',
+    'GeminiTimeoutError',
+    'GeminiProviderError',
+    'GeminiStructuredOutputError',
 ]

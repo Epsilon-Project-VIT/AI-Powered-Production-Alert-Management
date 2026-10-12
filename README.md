@@ -184,9 +184,47 @@ export NVIDIA_NIM_MODEL=meta/llama-3.1-70b-instruct
 PYTHONPATH=src venv/bin/python -m pytest tests/live/test_nim_live.py -v -s -m nim_live
 ```
 
-**Test Summary**:
-- **230 offline tests** (no API calls): All passing ✅
-- **6 live tests** (real API calls): Skipped without credentials, passing with credentials
+## Google Gemini Integration (Optional)
+
+The system supports Google Gemini via its OpenAI-compatible chat completions endpoint (`gemini-2.5-flash`, `gemini-1.5-flash`, etc.) for Stage 2 challenger classification and Stage 4 RCA reasoning.
+
+### Setup
+
+1. Copy `.env.example` to `.env` (if not already done):
+   ```bash
+   cp .env.example .env
+   ```
+2. Add your Google AI Studio API key to your local `.env`:
+   ```env
+   GEMINI_API_KEY=your_actual_key_here
+   GEMINI_MODEL=gemini-2.5-flash
+   GEMINI_ENABLED=true
+   REASONING_PROVIDER=gemini
+   ```
+   *(Note: `.env` is listed in `.gitignore` and is never committed to version control.)*
+
+### Gemini Usage
+
+**Stage 4 RCA Reasoning**:
+```bash
+# Run Stage 4 with Gemini reasoning provider
+export REASONING_PROVIDER=gemini
+PYTHONPATH=src venv/bin/python scripts/demo_stage4_ea_sports.py
+
+# Or run the comparative demo script
+PYTHONPATH=src venv/bin/python scripts/demo_stage4_gemini.py
+```
+
+### Gemini Testing
+
+```bash
+# Run offline unit tests (100% mocked, no API key or network calls required)
+PYTHONPATH=src venv/bin/pytest -v tests/unit/test_gemini_reasoning_provider.py
+PYTHONPATH=src venv/bin/pytest -v tests/unit/test_gemini_stage2.py
+
+# Run isolated opt-in live tests (requires valid GEMINI_API_KEY and RUN_GEMINI_LIVE_TESTS=true)
+RUN_GEMINI_LIVE_TESTS=true PYTHONPATH=src venv/bin/pytest -v tests/integration/test_gemini_live.py
+```
 
 ## Project Structure
 

@@ -19,8 +19,9 @@ def fallback():
     return ClassificationResult(label="3 - Medium", confidence=0.42)
 
 
-def prediction(label="2 - High"):
-    return GeminiClassificationPrediction(predicted_label=label, confidence=0.8, reason="arrival-time alert fields", model="gemini-3.8-flash")
+def prediction(label="2 - High", model=None):
+    model_name = model or GeminiConfig.model_fields["model"].default
+    return GeminiClassificationPrediction(predicted_label=label, confidence=0.8, reason="arrival-time alert fields", model=model_name)
 
 
 def test_valid_priority_response_preserves_gemini_provenance(config):
