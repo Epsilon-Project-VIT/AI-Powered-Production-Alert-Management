@@ -26,10 +26,10 @@ st.markdown(get_custom_css(), unsafe_allow_html=True)
 # Sidebar Navigation
 with st.sidebar:
     st.markdown("## Navigation")
-    st.page_link("app.py", label="🏠 Dashboard", icon="🏠")
-    st.page_link("pages/1_Alerts.py", label="🔔 Alerts", icon="🔔")
-    st.page_link("pages/2_Incidents.py", label="📊 Incidents", icon="📊")
-    st.page_link("pages/3_RCA.py", label="🔍 Root Cause Analysis", icon="🔍")
+    st.page_link("app.py", label="Dashboard", icon="🏠")
+    st.page_link("pages/1_Alerts.py", label="Alerts", icon="🔔")
+    st.page_link("pages/2_Incidents.py", label="Incidents", icon="📊")
+    st.page_link("pages/3_RCA.py", label="Root Cause Analysis", icon="🔍")
 
     st.markdown("---")
     st.markdown("### About")
@@ -37,7 +37,7 @@ with st.sidebar:
     st.caption("Demo/Review Environment")
 
 # Header
-render_page_header("Alerts", "Search, filter and review alert classifications")
+render_page_header("Agent 1: Alert Classification & Prioritization", "Automated ingestion from observability platforms, ML classification, severity scoring, and priority routing")
 
 # Load data
 loader = get_loader()
@@ -148,36 +148,35 @@ if len(filtered_df) > 0:
                 </div>
                 """)
 
-            html("<br>")
-
             # Two-column layout
-            col1, col2 = st.columns([1.2, 1])
+            col1, col2 = st.columns([1, 1])
 
             with col1:
                 html("<h3>Alert Information</h3>")
 
                 html(f"""
-                <div class="custom-card">
+                <div class="custom-card" style="min-height: 290px;">
                     <div class="section-label">Description</div>
-                    <div class="desc-text">{alert['description']}</div>
+                    <div class="desc-text scroll-box-y" style="max-height: 85px; overflow-y: auto; margin-bottom: 1rem; line-height: 1.5; padding-right: 4px;">{alert['description']}</div>
+                    <table class="compact-table" style="table-layout: fixed; width: 100%; margin-top: 0.5rem;">
+                        <colgroup>
+                            <col style="width: 120px;">
+                            <col style="width: calc(100% - 120px);">
+                        </colgroup>
+                        <tr>
+                            <td class="td-label">Created At:</td>
+                            <td class="td-value">{created}</td>
+                        </tr>
+                        <tr>
+                            <td class="td-label">Client:</td>
+                            <td class="td-value">{alert['client']}</td>
+                        </tr>
+                        <tr>
+                            <td class="td-label">Alert ID:</td>
+                            <td class="td-accent">{alert['alert_id']}</td>
+                        </tr>
+                    </table>
                 </div>
-                """)
-
-                html(f"""
-                <table class="compact-table" style="margin-top: 1rem;">
-                    <tr>
-                        <td class="td-label">Created At:</td>
-                        <td class="td-value">{created}</td>
-                    </tr>
-                    <tr>
-                        <td class="td-label">Client:</td>
-                        <td class="td-value">{alert['client']}</td>
-                    </tr>
-                    <tr>
-                        <td class="td-label">Alert ID:</td>
-                        <td class="td-accent">{alert['alert_id']}</td>
-                    </tr>
-                </table>
                 """)
 
             with col2:
@@ -190,89 +189,75 @@ if len(filtered_df) > 0:
                 assignment_group_conf = alert.get('assignment_group_confidence', 0)
                 
                 alert_type_text = str(alert.get('predicted_alert_type', 'Unknown'))
-                if len(alert_type_text) > 50:
-                    alert_type_text = alert_type_text[:50] + "..."
-                
                 business_impact_text = str(alert.get('predicted_business_impact', 'Unknown'))
                 priority_text = str(alert.get('predicted_priority', 'Unknown'))
-                
                 assignment_group_text = str(alert.get('predicted_assignment_group', 'Unknown'))
-                if len(assignment_group_text) > 50:
-                    assignment_group_text = assignment_group_text[:50] + "..."
                 
                 # Historical labels for comparison
                 historical_priority = str(alert.get('priority_true_label', 'N/A'))
                 historical_assignment_group = str(alert.get('assignment_group_true_label', 'N/A'))
-                if len(historical_assignment_group) > 50:
-                    historical_assignment_group = historical_assignment_group[:50] + "..."
 
                 html(f"""
-                <div class="custom-card">
-                    <table class="compact-table">
+                <div class="custom-card" style="min-height: 290px;">
+                    <table class="compact-table" style="table-layout: fixed; width: 100%;">
+                        <colgroup>
+                            <col style="width: 140px;">
+                            <col style="width: calc(100% - 140px);">
+                        </colgroup>
                         <tr>
                             <td class="td-label">Alert Type:</td>
-                            <td class="td-value">{alert_type_text}</td>
+                            <td>
+                                <div class="scroll-cell" title="{alert_type_text} ({alert_type_conf:.1%})">
+                                    <span class="td-value">{alert_type_text}</span>
+                                    <span style="color: #38bdf8; font-weight: 600; font-size: 0.8rem; margin-left: 0.5rem;">({alert_type_conf:.1%})</span>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td class="td-label">Confidence:</td>
-                            <td class="td-bold">{alert_type_conf:.1%}</td>
+                            <td class="td-label">Severity:</td>
+                            <td>
+                                <div>
+                                    {get_priority_badge(alert['predicted_severity'])}
+                                    <span style="color: #38bdf8; font-weight: 600; font-size: 0.8rem; margin-left: 0.5rem;">({severity_conf:.1%})</span>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td class="td-label" style="padding-top: 0.5rem;">Severity:</td>
-                            <td style="padding-top: 0.5rem;">{get_priority_badge(alert['predicted_severity'])}</td>
+                            <td class="td-label">Business Impact:</td>
+                            <td>
+                                <div class="scroll-cell" title="{business_impact_text} ({business_impact_conf:.1%})">
+                                    <span class="td-value">{business_impact_text}</span>
+                                    <span style="color: #38bdf8; font-weight: 600; font-size: 0.8rem; margin-left: 0.5rem;">({business_impact_conf:.1%})</span>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td class="td-label">Confidence:</td>
-                            <td class="td-bold">{severity_conf:.1%}</td>
+                            <td class="td-label">Priority:</td>
+                            <td>
+                                <div class="scroll-cell" title="{priority_text} ({priority_conf:.1%})">
+                                    <span class="td-value">{priority_text}</span>
+                                    <span style="color: #38bdf8; font-weight: 600; font-size: 0.8rem; margin-left: 0.5rem;">({priority_conf:.1%})</span>
+                                </div>
+                                <div class="scroll-cell" style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;" title="Historical: {historical_priority}">
+                                    Historical: <span style="color: #cbd5e1;">{historical_priority}</span>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td class="td-label" style="padding-top: 0.5rem;">Business Impact:</td>
-                            <td class="td-value" style="padding-top: 0.5rem;">{business_impact_text}</td>
-                        </tr>
-                        <tr>
-                            <td class="td-label">Confidence:</td>
-                            <td class="td-bold">{business_impact_conf:.1%}</td>
-                        </tr>
-                        <tr>
-                            <td class="td-label" style="padding-top: 0.5rem;">Priority (Predicted):</td>
-                            <td class="td-value" style="padding-top: 0.5rem;">{priority_text}</td>
-                        </tr>
-                        <tr>
-                            <td class="td-label">Confidence:</td>
-                            <td class="td-bold">{priority_conf:.1%}</td>
-                        </tr>
-                        <tr>
-                            <td class="td-label" style="font-size: 0.75rem; color: var(--text-secondary);">Historical Priority:</td>
-                            <td class="td-value" style="font-size: 0.75rem; color: var(--text-secondary);">{historical_priority}</td>
-                        </tr>
-                        <tr>
-                            <td class="td-label" style="padding-top: 0.5rem;">Assignment Group (Predicted):</td>
-                            <td class="td-value" style="font-size: 0.825rem; padding-top: 0.5rem;">{assignment_group_text}</td>
-                        </tr>
-                        <tr>
-                            <td class="td-label">Confidence:</td>
-                            <td class="td-bold">{assignment_group_conf:.1%}</td>
-                        </tr>
-                        <tr>
-                            <td class="td-label" style="font-size: 0.75rem; color: var(--text-secondary);">Historical Assignment Group:</td>
-                            <td class="td-value" style="font-size: 0.75rem; color: var(--text-secondary);">{historical_assignment_group}</td>
+                            <td class="td-label">Assignment Group:</td>
+                            <td>
+                                <div class="scroll-cell" title="{assignment_group_text} ({assignment_group_conf:.1%})">
+                                    <span class="td-value" style="font-size: 0.85rem;">{assignment_group_text}</span>
+                                    <span style="color: #38bdf8; font-weight: 600; font-size: 0.8rem; margin-left: 0.35rem;">({assignment_group_conf:.1%})</span>
+                                </div>
+                                <div class="scroll-cell" style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;" title="Historical: {historical_assignment_group}">
+                                    Historical: <span style="color: #cbd5e1;">{historical_assignment_group}</span>
+                                </div>
+                            </td>
                         </tr>
                     </table>
                 </div>
                 """)
-
-                render_info_box(
-                    "<strong>Stage 2 ML Models:</strong><br>"
-                    "• Alert Type: TF-IDF + Logistic Regression<br>"
-                    "• Severity: Embedding + SVM<br>"
-                    "• Business Impact: Embedding + SVM<br>"
-                    "• Priority: TF-IDF + Logistic Regression<br>"
-                    "• Assignment Group: TF-IDF + Logistic Regression",
-                    "info"
-                )
-
-            # AI Reasoning - removed since Stage 2 is ML not LLM
-            # Stage 2 uses trained Random Forest models, no reasoning text
 
             # Correlation
             html("<br><h3>Stage 3: Incident Correlation</h3>")

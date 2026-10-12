@@ -172,15 +172,17 @@ def smoke_test():
     
     issues = []
     
-    # Check evidence is marked as MOCK
+    # Check evidence provenance — historical_alert evidence has is_mock=False (correct).
+    # Mock telemetry (logs/metrics/traces) is absent — that is the expected state.
     evidence = rca.get('evidence', [])
     if evidence:
-        mock_count = sum(1 for e in evidence if e.get('is_mock', False))
-        if mock_count != len(evidence):
-            issues.append(f"Not all evidence marked as MOCK: {mock_count}/{len(evidence)}")
-        else:
-            print(f"✅ All {len(evidence)} evidence items marked as MOCK")
-    
+        hist_count = sum(1 for e in evidence if e.get('source_type') == 'historical_alert')
+        mock_telem = sum(1 for e in evidence if e.get('is_mock', False))
+        unknown    = len(evidence) - hist_count - mock_telem
+        print(f"✅ Evidence provenance: {hist_count} historical_alert, {mock_telem} mock_telemetry, {unknown} unknown")
+        if unknown > 0:
+            issues.append(f"Evidence with unrecognised source_type: {unknown}/{len(evidence)}")
+
     # Check diagnosis_status is appropriate
     if rca['diagnosis_status'] == 'sufficient_evidence':
         issues.append("Diagnosis status is 'sufficient_evidence' - should be ambiguous/insufficient with MOCK data")

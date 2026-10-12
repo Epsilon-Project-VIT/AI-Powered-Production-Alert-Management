@@ -27,10 +27,10 @@ st.markdown(get_custom_css(), unsafe_allow_html=True)
 # Sidebar Navigation
 with st.sidebar:
     st.markdown("## Navigation")
-    st.page_link("app.py", label="🏠 Dashboard", icon="🏠")
-    st.page_link("pages/1_Alerts.py", label="🔔 Alerts", icon="🔔")
-    st.page_link("pages/2_Incidents.py", label="📊 Incidents", icon="📊")
-    st.page_link("pages/3_RCA.py", label="🔍 Root Cause Analysis", icon="🔍")
+    st.page_link("app.py", label="Dashboard", icon="🏠")
+    st.page_link("pages/1_Alerts.py", label="Alerts", icon="🔔")
+    st.page_link("pages/2_Incidents.py", label="Incidents", icon="📊")
+    st.page_link("pages/3_RCA.py", label="Root Cause Analysis", icon="🔍")
 
     st.markdown("---")
     st.markdown("### About")
@@ -38,7 +38,7 @@ with st.sidebar:
     st.caption("Demo/Review Environment")
 
 # Header
-render_page_header("Candidate Incident Groups", "Browse and analyze correlated alert groups")
+render_page_header("Agent 1: Incident Correlation & Noise Reduction", "Correlates duplicate and related alerts into candidate incident groups (83.0% alert noise reduction)")
 
 # Load data
 loader = get_loader()

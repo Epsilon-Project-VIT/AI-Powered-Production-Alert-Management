@@ -161,6 +161,7 @@ def get_custom_css():
         padding: 0.6rem 0.75rem;
         border-bottom: 1px solid var(--divider);
         color: var(--text-color);
+        overflow: hidden;
     }
     .compact-table tr:last-child td { border-bottom: none; }
 
@@ -171,6 +172,47 @@ def get_custom_css():
     .td-bold   { color: var(--text-color) !important; font-weight: 600; }
     .td-highlight { color: var(--success) !important; font-weight: 600; }
     .td-muted  { color: var(--text-color) !important; opacity: 0.65; }
+
+    /* ===== Scrollable Content Within Cards & Cells ===== */
+    .scroll-cell {
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(56, 189, 248, 0.4) transparent;
+        padding-bottom: 2px;
+    }
+    .scroll-cell::-webkit-scrollbar {
+        height: 4px;
+    }
+    .scroll-cell::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .scroll-cell::-webkit-scrollbar-thumb {
+        background: rgba(56, 189, 248, 0.35);
+        border-radius: 4px;
+    }
+    .scroll-cell::-webkit-scrollbar-thumb:hover {
+        background: rgba(56, 189, 248, 0.7);
+    }
+
+    .scroll-box-y {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(128, 128, 128, 0.3) transparent;
+    }
+    .scroll-box-y::-webkit-scrollbar {
+        width: 4px;
+    }
+    .scroll-box-y::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .scroll-box-y::-webkit-scrollbar-thumb {
+        background: rgba(128, 128, 128, 0.3);
+        border-radius: 4px;
+    }
+    .scroll-box-y::-webkit-scrollbar-thumb:hover {
+        background: rgba(128, 128, 128, 0.6);
+    }
 
     /* Section label (upper-case small heading inside cards) */
     .section-label {

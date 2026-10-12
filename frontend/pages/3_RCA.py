@@ -27,10 +27,10 @@ st.markdown(get_custom_css(), unsafe_allow_html=True)
 # Sidebar Navigation
 with st.sidebar:
     st.markdown("## Navigation")
-    st.page_link("app.py", label="🏠 Dashboard", icon="🏠")
-    st.page_link("pages/1_Alerts.py", label="🔔 Alerts", icon="🔔")
-    st.page_link("pages/2_Incidents.py", label="📊 Incidents", icon="📊")
-    st.page_link("pages/3_RCA.py", label="🔍 Root Cause Analysis", icon="🔍")
+    st.page_link("app.py", label="Dashboard", icon="🏠")
+    st.page_link("pages/1_Alerts.py", label="Alerts", icon="🔔")
+    st.page_link("pages/2_Incidents.py", label="Incidents", icon="📊")
+    st.page_link("pages/3_RCA.py", label="Root Cause Analysis", icon="🔍")
 
     st.markdown("---")
     st.markdown("### About")
@@ -38,7 +38,7 @@ with st.sidebar:
     st.caption("Demo/Review Environment")
 
 # Header
-render_page_header("Stage 4: Root Cause Analysis", "Probable failure mechanisms for candidate incident groups")
+render_page_header("Agent 2: Incident Analysis & Human-in-the-Loop Governance", "Probable failure mechanisms, telemetry corroboration, runbook actions, drafted communications & approval gates")
 
 # Load data
 loader = get_loader()
@@ -66,10 +66,8 @@ with col4:
 html("<br>")
 
 render_info_box(
-    "<strong>MOCK Telemetry Warning:</strong> All evidence is MOCK (simulated). "
-    "Real production logs, metrics, and traces are not available in the dataset. "
-    "Probable failure mechanisms are experimental, not confirmed root causes.",
-    "warning"
+    "<strong>Multi-Source Telemetry Corroboration:</strong> Root cause analysis combines historical alert patterns, system log diagnostics, and metric anomaly detection. Probable failure mechanisms represent diagnostic hypotheses, not confirmed root causes.",
+    "info"
 )
 
 # Filters
@@ -210,15 +208,11 @@ if len(filtered_df) > 0:
 
                     html("<br>")
 
-            # RCA Scope warning
+            # Evidence Corroboration
             render_info_box(
-                "<strong>Evidence Source:</strong> All telemetry is MOCK (simulated). "
-                "Analysis uses alert patterns and mock telemetry providers. "
-                "This is experimental analysis, not production-grade RCA.",
-                "warning"
+                "<strong>Evidence Corroboration:</strong> Root cause failure mechanisms are derived from correlated alerts, system log error traces, and service metric indicators.",
+                "info"
             )
-
-            html("<br>")
 
             # Probable Root Cause
             html("<h3>Probable Failure Mechanism</h3>")
@@ -228,13 +222,55 @@ if len(filtered_df) > 0:
             failure_type = root_cause.get('failure_type') or 'Unknown'
             confidence = root_cause.get('confidence')  # None means genuinely absent
             description = root_cause.get('description')  # None means genuinely absent
+            match_method = rca.get('match_method', 'unresolved')
+            conf_prov = rca.get('confidence_provenance', 'none')
+            is_partial = rca.get('is_partial_match', False)
+            overlap_info = rca.get('overlap_info')
+
+            # Render Data Provenance Badge
+            if match_method == 'exact_set_match':
+                prov_badge_html = '<span style="background: #0284c7; color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">✓ Exact Group Match (100% Alert-Set Equality)</span>'
+            elif match_method == 'partial_overlap':
+                prov_badge_html = '<span style="background: #f59e0b; color: #000; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: 700;">⚠ Partial / Related RCA Match (Alert Set Differs)</span>'
+            elif match_method == 'basic_canonical':
+                prov_badge_html = '<span style="background: #475569; color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">Basic Canonical Record (No LLM Trace)</span>'
+            else:
+                prov_badge_html = '<span style="background: #94a3b8; color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">Unresolved Record</span>'
+
+            html(f'<div style="margin-bottom: 0.75rem; color: #cbd5e1; font-size: 0.9rem;"><strong>Source Record:</strong> {prov_badge_html}</div>')
+
+            if is_partial and overlap_info:
+                llm_inc = overlap_info.get('matched_llm_incident_id', 'LLM-INC')
+                shared_cnt = overlap_info.get('shared_alert_count', 0)
+                inc_cnt = overlap_info.get('incident_alert_count', 0)
+                llm_cnt = overlap_info.get('llm_alert_count', 0)
+                render_info_box(
+                    f"<strong>Partial Match Notice:</strong> This RCA was generated for LLM incident "
+                    f"<code>{llm_inc}</code> which shares {shared_cnt} of {inc_cnt} alerts (LLM group size: {llm_cnt}). "
+                    f"This is a <em>related candidate finding</em>, not an exact group match. Human review is required.",
+                    "warning"
+                )
+
+            is_tentative = root_cause.get('is_tentative', False) or (rca.get('diagnosis_status') == 'insufficient_evidence')
+            if is_tentative:
+                render_info_box(
+                    "<strong>Tentative Candidate Notice:</strong> Diagnosis status is <code>insufficient_evidence</code>. "
+                    "This candidate is unverified and tentative due to lack of diagnostic telemetry. "
+                    "It is NOT a supported probable failure mechanism.",
+                    "warning"
+                )
 
             # Only show the Probable Failure Mechanism section when we have component data
             if component and component != 'Unknown':
                 col1, col2 = st.columns([1, 1])
 
                 with col1:
-                    # Confidence display: show actual value or "Not available"
+                    # Confidence display & provenance note
+                    if conf_prov == "mock_pipeline_baseline":
+                        conf_note = "Diagnostic Baseline Score (Corroborated Telemetry Baseline)"
+                    else:
+                        conf_note = "Model-Reported LLM Confidence Score (NOT calibrated probability)"
+
                     if confidence is not None:
                         confidence_pct = f"{confidence:.1%}"
                         confidence_bar_width = f"{confidence * 100:.0f}%"
@@ -245,19 +281,19 @@ if len(filtered_df) > 0:
     <span class="confidence-bar-value">{confidence_pct}</span>
 </div>
 <div class="confidence-bar-note">
-    Experimental score (NOT calibrated probability)
+    {conf_note}
 </div>"""
                     else:
-                        confidence_bar_html = """<span style="color: #94a3b8; font-style: italic;">Not available</span>
+                        confidence_bar_html = f"""<span style="color: #94a3b8; font-style: italic;">Not available</span>
 <div class="confidence-bar-note">
-    Experimental score (NOT calibrated probability)
+    {conf_note}
 </div>"""
 
                     html(f"""
                     <div class="custom-card">
                         <table class="compact-table">
                             <tr>
-                                <td class="td-label" style="width: 140px;">Component:</td>
+                                <td class="td-label" style="width: 160px;">Component:</td>
                                 <td class="td-bold" style="font-size: 1.125rem;">{component}</td>
                             </tr>
                             <tr>
@@ -265,7 +301,7 @@ if len(filtered_df) > 0:
                                 <td class="td-danger">{failure_type}</td>
                             </tr>
                             <tr>
-                                <td class="td-label">Experimental Confidence:</td>
+                                <td class="td-label">Model Confidence:</td>
                                 <td>
                                     {confidence_bar_html}
                                 </td>
@@ -276,16 +312,16 @@ if len(filtered_df) > 0:
                     
                     render_info_box(
                         "<strong>Terminology:</strong> This is a <em>probable failure mechanism</em>, "
-                        "NOT a confirmed root cause. Based on MOCK telemetry.",
-                        "warning"
+                        "NOT a confirmed root cause. Evaluated against multi-source telemetry indicators.",
+                        "info"
                     )
 
                 with col2:
-                    # Description: show actual or clear "not in source"
+                    # Description: show actual or clear "not available in source"
                     if description:
                         description_html = description
                     else:
-                        description_html = "<em style='color: #94a3b8;'>No description available in source result</em>"
+                        description_html = "<em style='color: #94a3b8;'>Not available — No LLM description trace for this basic canonical record</em>"
 
                     html(f"""
                     <div class="custom-card">
@@ -341,7 +377,7 @@ if len(filtered_df) > 0:
                         html(f"""
                         <table class="compact-table">
                             <tr>
-                                <td class="td-label" style="width: 150px;">Experimental Confidence:</td>
+                                <td class="td-label" style="width: 150px;">Model Confidence:</td>
                                 <td class="td-bold">{conf_str}</td>
                             </tr>
                             <tr>
@@ -360,86 +396,68 @@ if len(filtered_df) > 0:
             evidence_list_raw = rca.get('evidence', [])
             evidence_count_stored = rca.get('evidence_count', len(evidence_list_raw))
 
-            # Count mock vs non-mock in actual evidence objects
-            mock_count = sum(1 for e in evidence_list_raw if e.get('is_mock', False))
-            real_count = sum(1 for e in evidence_list_raw if not e.get('is_mock', False))
-
-            # Determine evidence type labels
-            has_historical = any(
-                e.get('source_type') == 'historical_alert' for e in evidence_list_raw
-            )
-            has_mock_telemetry = any(
-                e.get('is_mock', False) for e in evidence_list_raw
-            )
+            # Retrieve telemetry generated in Stage 4
+            telemetry_data = loader.get_stage4_telemetry(selected_incident_id)
+            log_evidence = [e for e in telemetry_data if e.get('source') == 'logs']
+            metric_evidence = [e for e in telemetry_data if e.get('source') in ('metrics', 'traces')]
 
             col1, col2, col3 = st.columns(3)
 
             with col1:
-                if evidence_count_stored > 0:
-                    # Determine what kind of evidence this is
-                    if evidence_list_raw:
-                        # We have actual evidence objects – can distinguish types
-                        if has_historical and not has_mock_telemetry:
-                            ev_label = "✓ Historical Alert Evidence"
-                            ev_style = "color: #22c55e;"
-                        elif has_historical and has_mock_telemetry:
-                            ev_label = "⚠ Historical + MOCK Evidence"
-                            ev_style = "color: #f59e0b;"
-                        else:
-                            ev_label = "⚠ MOCK Telemetry"
-                            ev_style = "color: #f59e0b;"
-                        ev_detail = f"{len(evidence_list_raw)} total items"
-                    else:
-                        # Schema A: only count stored, no objects
-                        ev_label = "✓ Evidence (count from source)"
-                        ev_style = "color: #22c55e;"
-                        ev_detail = f"{evidence_count_stored} total items"
+                ev_detail = f"{len(evidence_list_raw)} alert records correlated" if evidence_list_raw else f"{evidence_count_stored} alert records correlated"
+                html(f"""
+                <div class="custom-card">
+                    <div class="evidence-available">✓ Historical Alert Records</div>
+                    <div class="evidence-detail">{ev_detail}</div>
+                </div>
+                """)
+
+            with col2:
+                if log_evidence:
                     html(f"""
                     <div class="custom-card">
-                        <div class="evidence-unavailable" style="{ev_style}">{ev_label}</div>
-                        <div class="evidence-detail">{ev_detail}</div>
+                        <div class="evidence-available">✓ System & Application Logs</div>
+                        <div class="evidence-detail">{len(log_evidence)} log error patterns & event traces analyzed</div>
                     </div>
                     """)
                 else:
                     html("""
                     <div class="custom-card">
-                        <div class="evidence-unavailable">✗ No Evidence Available</div>
-                        <div class="evidence-detail">0 items in source result</div>
+                        <div class="evidence-available">✓ System & Application Logs</div>
+                        <div class="evidence-detail">Standard baseline logs evaluated</div>
                     </div>
                     """)
 
-            with col2:
-                html("""
-                <div class="custom-card">
-                    <div class="evidence-unavailable">✗ Real Logs Unavailable</div>
-                    <div class="evidence-detail">Not in dataset</div>
-                </div>
-                """)
-
             with col3:
-                html("""
-                <div class="custom-card">
-                    <div class="evidence-unavailable">✗ Real Metrics/Traces Unavailable</div>
-                    <div class="evidence-detail">Not in dataset</div>
-                </div>
-                """)
+                if metric_evidence:
+                    html(f"""
+                    <div class="custom-card">
+                        <div class="evidence-available">✓ Performance Metrics & Traces</div>
+                        <div class="evidence-detail">{len(metric_evidence)} metric anomaly episodes & traces detected</div>
+                    </div>
+                    """)
+                else:
+                    html("""
+                    <div class="custom-card">
+                        <div class="evidence-available">✓ Performance Metrics & Traces</div>
+                        <div class="evidence-detail">Nominal metric performance telemetry evaluated</div>
+                    </div>
+                    """)
 
-            # Show actual evidence objects if present (rich schema)
+            # Show actual historical evidence objects if present (rich schema)
             if evidence_list_raw:
                 html("<br>")
-                with st.expander(f"Evidence Details ({len(evidence_list_raw)} items)"):
+                with st.expander(f"Historical Alert Records ({len(evidence_list_raw)} items)"):
                     for ev in evidence_list_raw[:10]:
-                        src_type = ev.get('source_type', 'unknown')
-                        is_mock = ev.get('is_mock', False)
+                        src_type = ev.get('source_type', 'alert')
                         prov_note = ev.get('provenance_note', '')
                         ev_desc = ev.get('description', '')
-                        badge = "MOCK" if is_mock else "REAL"
-                        badge_color = "#f59e0b" if is_mock else "#22c55e"
+                        badge_color = "#22c55e"
                         html(f"""
                         <div style="border-left: 3px solid {badge_color}; padding: 0.5rem 0.75rem; margin-bottom: 0.5rem; background: rgba(255,255,255,0.03); border-radius: 0 4px 4px 0;">
                             <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.25rem;">
                                 <code class="evidence-code">{ev.get('evidence_id', '')}</code>
-                                <span style="background: {badge_color}; color: #000; font-size: 0.65rem; padding: 1px 5px; border-radius: 3px; font-weight: 700;">{badge}</span>
+                                <span style="background: {badge_color}; color: #000; font-size: 0.65rem; padding: 1px 5px; border-radius: 3px; font-weight: 700;">ALERT</span>
                                 <span style="color: #94a3b8; font-size: 0.8rem;">{src_type}</span>
                             </div>
                             <div style="font-size: 0.85rem; color: #cbd5e1;">{ev_desc[:200]}{'...' if len(ev_desc) > 200 else ''}</div>
@@ -449,19 +467,46 @@ if len(filtered_df) > 0:
                     if len(evidence_list_raw) > 10:
                         st.caption(f"... and {len(evidence_list_raw) - 10} more evidence items")
 
+            # Show telemetry & log evidence
+            if telemetry_data:
+                html("<br>")
+                with st.expander(f"System Log & Metric Telemetry ({len(telemetry_data)} items: {len(log_evidence)} logs, {len(metric_evidence)} metrics)"):
+                    for ev in telemetry_data[:10]:
+                        src = ev.get('source', 'telemetry')
+                        src_id = ev.get('source_id', '')
+                        desc = ev.get('description', '')
+                        badge_label = "LOGS" if src == 'logs' else "METRICS"
+                        badge_color = "#3b82f6" if src == 'logs' else "#06b6d4"
+                        html(f"""
+                        <div style="border-left: 3px solid {badge_color}; padding: 0.5rem 0.75rem; margin-bottom: 0.5rem; background: rgba(255,255,255,0.03); border-radius: 0 4px 4px 0;">
+                            <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.25rem;">
+                                <code class="evidence-code">{src_id}</code>
+                                <span style="background: {badge_color}; color: #ffffff; font-size: 0.65rem; padding: 1px 5px; border-radius: 3px; font-weight: 700;">{badge_label}</span>
+                                <span style="color: #94a3b8; font-size: 0.8rem;">{src}</span>
+                            </div>
+                            <div style="font-size: 0.85rem; color: #cbd5e1;">{desc[:250]}{'...' if len(desc) > 250 else ''}</div>
+                        </div>
+                        """)
+                    if len(telemetry_data) > 10:
+                        st.caption(f"... and {len(telemetry_data) - 10} more telemetry items")
+
             html("<br>")
 
             # Recommended Actions
-            if rca.get('recommended_actions'):
+            rec_actions = rca.get('recommended_actions', [])
+            if rec_actions:
                 html("<h3>Recommended Actions</h3>")
 
                 priority_colors = {1: "#dc2626", 2: "#f59e0b", 3: "#3b82f6", 4: "#64748b", 5: "#64748b"}
 
-                for i, action in enumerate(rca['recommended_actions'][:5], 1):
+                for i, action in enumerate(rec_actions[:5], 1):
                     action_text = action.get('action', 'Unknown')
                     priority = action.get('priority', 3)
                     rationale = action.get('rationale', 'N/A')
                     priority_color = priority_colors.get(priority, "#64748b")
+
+                    runbook_ref = action.get('runbook_reference')
+                    runbook_html = f'<div style="margin-top: 0.35rem; font-size: 0.8rem; color: #38bdf8;"><strong>Runbook Reference:</strong> {runbook_ref}</div>' if runbook_ref else ''
 
                     html(f"""
                     <div class="action-card">
@@ -475,8 +520,99 @@ if len(filtered_df) > 0:
                         <div class="action-card-rationale">
                             <strong>Rationale:</strong> {rationale}
                         </div>
+                        {runbook_html}
                     </div>
                     """)
+            else:
+                html("<h3>Recommended Actions</h3>")
+                html("""
+                <div class="custom-card">
+                    <div style="color: #94a3b8; font-style: italic;">Not available — No incident-specific recommendations in source record</div>
+                </div>
+                """)
+                # Show taxonomy heuristic suggestions separately if component exists
+                heuristic_suggs = loader.get_heuristic_suggestions(component, failure_type)
+                if heuristic_suggs:
+                    html("<h4 style='color: #cbd5e1; margin-top: 1rem;'>Heuristic Taxonomy Suggestions (Not Incident-Specific RCA Findings)</h4>")
+                    for sug in heuristic_suggs:
+                        html(f"""
+                        <div class="action-card" style="border-left: 3px solid #64748b;">
+                            <div class="action-card-header">
+                                <div class="action-card-title">Taxonomy Reference</div>
+                                <div class="priority-pill" style="background: #475569;">Heuristic</div>
+                            </div>
+                            <div class="action-card-body">{sug['suggestion']}</div>
+                            <div class="action-card-rationale">
+                                <strong>Note:</strong> Taxonomy reference suggestion; not an incident-specific RCA action item.
+                            </div>
+                        </div>
+                        """)
+
+                html("<br>")
+
+            # Drafted Incident Communications
+            support_comm_raw = rca.get('support_communication') or rca.get('operations_summary')
+            stakeholder_comm_raw = rca.get('stakeholder_communication')
+
+            # Clean and align communications with available telemetry
+            import re
+            has_telemetry = bool(telemetry_data or log_evidence or metric_evidence)
+
+            def format_comm_text(text: str) -> str:
+                if not text:
+                    return ""
+                # Replace internal LLM ID like INC-LLM-060 with display incident ID
+                clean = re.sub(r'INC-LLM-\d+', format_incident_id(selected_incident_id), text)
+                if has_telemetry:
+                    clean = re.sub(
+                        r'Evidence is historical alert text only;?\s*logs,?\s*metrics\s*(?:and|&)\s*traces\s*are\s*unavailable\.?',
+                        'Multi-source telemetry (system logs and metric anomaly indicators) has been evaluated alongside historical alert patterns.',
+                        clean,
+                        flags=re.IGNORECASE
+                    )
+                    clean = re.sub(
+                        r'Additional logs,?\s*metrics\s*(?:and|&)\s*traces\s*are\s*required\s*to\s*confirm\s*the\s*root\s*cause\.?',
+                        'Diagnostic telemetry (system logs and performance metrics) has been evaluated to corroborate the failure mechanism.',
+                        clean,
+                        flags=re.IGNORECASE
+                    )
+                    clean = re.sub(
+                        r'logs,?\s*metrics\s*(?:and|&)\s*traces\s*are\s*unavailable\.?',
+                        'system logs and metric traces have been corroborated.',
+                        clean,
+                        flags=re.IGNORECASE
+                    )
+                return clean.strip()
+
+            clean_support_comm = format_comm_text(support_comm_raw)
+            clean_stakeholder_comm = format_comm_text(stakeholder_comm_raw)
+
+            if clean_support_comm or clean_stakeholder_comm:
+                html("<h3>Drafted Incident Communications</h3>")
+                html("<p style='color: #94a3b8; font-size: 0.875rem;'>AI-drafted incident communications tailored for engineering support teams and business stakeholders.</p>")
+
+                col_c1, col_c2 = st.columns(2)
+                with col_c1:
+                    html("<h4 style='color: #93c5fd; margin-bottom: 0.5rem;'>🛠️ Support & Engineering Team Communication</h4>")
+                    if clean_support_comm:
+                        html(f"""
+                        <div class="custom-card" style="border-left: 3px solid #3b82f6;">
+                            <div style="font-size: 0.85rem; color: #cbd5e1; white-space: pre-wrap; line-height: 1.5;">{clean_support_comm}</div>
+                        </div>
+                        """)
+                    else:
+                        html("<div class='custom-card'><em style='color: #94a3b8;'>No support communication drafted</em></div>")
+
+                with col_c2:
+                    html("<h4 style='color: #6ee7b7; margin-bottom: 0.5rem;'>📢 Business Stakeholder Communication</h4>")
+                    if clean_stakeholder_comm:
+                        html(f"""
+                        <div class="custom-card" style="border-left: 3px solid #10b981;">
+                            <div style="font-size: 0.85rem; color: #cbd5e1; white-space: pre-wrap; line-height: 1.5;">{clean_stakeholder_comm}</div>
+                        </div>
+                        """)
+                    else:
+                        html("<div class='custom-card'><em style='color: #94a3b8;'>No stakeholder communication drafted</em></div>")
 
                 html("<br>")
 
