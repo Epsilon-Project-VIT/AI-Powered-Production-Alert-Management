@@ -40,52 +40,32 @@ def load_stage3_incidents(path: Path) -> List[Dict[str, Any]]:
 
 
 def load_stage2_predictions(base_path: Path) -> Dict[str, Dict[str, Any]]:
-    """Load Stage 2 canonical predictions (Alert Type, Severity, Business Impact)."""
+    """Load Stage 2 canonical predictions by alert_id."""
     print(f"📂 Loading Stage 2 canonical predictions from: {base_path}")
     
     predictions = {}
     
-    # Load Alert Type predictions
-    alert_type_path = base_path / "alert_type_predictions.csv"
-    if alert_type_path.exists():
-        df = pd.read_csv(alert_type_path)
-        print(f"   ✅ Loaded {len(df)} Alert Type predictions")
-        for idx, row in df.iterrows():
-            if idx not in predictions:
-                predictions[idx] = {}
-            predictions[idx]['alert_type'] = {
-                'label': row['predicted_label'],
-                'confidence': row['confidence']
-            }
-    
-    # Load Severity predictions
-    severity_path = base_path / "severity_predictions.csv"
-    if severity_path.exists():
-        df = pd.read_csv(severity_path)
-        print(f"   ✅ Loaded {len(df)} Severity predictions")
-        for idx, row in df.iterrows():
-            if idx not in predictions:
-                predictions[idx] = {}
-            predictions[idx]['severity'] = {
-                'label': row['predicted_label'],
-                'confidence': row['confidence']
-            }
-    
-    # Load Business Impact predictions
-    business_impact_path = base_path / "business_impact_predictions.csv"
-    if business_impact_path.exists():
-        df = pd.read_csv(business_impact_path)
-        print(f"   ✅ Loaded {len(df)} Business Impact predictions")
-        for idx, row in df.iterrows():
-            if idx not in predictions:
-                predictions[idx] = {}
-            predictions[idx]['business_impact'] = {
-                'label': row['predicted_label'],
-                'confidence': row['confidence']
-            }
+    for filename, key in [
+        ("alert_type_predictions.csv", "alert_type"),
+        ("severity_predictions.csv", "severity"),
+        ("business_impact_predictions.csv", "business_impact"),
+    ]:
+        csv_path = base_path / filename
+        if csv_path.exists():
+            df = pd.read_csv(csv_path)
+            print(f"   ✅ Loaded {len(df)} {key} predictions")
+            for _, row in df.iterrows():
+                alert_id = str(row["alert_id"])
+                if alert_id not in predictions:
+                    predictions[alert_id] = {}
+                predictions[alert_id][key] = {
+                    "label": row["predicted_label"],
+                    "confidence": row["confidence"]
+                }
     
     print(f"✅ Total alerts with predictions: {len(predictions)}")
     return predictions
+
 
 
 def load_raw_alerts(excel_path: Path) -> pd.DataFrame:
@@ -108,8 +88,9 @@ def create_enriched_alerts(
     for idx, row in raw_df.iterrows():
         alert_id = row['Number']
         
-        # Get Stage 2 predictions for this alert (by index)
-        predictions = stage2_predictions.get(idx, {})
+        # Get Stage 2 predictions for this alert (by alert_id)
+        predictions = stage2_predictions.get(alert_id, {})
+
         
         # Create classification results
         alert_type = None

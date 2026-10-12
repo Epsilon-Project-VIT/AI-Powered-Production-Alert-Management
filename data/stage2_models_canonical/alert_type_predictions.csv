@@ -1,890 +1,890 @@
-predicted_label,confidence,true_label
-Disk Space,0.7567885362540907,Disk Space
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Extract / Report Delivery Delay,0.3474730676319984,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
-Transaction Not Received (No-Hit),0.5617809287056478,Transaction Not Received (No-Hit)
-API Error Rate,0.5412317566464225,API Error Rate
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Extract / Report Delivery Delay,0.27334623470922476,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.7266321551540809,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.7591159977811431,Load Balancer (ELB) Errors
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-Disk Space,0.7586448655146989,Disk Space
-Memory Utilization,0.8224588724726241,Memory Utilization
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.37435276156429775,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.3992775222726174,Server Unreachable / Uptime
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Synthetic Monitoring (ThousandEyes),0.47120934714661245,Synthetic Monitoring (ThousandEyes)
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Synthetic Monitoring (ThousandEyes),0.600254122020092,Synthetic Monitoring (ThousandEyes)
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-API Latency / Slow Response,0.775177518340016,API Latency / Slow Response
-API Latency / Slow Response,0.775177518340016,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Memory Utilization,0.858269531800277,Memory Utilization
-Memory Utilization,0.8289212140980072,Memory Utilization
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.5412317566464225,API Error Rate
-Load Balancer (ELB) Errors,0.7685983462687224,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-API Error Rate,0.5412317566464225,API Error Rate
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-API Error Rate,0.8231999009197775,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.8231999009197775,API Error Rate
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-DB Concurrency / Waiting Users,0.8478211578657844,DB Concurrency / Waiting Users
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-API Latency / Slow Response,0.3761104018279817,API Latency / Slow Response
-API Error Rate,0.8231999009197775,API Error Rate
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.7359724268092523,Disk Space
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Error Rate,0.5412317566464225,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Memory Utilization,0.8568400882717868,Memory Utilization
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
-Moment (Personalization) Failures,0.2793526686694082,Moment (Personalization) Failures
-API Error Rate,0.38562510720585647,API Error Rate
-API Error Rate,0.5412317566464225,API Error Rate
-Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
-API Error Rate,0.38562510720585647,API Error Rate
-API Error Rate,0.5412317566464225,API Error Rate
-Moment (Personalization) Failures,0.307517856521419,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.307517856521419,Moment (Personalization) Failures
-Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
-Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Memory Utilization,0.8497335593714603,Memory Utilization
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Disk Space,0.7498414686342519,Disk Space
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Load Balancer (ELB) Errors,0.7481803017553388,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.7354387530157652,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.7685983462687224,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.7419913672912706,Load Balancer (ELB) Errors
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Service / Process Not Running,0.7415241972604945,Service / Process Not Running
-Service / Process Not Running,0.7415241972604945,Service / Process Not Running
-Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
-Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
-Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
-Service / Process Not Running,0.801849602751557,Service / Process Not Running
-Service / Process Not Running,0.7815277413013688,Service / Process Not Running
-Service / Process Not Running,0.7815277413013688,Service / Process Not Running
-Service / Process Not Running,0.6206184924189242,Service / Process Not Running
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Disk Space,0.7054441884136474,Disk Space
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.3474730676319984,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Batch Job Failure,0.841308588897122,Batch Job Failure
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Extract / Report Delivery Delay,0.3238396247193881,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Load Balancer (ELB) Errors,0.7421025100758553,Load Balancer (ELB) Errors
-Disk Space,0.8037706378569214,Disk Space
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Extract / Report Delivery Delay,0.3238396247193881,Extract / Report Delivery Delay
-Disk Space,0.8037706378569214,Disk Space
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Disk Space,0.850046718028739,Disk Space
-Disk Space,0.850046718028739,Disk Space
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Disk Space,0.850046718028739,Disk Space
-Disk Space,0.832922290491782,Disk Space
-Transaction Not Received (No-Hit),0.5289820295782347,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5289820295782347,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5289820295782347,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5289820295782347,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-API Error Rate,0.8231999009197775,API Error Rate
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
-Extract / Report Delivery Delay,0.21387970571503545,Extract / Report Delivery Delay
-Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-API Error Rate,0.8231999009197775,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Error Rate,0.8231999009197775,API Error Rate
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-API Error Rate,0.8231999009197775,API Error Rate
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-API Error Rate,0.8231999009197775,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-API Error Rate,0.8231999009197775,API Error Rate
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.8231999009197775,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Service / Process Not Running,0.5687437111611812,Service / Process Not Running
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Server Unreachable / Uptime,0.20185315221798333,Server Unreachable / Uptime
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-API Error Rate,0.8231999009197775,API Error Rate
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-Load Distribution Alert,0.8568290795004982,Load Distribution Alert
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.8231999009197775,API Error Rate
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.5412317566464225,API Error Rate
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
-API Error Rate,0.8231999009197775,API Error Rate
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.6637308272051996,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.6637308272051996,Data Hub Batch Workflow Failure
-Disk Space,0.6135637743414705,Disk Space
-Disk Space,0.7317799280425276,Disk Space
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-API Error Rate,0.8231999009197775,API Error Rate
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.5412317566464225,API Error Rate
-Disk Space,0.7156071431704764,Disk Space
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Service / Process Not Running,0.7281004416157757,Service / Process Not Running
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.3474730676319984,Extract / Report Delivery Delay
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.27334623470922476,Extract / Report Delivery Delay
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.614831382379163,Data Hub Batch Workflow Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.750985107720927,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7659762949424959,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.7659762949424959,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.6709298905685834,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.750720314702829,Moment (Personalization) Failures
-Memory Utilization,0.8006518857931586,Memory Utilization
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-Memory Utilization,0.8006518857931586,Memory Utilization
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Service / Process Not Running,0.801849602751557,Service / Process Not Running
-Service / Process Not Running,0.7815277413013688,Service / Process Not Running
-Service / Process Not Running,0.7815277413013688,Service / Process Not Running
-Service / Process Not Running,0.6206184924189242,Service / Process Not Running
-Service / Process Not Running,0.801849602751557,Service / Process Not Running
-Service / Process Not Running,0.7815277413013688,Service / Process Not Running
-Service / Process Not Running,0.7815277413013688,Service / Process Not Running
-Service / Process Not Running,0.6206184924189242,Service / Process Not Running
-Disk Space,0.7638291263362205,Disk Space
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.6205050253506539,Monitoring Agent Offline
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
-Monitoring Agent Offline,0.6205050253506539,Monitoring Agent Offline
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.38562510720585647,API Error Rate
-Disk Space,0.7638291263362205,Disk Space
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Error Rate,0.38562510720585647,API Error Rate
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.1887023058106247,Extract / Report Delivery Delay
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Service / Process Not Running,0.7846887619400884,Service / Process Not Running
-Service / Process Not Running,0.7634484279194195,Service / Process Not Running
-Service / Process Not Running,0.7634484279194195,Service / Process Not Running
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.27334623470922476,Extract / Report Delivery Delay
-DB Concurrency / Waiting Users,0.8478211578657844,DB Concurrency / Waiting Users
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Escalation / Page-out,0.8628606888698497,Escalation / Page-out
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-Moment (Personalization) Failures,0.75913262867324,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.7401471027115609,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Monitoring Agent Offline,0.6021758200138987,Monitoring Agent Offline
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Monitoring Agent Offline,0.6021758200138987,Monitoring Agent Offline
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-Service / Process Not Running,0.6014990788815643,Service / Process Not Running
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Memory Utilization,0.8137587026662755,Memory Utilization
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.7166109221117052,Disk Space
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Transaction Not Received (No-Hit),0.4535844659335954,Transaction Not Received (No-Hit)
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.7840463168945491,Disk Space
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.7591159977811431,Load Balancer (ELB) Errors
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.686425902906851,Disk Space
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-API Error Rate,0.38562510720585647,API Error Rate
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Transaction Not Received (No-Hit),0.5617809287056478,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Memory Utilization,0.8455686857291512,Memory Utilization
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.5109694533648415,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5109694533648415,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Memory Utilization,0.8131843617921547,Memory Utilization
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Test / Integration Alert,0.8253050514665393,Test / Integration Alert
-Transaction Not Received (No-Hit),0.5109694533648415,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Test / Integration Alert,0.8247696241855363,Test / Integration Alert
-Batch Job Failure,0.2883519634529169,Batch Job Failure
-Service / Process Not Running,0.801849602751557,Service / Process Not Running
-Service / Process Not Running,0.7815277413013688,Service / Process Not Running
-Service / Process Not Running,0.7815277413013688,Service / Process Not Running
-Service / Process Not Running,0.6206184924189242,Service / Process Not Running
-Moment (Personalization) Failures,0.7433311439357853,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.6745607607919955,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.6598776215496919,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
-API Error Rate,0.8231999009197775,API Error Rate
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
-Disk Space,0.7287177788880632,Disk Space
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Memory Utilization,0.8257097372950699,Memory Utilization
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.7946118939545819,Disk Space
-Transaction Not Received (No-Hit),0.45639654426148496,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Disk Space,0.5951792506303127,Disk Space
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-Service / Process Not Running,0.8443959696255848,Service / Process Not Running
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.6598970184990988,Service / Process Not Running
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-API Error Rate,0.8231999009197775,API Error Rate
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.5951792506303127,Disk Space
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.8558550797555001,Disk Space
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.8625269068603462,Disk Space
-Disk Space,0.8558550797555001,Disk Space
-Disk Space,0.8558550797555001,Disk Space
-Disk Space,0.8558550797555001,Disk Space
-API Error Rate,0.8231999009197775,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Memory Utilization,0.7845422833875387,Memory Utilization
-Memory Utilization,0.8053232074568217,Memory Utilization
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.7933119778747181,Disk Space
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.4253864923362177,Batch Job Failure
-Disk Space,0.7756482821520373,Disk Space
-Disk Space,0.8625269068603462,Disk Space
-Disk Space,0.826436496261783,Disk Space
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.8656999917276424,Load Balancer (ELB) Errors
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.660903368391689,Disk Space
-Disk Space,0.7967413942864212,Disk Space
-Transaction Not Received (No-Hit),0.6187579824767507,Transaction Not Received (No-Hit)
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Extract / Report Delivery Delay,0.27334623470922476,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Disk Space,0.6853165580004669,Disk Space
-Disk Space,0.7852543237736604,Disk Space
-Disk Space,0.7852543237736604,Disk Space
-Disk Space,0.7852543237736604,Disk Space
-Disk Space,0.7852543237736604,Disk Space
-Disk Space,0.7852543237736604,Disk Space
-Memory Utilization,0.8089882117648808,Memory Utilization
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Service / Process Not Running,0.5452024311488263,Service / Process Not Running
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Disk Space,0.8125485537694612,Disk Space
-Data Hub Batch Workflow Failure,0.8589010379809354,Data Hub Batch Workflow Failure
-Service / Process Not Running,0.8443959696255848,Service / Process Not Running
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.6598970184990988,Service / Process Not Running
-Service / Process Not Running,0.8443959696255848,Service / Process Not Running
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.7867842859308034,Service / Process Not Running
-Disk Space,0.7319125739852068,Disk Space
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Extract / Report Delivery Delay,0.3238396247193881,Extract / Report Delivery Delay
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-API Error Rate,0.8231999009197775,API Error Rate
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-API Error Rate,0.8231999009197775,API Error Rate
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-API Error Rate,0.8231999009197775,API Error Rate
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
-Server Unreachable / Uptime,0.37435276156429775,Server Unreachable / Uptime
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
-Service / Process Not Running,0.5452024311488263,Service / Process Not Running
-Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
-Disk Space,0.7711725619149319,Disk Space
-API Error Rate,0.8231999009197775,API Error Rate
-Batch Job Failure,0.47149786170725433,Batch Job Failure
-Moment (Personalization) Failures,0.7860999878499624,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.7747214911027561,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8749479478176407,Moment (Personalization) Failures
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Transaction Not Received (No-Hit),0.49962632365962256,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.49962632365962256,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.49962632365962256,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.49962632365962256,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Memory Utilization,0.8570835445264592,Memory Utilization
-Transaction Not Received (No-Hit),0.5617809287056478,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.5617809287056478,Transaction Not Received (No-Hit)
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Disk Space,0.8524161640377498,Disk Space
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Service / Process Not Running,0.289920622473781,Server Reboot
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Synthetic Monitoring (ThousandEyes),0.6227290604920569,Synthetic Monitoring (ThousandEyes)
-Synthetic Monitoring (ThousandEyes),0.7108702256910581,Synthetic Monitoring (ThousandEyes)
-Service / Process Not Running,0.289920622473781,Server Reboot
-Monitoring Agent Offline,0.7878402776751127,Monitoring Agent Offline
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Service / Process Not Running,0.8443959696255848,Service / Process Not Running
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.6598970184990988,Service / Process Not Running
-Moment (Personalization) Failures,0.8504165586782744,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8749479478176407,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8749479478176407,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8504165586782744,Moment (Personalization) Failures
-Moment (Personalization) Failures,0.8504165586782744,Moment (Personalization) Failures
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Disk Space,0.7908944553534776,Disk Space
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-API Error Rate,0.8231999009197775,API Error Rate
-Disk Space,0.8180271091430762,Disk Space
-Disk Space,0.8406378984408053,Disk Space
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.6598970184990988,Service / Process Not Running
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Service / Process Not Running,0.8443959696255848,Service / Process Not Running
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Batch Job Failure,0.841308588897122,Batch Job Failure
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-API Error Rate,0.8231999009197775,API Error Rate
-Memory Utilization,0.8805793469595665,Memory Utilization
-Memory Utilization,0.8805793469595665,Memory Utilization
-Service / Process Not Running,0.8227390935084016,Service / Process Not Running
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
-Monitoring Agent Offline,0.6003464407771936,Monitoring Agent Offline
-Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
-Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
-Monitoring Agent Offline,0.6003464407771936,Monitoring Agent Offline
-Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
-Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
-Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
-Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
-Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
-Disk Space,0.8420339639048771,Disk Space
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Monitoring Agent Offline,0.6003464407771936,Monitoring Agent Offline
-Monitoring Agent Offline,0.7286522393543424,Monitoring Agent Offline
-Memory Utilization,0.8805793469595665,Memory Utilization
-Disk Space,0.8533357963260453,Disk Space
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Disk Space,0.686425902906851,Disk Space
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-Disk Space,0.7630398549294816,Disk Space
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
-Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
-Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
-Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-Disk Space,0.7999158021005505,Disk Space
-API Error Rate,0.8231999009197775,API Error Rate
-Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
-Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
-Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Memory Utilization,0.8805793469595665,Memory Utilization
-Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
-Test / Integration Alert,0.1185916063383534,Batch Job Failure
-API Error Rate,0.8231999009197775,API Error Rate
-API Error Rate,0.8231999009197775,API Error Rate
-Memory Utilization,0.8284532698568374,Memory Utilization
-Memory Utilization,0.8509749646341777,Memory Utilization
-Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
-Disk Space,0.874869116612931,Disk Space
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
-Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
-Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+alert_id,predicted_label,confidence,true_label
+INC3528890,Disk Space,0.7567885362540907,Disk Space
+INC3528891,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528892,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3528893,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3528894,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3528895,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3528896,Extract / Report Delivery Delay,0.3474730676319984,Extract / Report Delivery Delay
+INC3528897,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528898,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528899,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528900,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528901,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528902,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3528903,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3528904,Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
+INC3528905,Transaction Not Received (No-Hit),0.5617809287056478,Transaction Not Received (No-Hit)
+INC3528906,API Error Rate,0.5412317566464225,API Error Rate
+INC3528907,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3528908,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3528909,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528910,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528911,Extract / Report Delivery Delay,0.2733462347092247,Extract / Report Delivery Delay
+INC3528912,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528913,Load Balancer (ELB) Errors,0.7266321551540809,Load Balancer (ELB) Errors
+INC3528914,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3528915,Load Balancer (ELB) Errors,0.7591159977811431,Load Balancer (ELB) Errors
+INC3528916,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528917,API Error Rate,0.8231999009197775,API Error Rate
+INC3528918,API Error Rate,0.8231999009197775,API Error Rate
+INC3528919,Disk Space,0.7586448655146989,Disk Space
+INC3528920,Memory Utilization,0.8224588724726241,Memory Utilization
+INC3528921,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528922,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528923,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528924,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528925,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3528926,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528927,Server Unreachable / Uptime,0.3743527615642977,Server Unreachable / Uptime
+INC3528928,Server Unreachable / Uptime,0.3992775222726174,Server Unreachable / Uptime
+INC3528929,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3528930,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528931,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528932,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3528933,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3528934,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528935,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528936,Synthetic Monitoring (ThousandEyes),0.4712093471466124,Synthetic Monitoring (ThousandEyes)
+INC3528937,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528938,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528939,Synthetic Monitoring (ThousandEyes),0.600254122020092,Synthetic Monitoring (ThousandEyes)
+INC3528940,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528941,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3528942,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3528943,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3528944,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3528945,API Latency / Slow Response,0.775177518340016,API Latency / Slow Response
+INC3528946,API Latency / Slow Response,0.775177518340016,API Latency / Slow Response
+INC3528947,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528948,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3528949,Memory Utilization,0.858269531800277,Memory Utilization
+INC3528950,Memory Utilization,0.8289212140980072,Memory Utilization
+INC3528951,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3528952,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3528953,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528954,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3528955,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3528956,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3528957,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3528958,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528959,API Error Rate,0.5412317566464225,API Error Rate
+INC3528960,Load Balancer (ELB) Errors,0.7685983462687224,Load Balancer (ELB) Errors
+INC3528961,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3528962,API Error Rate,0.5412317566464225,API Error Rate
+INC3528963,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3528964,API Error Rate,0.8231999009197775,API Error Rate
+INC3528965,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528966,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528967,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3528968,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3528969,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528970,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528971,API Error Rate,0.8231999009197775,API Error Rate
+INC3528972,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528973,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528974,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528975,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528976,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528977,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528978,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528979,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528980,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528981,DB Concurrency / Waiting Users,0.8478211578657844,DB Concurrency / Waiting Users
+INC3528982,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3528983,API Latency / Slow Response,0.3761104018279817,API Latency / Slow Response
+INC3528984,API Error Rate,0.8231999009197775,API Error Rate
+INC3528985,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3528986,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528987,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528988,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528989,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528990,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528991,Disk Space,0.7359724268092523,Disk Space
+INC3528992,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3528993,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3528994,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3528995,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528996,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528997,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3528998,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3528999,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529000,API Error Rate,0.5412317566464225,API Error Rate
+INC3529001,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529002,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529003,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529004,Memory Utilization,0.8568400882717868,Memory Utilization
+INC3529005,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529006,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529007,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529008,Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
+INC3529009,Moment (Personalization) Failures,0.2793526686694082,Moment (Personalization) Failures
+INC3529010,API Error Rate,0.3856251072058564,API Error Rate
+INC3529011,API Error Rate,0.5412317566464225,API Error Rate
+INC3529012,Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
+INC3529013,API Error Rate,0.3856251072058564,API Error Rate
+INC3529014,API Error Rate,0.5412317566464225,API Error Rate
+INC3529015,Moment (Personalization) Failures,0.307517856521419,Moment (Personalization) Failures
+INC3529016,Moment (Personalization) Failures,0.307517856521419,Moment (Personalization) Failures
+INC3529017,Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
+INC3529018,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529019,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529020,Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
+INC3529021,Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
+INC3529022,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529023,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529024,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529025,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529026,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529027,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529028,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529029,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529030,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529031,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529032,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529033,Memory Utilization,0.8497335593714603,Memory Utilization
+INC3529034,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529035,Disk Space,0.7498414686342519,Disk Space
+INC3529036,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529037,Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
+INC3529038,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529039,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529040,Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
+INC3529041,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529042,Load Balancer (ELB) Errors,0.7481803017553388,Load Balancer (ELB) Errors
+INC3529043,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529044,Load Balancer (ELB) Errors,0.7354387530157652,Load Balancer (ELB) Errors
+INC3529045,Load Balancer (ELB) Errors,0.7685983462687224,Load Balancer (ELB) Errors
+INC3529046,Load Balancer (ELB) Errors,0.7419913672912706,Load Balancer (ELB) Errors
+INC3529047,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529048,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529049,Service / Process Not Running,0.7415241972604945,Service / Process Not Running
+INC3529050,Service / Process Not Running,0.7415241972604945,Service / Process Not Running
+INC3529051,Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
+INC3529052,Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
+INC3529053,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529054,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529055,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529056,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529057,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529058,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529059,Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
+INC3529060,Monitoring Agent Offline,0.6476996424524354,Monitoring Agent Offline
+INC3529061,Service / Process Not Running,0.801849602751557,Service / Process Not Running
+INC3529062,Service / Process Not Running,0.7815277413013688,Service / Process Not Running
+INC3529063,Service / Process Not Running,0.7815277413013688,Service / Process Not Running
+INC3529064,Service / Process Not Running,0.6206184924189242,Service / Process Not Running
+INC3529065,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3529066,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529067,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529068,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529069,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529070,Disk Space,0.7054441884136474,Disk Space
+INC3529071,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529072,Extract / Report Delivery Delay,0.3474730676319984,Extract / Report Delivery Delay
+INC3529073,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529074,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529075,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529076,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529077,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529078,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529079,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529080,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529081,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529082,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529083,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529084,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529085,Extract / Report Delivery Delay,0.3238396247193881,Extract / Report Delivery Delay
+INC3529086,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529087,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529088,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529089,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529090,Load Balancer (ELB) Errors,0.7421025100758553,Load Balancer (ELB) Errors
+INC3529091,Disk Space,0.8037706378569214,Disk Space
+INC3529092,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529093,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529094,Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
+INC3529095,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529096,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529097,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529098,Extract / Report Delivery Delay,0.3238396247193881,Extract / Report Delivery Delay
+INC3529099,Disk Space,0.8037706378569214,Disk Space
+INC3529100,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529101,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529102,Disk Space,0.850046718028739,Disk Space
+INC3529103,Disk Space,0.850046718028739,Disk Space
+INC3529104,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529105,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529106,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529107,Disk Space,0.850046718028739,Disk Space
+INC3529108,Disk Space,0.832922290491782,Disk Space
+INC3529109,Transaction Not Received (No-Hit),0.5289820295782347,Transaction Not Received (No-Hit)
+INC3529110,Transaction Not Received (No-Hit),0.5289820295782347,Transaction Not Received (No-Hit)
+INC3529111,Transaction Not Received (No-Hit),0.5289820295782347,Transaction Not Received (No-Hit)
+INC3529112,Transaction Not Received (No-Hit),0.5289820295782347,Transaction Not Received (No-Hit)
+INC3529113,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529114,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529115,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529116,Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
+INC3529117,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529118,API Error Rate,0.8231999009197775,API Error Rate
+INC3529119,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529120,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529121,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529122,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529123,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529124,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529125,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529126,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529127,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529128,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529129,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529130,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529131,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529132,Server Unreachable / Uptime,0.7516087513078519,Server Unreachable / Uptime
+INC3529133,Extract / Report Delivery Delay,0.2138797057150354,Extract / Report Delivery Delay
+INC3529134,Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
+INC3529135,Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
+INC3529136,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529137,API Error Rate,0.8231999009197775,API Error Rate
+INC3529138,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529139,API Error Rate,0.8231999009197775,API Error Rate
+INC3529140,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529141,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529142,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3529143,API Error Rate,0.8231999009197775,API Error Rate
+INC3529144,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529145,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529146,API Error Rate,0.8231999009197775,API Error Rate
+INC3529147,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529148,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529149,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529150,API Error Rate,0.8231999009197775,API Error Rate
+INC3529151,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529152,API Error Rate,0.8231999009197775,API Error Rate
+INC3529153,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529154,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529155,Service / Process Not Running,0.5687437111611812,Service / Process Not Running
+INC3529156,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529157,API Error Rate,0.8231999009197775,API Error Rate
+INC3529158,API Error Rate,0.8231999009197775,API Error Rate
+INC3529159,API Error Rate,0.8231999009197775,API Error Rate
+INC3529160,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529161,API Error Rate,0.8231999009197775,API Error Rate
+INC3529162,API Error Rate,0.8231999009197775,API Error Rate
+INC3529163,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529164,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529165,Server Unreachable / Uptime,0.2018531522179833,Server Unreachable / Uptime
+INC3529166,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529167,API Error Rate,0.8231999009197775,API Error Rate
+INC3529168,API Error Rate,0.8231999009197775,API Error Rate
+INC3529169,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529170,API Error Rate,0.8231999009197775,API Error Rate
+INC3529171,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529172,Load Distribution Alert,0.8568290795004982,Load Distribution Alert
+INC3529173,API Error Rate,0.8231999009197775,API Error Rate
+INC3529174,API Error Rate,0.8231999009197775,API Error Rate
+INC3529175,API Error Rate,0.8231999009197775,API Error Rate
+INC3529176,API Error Rate,0.8231999009197775,API Error Rate
+INC3529177,API Error Rate,0.8231999009197775,API Error Rate
+INC3529178,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529179,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529180,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529181,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529182,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529183,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529184,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3529185,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529186,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529187,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529188,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529189,API Error Rate,0.8231999009197775,API Error Rate
+INC3529190,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529191,API Error Rate,0.5412317566464225,API Error Rate
+INC3529192,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529193,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529194,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529195,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529196,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529197,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529198,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529199,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529200,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529201,Transaction Not Received (No-Hit),0.607069572881849,Transaction Not Received (No-Hit)
+INC3529202,API Error Rate,0.8231999009197775,API Error Rate
+INC3529203,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529204,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529205,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529206,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529207,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529208,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529209,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529210,Data Hub Batch Workflow Failure,0.6637308272051996,Data Hub Batch Workflow Failure
+INC3529211,Data Hub Batch Workflow Failure,0.6637308272051996,Data Hub Batch Workflow Failure
+INC3529212,Disk Space,0.6135637743414705,Disk Space
+INC3529213,Disk Space,0.7317799280425276,Disk Space
+INC3529214,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529215,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529216,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529217,API Error Rate,0.8231999009197775,API Error Rate
+INC3529218,API Error Rate,0.8231999009197775,API Error Rate
+INC3529219,API Error Rate,0.8231999009197775,API Error Rate
+INC3529220,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529221,API Error Rate,0.8231999009197775,API Error Rate
+INC3529222,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529223,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529224,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529225,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529226,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529227,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529228,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529229,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529230,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529231,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529232,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529233,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529234,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529235,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529236,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529237,API Error Rate,0.5412317566464225,API Error Rate
+INC3529238,Disk Space,0.7156071431704764,Disk Space
+INC3529239,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529240,Service / Process Not Running,0.7281004416157757,Service / Process Not Running
+INC3529241,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529242,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529243,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529244,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529245,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529246,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529247,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529248,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529249,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529250,Extract / Report Delivery Delay,0.3474730676319984,Extract / Report Delivery Delay
+INC3529251,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529252,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529253,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529254,Extract / Report Delivery Delay,0.2733462347092247,Extract / Report Delivery Delay
+INC3529255,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529256,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529257,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529258,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529259,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529260,Data Hub Batch Workflow Failure,0.614831382379163,Data Hub Batch Workflow Failure
+INC3529261,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529262,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529263,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529264,Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
+INC3529265,Moment (Personalization) Failures,0.750985107720927,Moment (Personalization) Failures
+INC3529266,Moment (Personalization) Failures,0.7659762949424959,Moment (Personalization) Failures
+INC3529267,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529268,Moment (Personalization) Failures,0.7659762949424959,Moment (Personalization) Failures
+INC3529269,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529270,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529271,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529272,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529273,Moment (Personalization) Failures,0.6709298905685834,Moment (Personalization) Failures
+INC3529274,Moment (Personalization) Failures,0.750720314702829,Moment (Personalization) Failures
+INC3529275,Memory Utilization,0.8006518857931586,Memory Utilization
+INC3529276,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529277,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529278,Memory Utilization,0.8006518857931586,Memory Utilization
+INC3529279,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529280,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529281,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529282,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529283,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529284,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3529285,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529286,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529287,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529288,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529289,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529290,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529291,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529292,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529293,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529294,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529295,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529296,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529297,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529298,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529299,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529300,Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
+INC3529301,Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
+INC3529302,Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
+INC3529303,Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
+INC3529304,Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
+INC3529305,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529306,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529307,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529308,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529309,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529310,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529311,Service / Process Not Running,0.801849602751557,Service / Process Not Running
+INC3529312,Service / Process Not Running,0.7815277413013688,Service / Process Not Running
+INC3529313,Service / Process Not Running,0.7815277413013688,Service / Process Not Running
+INC3529314,Service / Process Not Running,0.6206184924189242,Service / Process Not Running
+INC3529315,Service / Process Not Running,0.801849602751557,Service / Process Not Running
+INC3529316,Service / Process Not Running,0.7815277413013688,Service / Process Not Running
+INC3529317,Service / Process Not Running,0.7815277413013688,Service / Process Not Running
+INC3529318,Service / Process Not Running,0.6206184924189242,Service / Process Not Running
+INC3529319,Disk Space,0.7638291263362205,Disk Space
+INC3529320,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529321,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529322,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529323,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529324,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529325,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529326,Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
+INC3529327,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529328,Monitoring Agent Offline,0.6205050253506539,Monitoring Agent Offline
+INC3529329,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529330,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529331,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529332,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529333,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529334,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529335,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529336,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529337,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529338,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529339,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529340,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529341,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529342,Synthetic Monitoring (ThousandEyes),0.8449650774516706,Synthetic Monitoring (ThousandEyes)
+INC3529343,Monitoring Agent Offline,0.6205050253506539,Monitoring Agent Offline
+INC3529344,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529345,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529346,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529347,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529348,API Error Rate,0.3856251072058564,API Error Rate
+INC3529349,Disk Space,0.7638291263362205,Disk Space
+INC3529350,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529351,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529352,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529353,API Error Rate,0.3856251072058564,API Error Rate
+INC3529354,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529355,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529356,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529357,Extract / Report Delivery Delay,0.1887023058106247,Extract / Report Delivery Delay
+INC3529358,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529359,Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
+INC3529360,Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
+INC3529361,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529362,Service / Process Not Running,0.7846887619400884,Service / Process Not Running
+INC3529363,Service / Process Not Running,0.7634484279194195,Service / Process Not Running
+INC3529364,Service / Process Not Running,0.7634484279194195,Service / Process Not Running
+INC3529365,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529366,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529367,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529368,Extract / Report Delivery Delay,0.2733462347092247,Extract / Report Delivery Delay
+INC3529369,DB Concurrency / Waiting Users,0.8478211578657844,DB Concurrency / Waiting Users
+INC3529370,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529371,Escalation / Page-out,0.8628606888698497,Escalation / Page-out
+INC3529372,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529373,Moment (Personalization) Failures,0.75913262867324,Moment (Personalization) Failures
+INC3529374,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529375,Moment (Personalization) Failures,0.7401471027115609,Moment (Personalization) Failures
+INC3529376,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3529377,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3529378,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3529379,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529380,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3529381,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529382,Monitoring Agent Offline,0.6021758200138987,Monitoring Agent Offline
+INC3529383,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529384,Monitoring Agent Offline,0.6021758200138987,Monitoring Agent Offline
+INC3529385,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3529386,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529387,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529388,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3529389,Service / Process Not Running,0.6014990788815643,Service / Process Not Running
+INC3529390,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529391,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529392,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529393,Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
+INC3529394,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529395,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529396,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529397,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529398,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529399,Memory Utilization,0.8137587026662755,Memory Utilization
+INC3529400,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529401,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529402,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529403,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529404,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529405,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529406,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529407,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529408,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529409,Disk Space,0.7166109221117052,Disk Space
+INC3529410,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529411,Transaction Not Received (No-Hit),0.4535844659335954,Transaction Not Received (No-Hit)
+INC3529412,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529413,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529414,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529415,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529416,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529417,Disk Space,0.7840463168945491,Disk Space
+INC3529418,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529419,Load Balancer (ELB) Errors,0.7591159977811431,Load Balancer (ELB) Errors
+INC3529420,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529421,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529422,Load Balancer (ELB) Errors,0.7220943040231729,Load Balancer (ELB) Errors
+INC3529423,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529424,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529425,Disk Space,0.686425902906851,Disk Space
+INC3529426,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529427,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3529428,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529429,API Error Rate,0.3856251072058564,API Error Rate
+INC3529430,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529431,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529432,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529433,Transaction Not Received (No-Hit),0.5617809287056478,Transaction Not Received (No-Hit)
+INC3529434,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529435,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529436,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529437,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529438,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529439,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529440,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529441,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529442,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529443,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529444,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529445,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529446,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529447,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529448,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529449,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529450,Memory Utilization,0.8455686857291512,Memory Utilization
+INC3529451,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529452,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529453,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529454,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529455,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529456,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529457,Transaction Not Received (No-Hit),0.5109694533648415,Transaction Not Received (No-Hit)
+INC3529458,Transaction Not Received (No-Hit),0.5109694533648415,Transaction Not Received (No-Hit)
+INC3529459,Transaction Not Received (No-Hit),0.5596551451146518,Transaction Not Received (No-Hit)
+INC3529460,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529461,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529462,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529463,Memory Utilization,0.8131843617921547,Memory Utilization
+INC3529464,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529465,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529466,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529467,Test / Integration Alert,0.8253050514665393,Test / Integration Alert
+INC3529468,Transaction Not Received (No-Hit),0.5109694533648415,Transaction Not Received (No-Hit)
+INC3529469,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529470,Test / Integration Alert,0.8247696241855363,Test / Integration Alert
+INC3529471,Batch Job Failure,0.2883519634529169,Batch Job Failure
+INC3529472,Service / Process Not Running,0.801849602751557,Service / Process Not Running
+INC3529473,Service / Process Not Running,0.7815277413013688,Service / Process Not Running
+INC3529474,Service / Process Not Running,0.7815277413013688,Service / Process Not Running
+INC3529475,Service / Process Not Running,0.6206184924189242,Service / Process Not Running
+INC3529476,Moment (Personalization) Failures,0.7433311439357853,Moment (Personalization) Failures
+INC3529477,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529478,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3529479,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3529480,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529481,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3529482,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529483,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3529484,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3529485,Moment (Personalization) Failures,0.6745607607919955,Moment (Personalization) Failures
+INC3529486,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3529487,Moment (Personalization) Failures,0.6598776215496919,Moment (Personalization) Failures
+INC3529488,Moment (Personalization) Failures,0.654768771844568,Moment (Personalization) Failures
+INC3529489,Moment (Personalization) Failures,0.7360912078464023,Moment (Personalization) Failures
+INC3529490,API Error Rate,0.8231999009197775,API Error Rate
+INC3529491,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529492,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529493,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529494,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529495,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529496,API Latency / Slow Response,0.7494517018825163,API Latency / Slow Response
+INC3529497,Disk Space,0.7287177788880632,Disk Space
+INC3529498,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3529499,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529500,Memory Utilization,0.8257097372950699,Memory Utilization
+INC3529501,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529502,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529503,Disk Space,0.7946118939545819,Disk Space
+INC3529504,Transaction Not Received (No-Hit),0.4563965442614849,Transaction Not Received (No-Hit)
+INC3529505,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529506,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529507,Disk Space,0.5951792506303127,Disk Space
+INC3529508,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529509,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529510,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529511,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529512,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529513,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529514,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529515,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529516,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529517,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529518,API Error Rate,0.8231999009197775,API Error Rate
+INC3529519,API Error Rate,0.8231999009197775,API Error Rate
+INC3529520,API Error Rate,0.8231999009197775,API Error Rate
+INC3529521,API Error Rate,0.8231999009197775,API Error Rate
+INC3529522,Service / Process Not Running,0.8443959696255848,Service / Process Not Running
+INC3529523,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529524,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529525,Service / Process Not Running,0.6598970184990988,Service / Process Not Running
+INC3529526,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529527,API Error Rate,0.8231999009197775,API Error Rate
+INC3529528,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529529,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529530,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529531,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529532,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529533,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529534,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529535,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529536,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529537,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529538,Disk Space,0.5951792506303127,Disk Space
+INC3529539,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529540,Disk Space,0.8558550797555001,Disk Space
+INC3529541,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529542,Disk Space,0.8625269068603462,Disk Space
+INC3529543,Disk Space,0.8558550797555001,Disk Space
+INC3529544,Disk Space,0.8558550797555001,Disk Space
+INC3529545,Disk Space,0.8558550797555001,Disk Space
+INC3529546,API Error Rate,0.8231999009197775,API Error Rate
+INC3529547,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529548,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529549,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529550,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529551,Memory Utilization,0.7845422833875387,Memory Utilization
+INC3529552,Memory Utilization,0.8053232074568217,Memory Utilization
+INC3529553,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529554,Disk Space,0.7933119778747181,Disk Space
+INC3529555,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529556,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529557,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529558,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529559,Batch Job Failure,0.4253864923362177,Batch Job Failure
+INC3529560,Disk Space,0.7756482821520373,Disk Space
+INC3529561,Disk Space,0.8625269068603462,Disk Space
+INC3529562,Disk Space,0.826436496261783,Disk Space
+INC3529563,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529564,Load Balancer (ELB) Errors,0.8656999917276424,Load Balancer (ELB) Errors
+INC3529565,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529566,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529567,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529568,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529569,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529570,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529571,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529572,Disk Space,0.660903368391689,Disk Space
+INC3529573,Disk Space,0.7967413942864212,Disk Space
+INC3529574,Transaction Not Received (No-Hit),0.6187579824767507,Transaction Not Received (No-Hit)
+INC3529575,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529576,Extract / Report Delivery Delay,0.2733462347092247,Extract / Report Delivery Delay
+INC3529577,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529578,Disk Space,0.6853165580004669,Disk Space
+INC3529579,Disk Space,0.7852543237736604,Disk Space
+INC3529580,Disk Space,0.7852543237736604,Disk Space
+INC3529581,Disk Space,0.7852543237736604,Disk Space
+INC3529582,Disk Space,0.7852543237736604,Disk Space
+INC3529583,Disk Space,0.7852543237736604,Disk Space
+INC3529584,Memory Utilization,0.8089882117648808,Memory Utilization
+INC3529585,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529586,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529587,Service / Process Not Running,0.5452024311488263,Service / Process Not Running
+INC3529588,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529589,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay
+INC3529590,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529591,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529592,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529593,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529594,Disk Space,0.8125485537694612,Disk Space
+INC3529595,Data Hub Batch Workflow Failure,0.8589010379809354,Data Hub Batch Workflow Failure
+INC3529596,Service / Process Not Running,0.8443959696255848,Service / Process Not Running
+INC3529597,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529598,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529599,Service / Process Not Running,0.6598970184990988,Service / Process Not Running
+INC3529600,Service / Process Not Running,0.8443959696255848,Service / Process Not Running
+INC3529601,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529602,Service / Process Not Running,0.7867842859308034,Service / Process Not Running
+INC3529603,Disk Space,0.7319125739852068,Disk Space
+INC3529604,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529605,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529606,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529607,Extract / Report Delivery Delay,0.3238396247193881,Extract / Report Delivery Delay
+INC3529608,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529609,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529610,API Error Rate,0.8231999009197775,API Error Rate
+INC3529611,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529612,API Error Rate,0.8231999009197775,API Error Rate
+INC3529613,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529614,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529615,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529616,API Error Rate,0.8231999009197775,API Error Rate
+INC3529617,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529618,Server Unreachable / Uptime,0.4066126416447175,Server Unreachable / Uptime
+INC3529619,Server Unreachable / Uptime,0.3743527615642977,Server Unreachable / Uptime
+INC3529620,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529621,Moment (Personalization) Failures,0.8207977903578393,Moment (Personalization) Failures
+INC3529622,Service / Process Not Running,0.5452024311488263,Service / Process Not Running
+INC3529623,Moment (Personalization) Failures,0.8595679616202573,Moment (Personalization) Failures
+INC3529624,Disk Space,0.7711725619149319,Disk Space
+INC3529625,API Error Rate,0.8231999009197775,API Error Rate
+INC3529626,Batch Job Failure,0.4714978617072543,Batch Job Failure
+INC3529627,Moment (Personalization) Failures,0.7860999878499624,Moment (Personalization) Failures
+INC3529628,Moment (Personalization) Failures,0.7747214911027561,Moment (Personalization) Failures
+INC3529629,Moment (Personalization) Failures,0.8749479478176407,Moment (Personalization) Failures
+INC3529630,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529631,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529632,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529633,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529634,Transaction Not Received (No-Hit),0.4996263236596225,Transaction Not Received (No-Hit)
+INC3529635,Transaction Not Received (No-Hit),0.4996263236596225,Transaction Not Received (No-Hit)
+INC3529636,Transaction Not Received (No-Hit),0.4996263236596225,Transaction Not Received (No-Hit)
+INC3529637,Transaction Not Received (No-Hit),0.4996263236596225,Transaction Not Received (No-Hit)
+INC3529638,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529639,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529640,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529641,Memory Utilization,0.8570835445264592,Memory Utilization
+INC3529642,Transaction Not Received (No-Hit),0.5617809287056478,Transaction Not Received (No-Hit)
+INC3529643,Transaction Not Received (No-Hit),0.5617809287056478,Transaction Not Received (No-Hit)
+INC3529644,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529645,Disk Space,0.8524161640377498,Disk Space
+INC3529646,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529647,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529648,Service / Process Not Running,0.289920622473781,Server Reboot
+INC3529649,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529650,Synthetic Monitoring (ThousandEyes),0.6227290604920569,Synthetic Monitoring (ThousandEyes)
+INC3529651,Synthetic Monitoring (ThousandEyes),0.7108702256910581,Synthetic Monitoring (ThousandEyes)
+INC3529652,Service / Process Not Running,0.289920622473781,Server Reboot
+INC3529653,Monitoring Agent Offline,0.7878402776751127,Monitoring Agent Offline
+INC3529654,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3529655,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529656,Service / Process Not Running,0.8443959696255848,Service / Process Not Running
+INC3529657,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529658,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529659,Service / Process Not Running,0.6598970184990988,Service / Process Not Running
+INC3529660,Moment (Personalization) Failures,0.8504165586782744,Moment (Personalization) Failures
+INC3529661,Moment (Personalization) Failures,0.8749479478176407,Moment (Personalization) Failures
+INC3529662,Moment (Personalization) Failures,0.8749479478176407,Moment (Personalization) Failures
+INC3529663,Moment (Personalization) Failures,0.8504165586782744,Moment (Personalization) Failures
+INC3529664,Moment (Personalization) Failures,0.8504165586782744,Moment (Personalization) Failures
+INC3529665,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529666,Disk Space,0.7908944553534776,Disk Space
+INC3529667,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529668,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529669,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529670,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529671,Transaction Not Received (No-Hit),0.8357824822392699,Transaction Not Received (No-Hit)
+INC3529672,API Error Rate,0.8231999009197775,API Error Rate
+INC3529673,API Error Rate,0.8231999009197775,API Error Rate
+INC3529674,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529675,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529676,API Error Rate,0.8231999009197775,API Error Rate
+INC3529677,Disk Space,0.8180271091430762,Disk Space
+INC3529678,Disk Space,0.8406378984408053,Disk Space
+INC3529679,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529680,Service / Process Not Running,0.6598970184990988,Service / Process Not Running
+INC3529681,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529682,Service / Process Not Running,0.8443959696255848,Service / Process Not Running
+INC3529683,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529684,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529685,Batch Job Failure,0.841308588897122,Batch Job Failure
+INC3529686,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529687,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529688,API Error Rate,0.8231999009197775,API Error Rate
+INC3529689,Memory Utilization,0.8805793469595665,Memory Utilization
+INC3529690,Memory Utilization,0.8805793469595665,Memory Utilization
+INC3529691,Service / Process Not Running,0.8227390935084016,Service / Process Not Running
+INC3529692,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529693,API Latency / Slow Response,0.5825770916426485,API Latency / Slow Response
+INC3529694,Monitoring Agent Offline,0.6003464407771936,Monitoring Agent Offline
+INC3529695,Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
+INC3529696,Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
+INC3529697,Monitoring Agent Offline,0.6003464407771936,Monitoring Agent Offline
+INC3529698,Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
+INC3529699,Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
+INC3529700,Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
+INC3529701,Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
+INC3529702,Data Hub Batch Workflow Failure,0.0936539496320386,File Transfer / SFTP Workflow
+INC3529703,Disk Space,0.8420339639048771,Disk Space
+INC3529704,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529705,Monitoring Agent Offline,0.6003464407771936,Monitoring Agent Offline
+INC3529706,Monitoring Agent Offline,0.7286522393543424,Monitoring Agent Offline
+INC3529707,Memory Utilization,0.8805793469595665,Memory Utilization
+INC3529708,Disk Space,0.8533357963260453,Disk Space
+INC3529709,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529710,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529711,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529712,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529713,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529714,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529715,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529716,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529717,Load Balancer (ELB) Errors,0.1428074254147943,Extract / Report Delivery Delay
+INC3529718,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529719,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529720,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529721,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529722,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529723,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529724,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529725,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529726,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529727,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529728,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529729,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529730,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529731,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529732,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529733,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529734,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529735,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529736,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529737,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529738,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529739,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529740,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529741,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529742,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529743,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529744,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529745,Disk Space,0.686425902906851,Disk Space
+INC3529746,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529747,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529748,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529749,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529750,Disk Space,0.7630398549294816,Disk Space
+INC3529751,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529752,Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
+INC3529753,Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
+INC3529754,Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
+INC3529755,Server Unreachable / Uptime,0.8306945303578045,Server Unreachable / Uptime
+INC3529756,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529757,API Error Rate,0.8231999009197775,API Error Rate
+INC3529758,API Error Rate,0.8231999009197775,API Error Rate
+INC3529759,Disk Space,0.7999158021005505,Disk Space
+INC3529760,API Error Rate,0.8231999009197775,API Error Rate
+INC3529761,Data Hub Batch Workflow Failure,0.1020199401809398,File Transfer / SFTP Workflow
+INC3529762,Monitoring Agent Offline,0.77178607953077,Monitoring Agent Offline
+INC3529763,Monitoring Agent Offline,0.8352396702468289,Monitoring Agent Offline
+INC3529764,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529765,Memory Utilization,0.8805793469595665,Memory Utilization
+INC3529766,Synthetic Monitoring (ThousandEyes),0.8402441617537216,Synthetic Monitoring (ThousandEyes)
+INC3529767,Test / Integration Alert,0.1185916063383534,Batch Job Failure
+INC3529768,API Error Rate,0.8231999009197775,API Error Rate
+INC3529769,API Error Rate,0.8231999009197775,API Error Rate
+INC3529770,Memory Utilization,0.8284532698568374,Memory Utilization
+INC3529771,Memory Utilization,0.8509749646341777,Memory Utilization
+INC3529772,Data Hub Batch Workflow Failure,0.8088159102992599,Data Hub Batch Workflow Failure
+INC3529773,Data Hub Batch Workflow Failure,0.8847561852866277,Data Hub Batch Workflow Failure
+INC3529774,Disk Space,0.874869116612931,Disk Space
+INC3529775,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529776,Data Hub Batch Workflow Failure,0.6975942205199783,Data Hub Batch Workflow Failure
+INC3529777,Load Balancer (ELB) Errors,0.8667301103479401,Load Balancer (ELB) Errors
+INC3529778,Extract / Report Delivery Delay,0.845996644319557,Extract / Report Delivery Delay

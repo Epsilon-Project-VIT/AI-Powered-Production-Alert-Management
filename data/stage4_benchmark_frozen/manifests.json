@@ -1,0 +1,458 @@
+{
+  "SCENARIO-DB_POOL_EXHAUSTION-SUFF": {
+    "scenario_id": "SCENARIO-DB_POOL_EXHAUSTION-SUFF",
+    "scenario_type": "db_pool_exhaustion",
+    "variant": "sufficient",
+    "expected_root_cause_component": "database",
+    "expected_failure_type": "connection_pool_exhaustion",
+    "expected_diagnosis_mode": "sufficient_evidence",
+    "expected_supporting_signals": [
+      "database",
+      "connection_pool_exhaustion"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-DB_POOL_EXHAUSTION-INSUFF": {
+    "scenario_id": "SCENARIO-DB_POOL_EXHAUSTION-INSUFF",
+    "scenario_type": "db_pool_exhaustion",
+    "variant": "insufficient",
+    "expected_root_cause_component": "database",
+    "expected_failure_type": "connection_pool_exhaustion",
+    "expected_diagnosis_mode": "insufficient_evidence",
+    "expected_supporting_signals": [
+      "database",
+      "connection_pool_exhaustion"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-DB_POOL_EXHAUSTION-AMBIG": {
+    "scenario_id": "SCENARIO-DB_POOL_EXHAUSTION-AMBIG",
+    "scenario_type": "db_pool_exhaustion",
+    "variant": "ambiguous",
+    "expected_root_cause_component": "database",
+    "expected_failure_type": "connection_pool_exhaustion",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "database",
+      "connection_pool_exhaustion"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-API_LB_FAILURE-SUFF": {
+    "scenario_id": "SCENARIO-API_LB_FAILURE-SUFF",
+    "scenario_type": "api_lb_failure",
+    "variant": "sufficient",
+    "expected_root_cause_component": "elb",
+    "expected_failure_type": "service_error",
+    "expected_diagnosis_mode": "sufficient_evidence",
+    "expected_supporting_signals": [
+      "elb",
+      "service_error"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-API_LB_FAILURE-INSUFF": {
+    "scenario_id": "SCENARIO-API_LB_FAILURE-INSUFF",
+    "scenario_type": "api_lb_failure",
+    "variant": "insufficient",
+    "expected_root_cause_component": "elb",
+    "expected_failure_type": "service_error",
+    "expected_diagnosis_mode": "insufficient_evidence",
+    "expected_supporting_signals": [
+      "elb",
+      "service_error"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-API_LB_FAILURE-AMBIG": {
+    "scenario_id": "SCENARIO-API_LB_FAILURE-AMBIG",
+    "scenario_type": "api_lb_failure",
+    "variant": "ambiguous",
+    "expected_root_cause_component": "elb",
+    "expected_failure_type": "service_error",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "elb",
+      "service_error"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-BATCH_JOB_FAILURE-SUFF": {
+    "scenario_id": "SCENARIO-BATCH_JOB_FAILURE-SUFF",
+    "scenario_type": "batch_job_failure",
+    "variant": "sufficient",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "batch_execution_failure",
+    "expected_diagnosis_mode": "sufficient_evidence",
+    "expected_supporting_signals": [
+      "application",
+      "batch_execution_failure"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-BATCH_JOB_FAILURE-INSUFF": {
+    "scenario_id": "SCENARIO-BATCH_JOB_FAILURE-INSUFF",
+    "scenario_type": "batch_job_failure",
+    "variant": "insufficient",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "batch_execution_failure",
+    "expected_diagnosis_mode": "insufficient_evidence",
+    "expected_supporting_signals": [
+      "application",
+      "batch_execution_failure"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-BATCH_JOB_FAILURE-AMBIG": {
+    "scenario_id": "SCENARIO-BATCH_JOB_FAILURE-AMBIG",
+    "scenario_type": "batch_job_failure",
+    "variant": "ambiguous",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "batch_execution_failure",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "application",
+      "batch_execution_failure"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-SLA_DELIVERY_DELAY-SUFF": {
+    "scenario_id": "SCENARIO-SLA_DELIVERY_DELAY-SUFF",
+    "scenario_type": "sla_delivery_delay",
+    "variant": "sufficient",
+    "expected_root_cause_component": "extract_service",
+    "expected_failure_type": "delivery_delay",
+    "expected_diagnosis_mode": "sufficient_evidence",
+    "expected_supporting_signals": [
+      "extract_service",
+      "delivery_delay"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-SLA_DELIVERY_DELAY-INSUFF": {
+    "scenario_id": "SCENARIO-SLA_DELIVERY_DELAY-INSUFF",
+    "scenario_type": "sla_delivery_delay",
+    "variant": "insufficient",
+    "expected_root_cause_component": "extract_service",
+    "expected_failure_type": "delivery_delay",
+    "expected_diagnosis_mode": "insufficient_evidence",
+    "expected_supporting_signals": [
+      "extract_service",
+      "delivery_delay"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-SLA_DELIVERY_DELAY-AMBIG": {
+    "scenario_id": "SCENARIO-SLA_DELIVERY_DELAY-AMBIG",
+    "scenario_type": "sla_delivery_delay",
+    "variant": "ambiguous",
+    "expected_root_cause_component": "extract_service",
+    "expected_failure_type": "delivery_delay",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "extract_service",
+      "delivery_delay"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-QUEUE_BACKLOG-SUFF": {
+    "scenario_id": "SCENARIO-QUEUE_BACKLOG-SUFF",
+    "scenario_type": "queue_backlog",
+    "variant": "sufficient",
+    "expected_root_cause_component": "message_queue",
+    "expected_failure_type": "queue_backlog",
+    "expected_diagnosis_mode": "sufficient_evidence",
+    "expected_supporting_signals": [
+      "message_queue",
+      "queue_backlog"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-QUEUE_BACKLOG-INSUFF": {
+    "scenario_id": "SCENARIO-QUEUE_BACKLOG-INSUFF",
+    "scenario_type": "queue_backlog",
+    "variant": "insufficient",
+    "expected_root_cause_component": "message_queue",
+    "expected_failure_type": "queue_backlog",
+    "expected_diagnosis_mode": "insufficient_evidence",
+    "expected_supporting_signals": [
+      "message_queue",
+      "queue_backlog"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-QUEUE_BACKLOG-AMBIG": {
+    "scenario_id": "SCENARIO-QUEUE_BACKLOG-AMBIG",
+    "scenario_type": "queue_backlog",
+    "variant": "ambiguous",
+    "expected_root_cause_component": "message_queue",
+    "expected_failure_type": "queue_backlog",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "message_queue",
+      "queue_backlog"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-CPU_MEMORY_PRESSURE-SUFF": {
+    "scenario_id": "SCENARIO-CPU_MEMORY_PRESSURE-SUFF",
+    "scenario_type": "cpu_memory_pressure",
+    "variant": "sufficient",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "resource_exhaustion",
+    "expected_diagnosis_mode": "sufficient_evidence",
+    "expected_supporting_signals": [
+      "application",
+      "resource_exhaustion"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-CPU_MEMORY_PRESSURE-INSUFF": {
+    "scenario_id": "SCENARIO-CPU_MEMORY_PRESSURE-INSUFF",
+    "scenario_type": "cpu_memory_pressure",
+    "variant": "insufficient",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "resource_exhaustion",
+    "expected_diagnosis_mode": "insufficient_evidence",
+    "expected_supporting_signals": [
+      "application",
+      "resource_exhaustion"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-CPU_MEMORY_PRESSURE-AMBIG": {
+    "scenario_id": "SCENARIO-CPU_MEMORY_PRESSURE-AMBIG",
+    "scenario_type": "cpu_memory_pressure",
+    "variant": "ambiguous",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "resource_exhaustion",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "application",
+      "resource_exhaustion"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-NETWORK_DEGRADATION-SUFF": {
+    "scenario_id": "SCENARIO-NETWORK_DEGRADATION-SUFF",
+    "scenario_type": "network_degradation",
+    "variant": "sufficient",
+    "expected_root_cause_component": "network",
+    "expected_failure_type": "network_degradation",
+    "expected_diagnosis_mode": "sufficient_evidence",
+    "expected_supporting_signals": [
+      "network",
+      "network_degradation"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-NETWORK_DEGRADATION-INSUFF": {
+    "scenario_id": "SCENARIO-NETWORK_DEGRADATION-INSUFF",
+    "scenario_type": "network_degradation",
+    "variant": "insufficient",
+    "expected_root_cause_component": "network",
+    "expected_failure_type": "network_degradation",
+    "expected_diagnosis_mode": "insufficient_evidence",
+    "expected_supporting_signals": [
+      "network",
+      "network_degradation"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-NETWORK_DEGRADATION-AMBIG": {
+    "scenario_id": "SCENARIO-NETWORK_DEGRADATION-AMBIG",
+    "scenario_type": "network_degradation",
+    "variant": "ambiguous",
+    "expected_root_cause_component": "network",
+    "expected_failure_type": "network_degradation",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "network",
+      "network_degradation"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-AMBIGUOUS_EVIDENCE-SUFF": {
+    "scenario_id": "SCENARIO-AMBIGUOUS_EVIDENCE-SUFF",
+    "scenario_type": "ambiguous_evidence",
+    "variant": "sufficient",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "performance_degradation",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "application",
+      "performance_degradation"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-AMBIGUOUS_EVIDENCE-INSUFF": {
+    "scenario_id": "SCENARIO-AMBIGUOUS_EVIDENCE-INSUFF",
+    "scenario_type": "ambiguous_evidence",
+    "variant": "insufficient",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "performance_degradation",
+    "expected_diagnosis_mode": "insufficient_evidence",
+    "expected_supporting_signals": [
+      "application",
+      "performance_degradation"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  },
+  "SCENARIO-AMBIGUOUS_EVIDENCE-AMBIG": {
+    "scenario_id": "SCENARIO-AMBIGUOUS_EVIDENCE-AMBIG",
+    "scenario_type": "ambiguous_evidence",
+    "variant": "ambiguous",
+    "expected_root_cause_component": "application",
+    "expected_failure_type": "performance_degradation",
+    "expected_diagnosis_mode": "ambiguous",
+    "expected_supporting_signals": [
+      "application",
+      "performance_degradation"
+    ],
+    "incident_id": "INC-BENCHMARK-001",
+    "source_alert_ids": [],
+    "start_time": "2026-10-10T11:30:00",
+    "end_time": "2026-10-10T12:05:00",
+    "fault_onset": "2026-10-10T14:00:00",
+    "fault_recovery": "2026-10-10T14:15:00",
+    "is_evaluation_only": true
+  }
+}

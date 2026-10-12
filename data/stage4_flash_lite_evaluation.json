@@ -1,0 +1,158 @@
+{
+  "evaluation_timestamp": "2026-10-11T16:09:42.472131+00:00",
+  "evaluated_model": "gemini-3.5-flash-lite",
+  "baseline_model": "gemini-flash-latest (gemini-3.8-flash)",
+  "live_request_count": 2,
+  "queue_counts_final": {
+    "pending": 0,
+    "processing": 0,
+    "completed": 9,
+    "failed": 1
+  },
+  "flash_lite_evaluated_incidents": [
+    {
+      "incident_id": "INCIDENT-0009",
+      "model": "gemini-3.5-flash-lite",
+      "status": "completed",
+      "latency_seconds": 2.62,
+      "client": "EA Sports",
+      "alert_count": 3,
+      "evidence_count": 12,
+      "has_rca_result": true,
+      "schema_valid": true,
+      "diagnosis_status": "sufficient_evidence",
+      "probable_root_cause": {
+        "component": "database",
+        "failure_type": "unknown",
+        "description": "No description provided"
+      },
+      "confidence": 0.95,
+      "supporting_evidence_ids": [],
+      "valid_evidence_citations": [],
+      "invalid_evidence_citations": [],
+      "unsupported_claims": [],
+      "actions_total": 2,
+      "remediation_actions_count": 0,
+      "human_approval_enforced": true,
+      "error_category": null,
+      "error_message": null
+    },
+    {
+      "incident_id": "INCIDENT-0020",
+      "model": "gemini-3.5-flash-lite",
+      "status": "completed",
+      "latency_seconds": 12.62,
+      "client": "EA Sports",
+      "alert_count": 2,
+      "evidence_count": 10,
+      "has_rca_result": true,
+      "schema_valid": true,
+      "diagnosis_status": "sufficient_evidence",
+      "probable_root_cause": {
+        "component": "application",
+        "failure_type": "unknown",
+        "description": "No description provided"
+      },
+      "confidence": 0.85,
+      "supporting_evidence_ids": [],
+      "valid_evidence_citations": [],
+      "invalid_evidence_citations": [],
+      "unsupported_claims": [],
+      "actions_total": 3,
+      "remediation_actions_count": 0,
+      "human_approval_enforced": true,
+      "error_category": null,
+      "error_message": null
+    }
+  ],
+  "flash_38_baseline_incidents": [
+    {
+      "incident_id": "INCIDENT-0001",
+      "model": "gemini-flash-latest",
+      "diagnosis_status": "sufficient_evidence",
+      "component": "database",
+      "failure_type": "unknown",
+      "confidence": 0.5,
+      "supporting_evidence_ids": [],
+      "actions_count": 3,
+      "human_review_required": true
+    },
+    {
+      "incident_id": "INCIDENT-0002",
+      "model": "gemini-flash-latest",
+      "diagnosis_status": "sufficient_evidence",
+      "component": "unknown",
+      "failure_type": "unknown",
+      "confidence": 0.88,
+      "supporting_evidence_ids": [],
+      "actions_count": 3,
+      "human_review_required": true
+    },
+    {
+      "incident_id": "INCIDENT-0003",
+      "model": "gemini-flash-latest",
+      "diagnosis_status": "ambiguous",
+      "component": "database",
+      "failure_type": "unknown",
+      "confidence": 0.5,
+      "supporting_evidence_ids": [],
+      "actions_count": 3,
+      "human_review_required": true
+    },
+    {
+      "incident_id": "INCIDENT-0004",
+      "model": "gemini-flash-latest",
+      "diagnosis_status": "sufficient_evidence",
+      "component": "database",
+      "failure_type": "unknown",
+      "confidence": 0.5,
+      "supporting_evidence_ids": [],
+      "actions_count": 3,
+      "human_review_required": true
+    },
+    {
+      "incident_id": "INCIDENT-0005",
+      "model": "gemini-flash-latest",
+      "diagnosis_status": "sufficient_evidence",
+      "component": "database",
+      "failure_type": "unknown",
+      "confidence": 0.5,
+      "supporting_evidence_ids": [],
+      "actions_count": 3,
+      "human_review_required": true
+    },
+    {
+      "incident_id": "INCIDENT-0006",
+      "model": "gemini-flash-latest",
+      "diagnosis_status": "sufficient_evidence",
+      "component": "database",
+      "failure_type": "unknown",
+      "confidence": 0.85,
+      "supporting_evidence_ids": [],
+      "actions_count": 4,
+      "human_review_required": true
+    },
+    {
+      "incident_id": "INCIDENT-0008",
+      "model": "gemini-flash-latest",
+      "diagnosis_status": "sufficient_evidence",
+      "component": "database",
+      "failure_type": "unknown",
+      "confidence": 0.88,
+      "supporting_evidence_ids": [],
+      "actions_count": 3,
+      "human_review_required": true
+    }
+  ],
+  "comparative_metrics": {
+    "schema_validity_flash_lite": "2/2 (100%)",
+    "schema_validity_flash_38": "7/7 (100%)",
+    "evidence_id_hallucinations_flash_lite": 0,
+    "evidence_id_hallucinations_flash_38": 0,
+    "human_approval_gate_enforced_flash_lite": true,
+    "human_approval_gate_enforced_flash_38": true,
+    "average_processing_time_flash_lite": 7.62,
+    "average_processing_time_flash_38": "~9.5s API latency (~16s with 10 RPM pacing)"
+  },
+  "scientific_disclaimer": "Ground truth root causes for historical production alerts are uncalibrated and not established. Telemetry for these candidate groups contains synthetic mock episodes. Consequently, no claims of improved real-world root cause analysis accuracy or production readiness are made."
+}

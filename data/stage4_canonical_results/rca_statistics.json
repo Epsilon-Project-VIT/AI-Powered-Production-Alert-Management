@@ -1,45 +1,50 @@
 {
   "total_incidents": 151,
   "diagnosis_status": {
-    "sufficient_evidence": 0,
-    "insufficient_evidence": 1,
-    "ambiguous": 150
+    "sufficient_evidence": 4,
+    "insufficient_evidence": 2,
+    "ambiguous": 145
   },
   "evidence_stats": {
-    "total_evidence_items": 578981,
-    "avg_evidence_per_incident": 3834.3112582781455,
-    "mock_evidence_count": 578981,
+    "total_evidence_items": 1817,
+    "avg_evidence_per_incident": 12.033112582781458,
+    "mock_evidence_count": 1817,
     "real_evidence_count": 0,
     "model_prediction_count": 0
   },
   "root_cause_stats": {
     "incidents_with_root_cause": 151,
     "incidents_without_root_cause": 0,
-    "avg_confidence": 0.9309933774834421,
+    "avg_confidence": 0.7237350993377492,
     "components": {
-      "database": 65,
-      "application": 80,
-      "mulesoft": 4,
+      "application": 139,
+      "database": 6,
+      "mulesoft": 3,
       "extract / report delivery delay": 1,
-      "elb": 1
+      "elb": 1,
+      "api latency / slow response": 1
     },
     "failure_types": {
-      "connection_exhaustion": 144,
-      "service_error": 7
+      "delivery_delay": 30,
+      "batch_execution_failure": 40,
+      "connection_pool_exhaustion": 74,
+      "timeout": 2,
+      "performance_degradation": 3,
+      "service_error": 2
     }
   },
   "action_stats": {
     "total_actions": 302,
     "avg_actions_per_incident": 2.0,
-    "requires_human_approval": 150,
+    "requires_human_approval": 149,
     "action_types": {
       "diagnostic": 151,
-      "remediation": 150,
-      "escalation": 1
+      "remediation": 149,
+      "escalation": 2
     }
   },
   "alternative_hypotheses_stats": {
-    "incidents_with_alternatives": 151,
-    "avg_alternatives_per_incident": 2.986754966887417
+    "incidents_with_alternatives": 150,
+    "avg_alternatives_per_incident": 2.9006622516556293
   }
 }

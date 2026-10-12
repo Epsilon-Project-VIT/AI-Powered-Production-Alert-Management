@@ -17,7 +17,7 @@ from alert_management.stage4_analysis.pipeline import Stage4Pipeline
 from alert_management.stage4_analysis.telemetry.mock_log_provider import MockLogProvider
 from alert_management.stage4_analysis.telemetry.mock_metric_provider import MockMetricProvider
 from alert_management.stage4_analysis.telemetry.mock_trace_provider import MockTraceProvider
-from alert_management.stage4_analysis.reasoning.mock_reasoning_provider import MockReasoningProvider
+from alert_management.stage4_analysis.reasoning import get_reasoning_provider
 
 
 def create_ea_sports_incident():
@@ -80,7 +80,7 @@ def main():
         log_provider=MockLogProvider(),
         metric_provider=MockMetricProvider(),
         trace_provider=MockTraceProvider(),
-        reasoning_provider=MockReasoningProvider()
+        reasoning_provider=get_reasoning_provider()
     )
     print("✅ Pipeline initialized")
     print()
